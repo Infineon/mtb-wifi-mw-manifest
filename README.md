@@ -1,0 +1,1 @@
+# mtb-wifi-mw-manifest
