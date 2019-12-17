@@ -1,0 +1,72 @@
+<middleware>
+  <middleware>
+    <name>lwIP</name>
+    <id>lwip</id>
+    <uri>https://git.savannah.nongnu.org/git/lwip</uri>
+    <desc>lwIP is a small independent implementation of the TCP/IP protocol suite. Using this library in a project will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license.</desc>
+    <category>WiFi Middleware libraries</category>
+    <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
+    <versions>
+      <version>
+        <num>Stable 2.1.2 release</num>
+        <commit>STABLE-2_1_2_RELEASE</commit>
+        <desc>Stable 2.1.2 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>mbedTLS</name>
+    <id>mbedtls</id>
+    <uri>https://github.com/ARMmbed/mbedtls</uri>
+    <desc>ARM mbedTLS is an implementation of the TLS and SSL protocols and the respective cryptographic algorithms. mbedTLS is an open source TLS/SSL library which has cryptographic capabilities. Using this library in a project will cause mbedTLS to be downloaded on your computer.  It is your responsibility to understand and accept the mbedTLS license and regional use restrictions (including abiding by all applicable export control laws).</desc>
+    <category>WiFi Middleware libraries</category>
+    <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
+    <versions>
+      <version>
+        <num>Stable 2.16.3 release</num>
+        <commit>mbedtls-2.16.3</commit>
+        <desc>Stable 2.16.3 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>WHD</name>
+    <id>whd</id>
+    <uri>https://github.com/cypresssemiconductorco/wifi-host-driver</uri>
+    <desc>WHD is an independent, embedded Wi-Fi Host Driver that provides a set of APIs to interact with Cypress WLAN chips.</desc>
+    <category>WiFi Middleware libraries</category>
+    <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version>
+        <num>1.60.0 release</num>
+        <commit>release-v1.60.0</commit>
+        <desc>1.60.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>wifi-mw-core</name>
+    <id>wifi-mw-core</id>
+    <uri>http://github.com/cypresssemiconductorco/wifi-mw-core/</uri>
+    <desc>Core components needed for WiFi connectivity support - bundles FreeRTOS, lwIP TCP/IP stack, mbedTLS for security, Cypress WiFi host driver (WHD), configuration files and associated code to bind these components together. The following components are part of this library. These components are bundled as ".lib" entries; each ".lib" points to the respective repositories, where they are hosted. All but lwIP and mbedTLS libraries are hosted on Cypress' Github repository. lwIP and mbedTLS libraries are hosted on their respective external repositories. Predefined configuration files for FreeRTOS, lwIP and mbeedTLS for typical embedded IoT usecases. Associated glue layer between lwIP and WHD, and mbedTLS and lwIP.</desc>
+    <category>WiFi Middleware libraries</category>
+    <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>  
+</middleware>
