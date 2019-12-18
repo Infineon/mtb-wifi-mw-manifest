@@ -3,7 +3,7 @@
     <name>lwIP</name>
     <id>lwip</id>
     <uri>https://git.savannah.nongnu.org/git/lwip</uri>
-    <desc>lwIP is a small independent implementation of the TCP/IP protocol suite. Using this library in a project will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license.</desc>
+    <desc>lwIP is a small independent open source implementation of the TCP/IP protocol suite. Using this library in a project will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license.</desc>
     <category>WiFi Middleware libraries</category>
     <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
     <versions>
