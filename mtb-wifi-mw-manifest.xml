@@ -52,7 +52,7 @@
   <middleware>
     <name>wifi-mw-core</name>
     <id>wifi-mw-core</id>
-    <uri>http://github.com/cypresssemiconductorco/wifi-mw-core/</uri>
+    <uri>https://github.com/cypresssemiconductorco/wifi-mw-core/</uri>
     <desc>Core components needed for WiFi connectivity support - bundles FreeRTOS, lwIP TCP/IP stack, mbedTLS for security, Cypress WiFi host driver (WHD), configuration files and associated code to bind these components together. These components are bundled as ".lib" entries; each ".lib" points to the respective repositories, where they are hosted. All but lwIP and mbedTLS libraries are hosted on Cypress' Github repository. lwIP and mbedTLS libraries are hosted on their respective external repositories. Includes predefined configuration files for FreeRTOS, lwIP and mbedTLS for typical embedded IoT usecases; and associated glue layer between lwIP and WHD, and mbedTLS and lwIP.</desc>
     <category>WiFi Middleware libraries</category>
     <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
