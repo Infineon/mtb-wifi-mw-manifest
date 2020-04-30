@@ -25,7 +25,12 @@
       <version>
         <num>Stable 2.16.6 release</num>
         <commit>mbedtls-2.16.6</commit>
-        <desc>Stable 2.16.6 release</desc>
+        <desc>Stable 2.16.6 release - Resolves security vulnerabilities present in 2.16.3</desc>
+      </version>
+      <version>
+        <num>Stable 2.16.3 release</num>
+        <commit>mbedtls-2.16.3</commit>
+        <desc>Stable 2.16.3 release</desc>
       </version>
     </versions>
   </middleware>
@@ -66,6 +71,16 @@
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
         <desc>2.0.0 release</desc>
+      </version>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
       </version>
     </versions>
   </middleware>
