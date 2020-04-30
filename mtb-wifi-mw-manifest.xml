@@ -52,6 +52,11 @@
         <commit>release-v1.90.2</commit>
         <desc>1.90.2 release</desc>
       </version>
+      <version>
+        <num>1.60.0 release</num>
+        <commit>release-v1.60.0</commit>
+        <desc>1.60.0 release</desc>
+      </version>
     </versions>
   </middleware>
   <middleware>
