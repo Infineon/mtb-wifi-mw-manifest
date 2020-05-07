@@ -93,7 +93,7 @@
     <name>secure-sockets</name>
     <id>secure-sockets</id>
     <uri>https://github.com/cypresssemiconductorco/secure-sockets</uri>
-    <desc>Secure sockets library provides network abstraction APIs for underlying network and security library. Secure sockets library eases application development by exposing a socket like interface for both non-secure (LwIP) and secure (mbedTLS) TCP connections. The APIs are thread safe and enable both client and server mode operations. Secure sockets provide both synchonous and asynchronous APIs for data transfer. Additionally, socket options are supported to configure send/receive timeout, callback for asynchronous mode, TCP keep-alive parameters, certificates/key and TLS extensions. </desc>
+    <desc>Secure sockets library provides network abstraction APIs for underlying network and security library. Secure sockets library eases application development by exposing a socket like interface for both non-secure (LwIP) and secure (mbedTLS) TCP connections. The APIs are thread safe and enable both client and server mode operations. Secure sockets provide both synchronous and asynchronous APIs for data transfer. Additionally, socket options are supported to configure send/receive timeout, callback for asynchronous mode, TCP keep-alive parameters, certificates/key and TLS extensions. </desc>
     <category>WiFi Middleware libraries</category>
     <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
     <versions>
