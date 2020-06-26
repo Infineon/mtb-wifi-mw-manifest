@@ -48,14 +48,14 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version>
+        <num>1.91.2 release</num>
+        <commit>release-v1.91.2</commit>
+        <desc>1.91.2 release</desc>
+      </version>
+      <version>
         <num>1.90.2 release</num>
         <commit>release-v1.90.2</commit>
         <desc>1.90.2 release</desc>
-      </version>
-      <version>
-        <num>1.60.0 release</num>
-        <commit>release-v1.60.0</commit>
-        <desc>1.60.0 release</desc>
       </version>
     </versions>
   </middleware>
@@ -71,6 +71,11 @@
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version>
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+        <desc>2.1.0 release</desc>
       </version>
       <version>
         <num>2.0.0 release</num>
@@ -101,6 +106,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version>
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+        <desc>1.1.0 release</desc>
       </version>
       <version>
         <num>1.0.0 release</num>
@@ -143,9 +153,34 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version>
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+        <desc>1.1.0 release</desc>
+      </version>
+      <version>
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
         <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>http-server</name>
+    <id>http-server</id>
+    <uri>https://github.com/cypresssemiconductorco/http-server</uri>
+    <desc>This repo provides the HTTP Server implementation that can work on the PSoC 6 MCU platforms with Wi-Fi connectivity. It supports RESTful methods such as GET, PUT, and POST for the client to communicate with this HTTP Server library.</desc>
+    <category>WiFi Middleware libraries</category>
+    <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version>
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+        <desc>1.1.0 release</desc>
       </version>
     </versions>
   </middleware>
