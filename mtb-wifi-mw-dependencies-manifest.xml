@@ -329,6 +329,19 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v1.0.1</commit>
+        <dependees>
+          <dependee>
+            <id>wifi-mw-core</id>
+            <commit>release-v3.0.0</commit>
+          </dependee>
+          <dependee>
+            <id>bluetooth-freertos</id>
+            <commit>release-v1.3.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v1.0.0</commit>
         <dependees>
           <dependee>
