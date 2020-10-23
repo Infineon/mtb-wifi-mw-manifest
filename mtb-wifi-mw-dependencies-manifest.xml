@@ -287,6 +287,19 @@
           </dependee>
         </dependees>
       </version>
+      <version>
+        <commit>release-v1.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>aws-iot-device-sdk-embedded-C</id>
+            <commit>4c750b6f3f5a103fa35549aac96a4ad7f2c7afce</commit>
+          </dependee>
+          <dependee>
+            <id>wifi-mw-core</id>
+            <commit>release-v2.1.0</commit>
+          </dependee>
+        </dependees>
+      </version>
     </versions>
   </depender>
   <depender>
