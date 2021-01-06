@@ -53,6 +53,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>1.93.0 release</num>
+        <commit>release-v1.93.0</commit>
+        <desc>1.93.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>1.92.0 release</num>
         <commit>release-v1.92.0</commit>
         <desc>1.92.0 release</desc>
