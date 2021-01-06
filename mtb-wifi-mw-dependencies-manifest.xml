@@ -72,7 +72,7 @@
           </dependee>
           <dependee>
             <id>secure-sockets</id>
-            <commit>release-v2.0.0</commit>
+            <commit>release-v2.1.0</commit>
           </dependee>
           <dependee>
             <id>whd</id>
@@ -181,6 +181,15 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v2.0.1</commit>
+        <dependees>
+          <dependee>
+            <id>wifi-mw-core</id>
+            <commit>release-v3.0.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v2.0.0</commit>
         <dependees>
           <dependee>
@@ -235,6 +244,32 @@
   <depender>
     <id>mqtt</id>
     <versions>
+      <version>
+        <commit>latest-v3.X</commit>
+        <dependees>
+          <dependee>
+            <id>aws-iot-device-sdk-port</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>wifi-mw-core</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v3.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>aws-iot-device-sdk-port</id>
+            <commit>release-v1.0.0</commit>
+          </dependee>
+          <dependee>
+            <id>wifi-mw-core</id>
+            <commit>release-v3.0.0</commit>
+          </dependee>
+        </dependees>
+      </version>
       <version>
         <commit>latest-v2.X</commit>
         <dependees>
@@ -303,6 +338,91 @@
     </versions>
   </depender>
   <depender>
+    <id>http-client</id>
+    <versions>
+      <version>
+        <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>aws-iot-device-sdk-port</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>wifi-mw-core</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>aws-iot-device-sdk-port</id>
+            <commit>release-v1.0.0</commit>
+          </dependee>
+          <dependee>
+            <id>wifi-mw-core</id>
+            <commit>release-v3.0.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
+  <depender>
+    <id>aws-iot-device-sdk-port</id>
+    <versions>
+      <version>
+        <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>aws-iot-device-sdk-embedded-C</id>
+            <commit>202011.00</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>aws-iot-device-sdk-embedded-C</id>
+            <commit>202011.00</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
+  <depender>
+    <id>smartcoex</id>
+    <versions>
+      <version>
+        <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>wcm</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>bluetooth-freertos</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>wcm</id>
+            <commit>release-v2.0.1</commit>
+          </dependee>
+          <dependee>
+            <id>bluetooth-freertos</id>
+            <commit>release-v2.0.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
+  <depender>
     <id>http-server</id>
     <versions>
       <version>
@@ -328,6 +448,32 @@
   <depender>
     <id>command-console</id>
     <versions>
+      <version>
+        <commit>latest-v2.X</commit>
+        <dependees>
+          <dependee>
+            <id>wcm</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>bluetooth-freertos</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v2.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>wcm</id>
+            <commit>release-v2.0.1</commit>
+          </dependee>
+          <dependee>
+            <id>bluetooth-freertos</id>
+            <commit>release-v2.0.0</commit>
+          </dependee>
+        </dependees>
+      </version>
       <version>
         <commit>latest-v1.X</commit>
         <dependees>
@@ -372,6 +518,56 @@
   <depender>
     <id>ota</id>
     <versions>
+      <version>
+        <commit>release-v3.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>http-client</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mqtt</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
+            <id>retarget-io</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>serial-flash</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>wcm</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>latest-v3.X</commit>
+        <dependees>
+          <dependee>
+            <id>http-client</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mqtt</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
+            <id>retarget-io</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>serial-flash</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>wcm</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+        </dependees>
+      </version>
       <version>
         <commit>release-v2.0.0</commit>
         <dependees>
@@ -494,6 +690,60 @@
           <dependee>
             <id>wcm</id>
             <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
+  <depender>
+    <id>wifi-cert</id>
+    <versions>
+      <version>
+        <commit>latest-v3.X</commit>
+        <dependees>
+          <dependee>
+            <id>wcm</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>command-console</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v3.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>wcm</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>command-console</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
+  <depender>
+    <id>wifi-mfg-test</id>
+    <versions>
+      <version>
+        <commit>latest-v3.X</commit>
+        <dependees>
+          <dependee>
+            <id>wcm</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v3.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>wcm</id>
+            <commit>latest-v2.X</commit>
           </dependee>
         </dependees>
       </version>

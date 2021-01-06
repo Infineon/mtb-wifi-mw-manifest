@@ -13,6 +13,11 @@
         <desc>Latest 3.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>3.0.1 release</num>
+        <commit>release-v3.0.1</commit>
+        <desc>3.0.1 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>3.0.0 release</num>
         <commit>release-v3.0.0</commit>
         <desc>3.0.0 release</desc>
@@ -47,6 +52,11 @@
     <category>WiFi Middleware libraries</category>
     <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
     <versions>
+      <version flow_version="1.0,2.0">
+        <num>202011.00</num>
+        <commit>202011.00</commit>
+        <desc>202011.00 release</desc>
+      </version>
       <version flow_version="1.0,2.0">
         <num>v4_beta release</num>
         <commit>4c750b6f3f5a103fa35549aac96a4ad7f2c7afce</commit>

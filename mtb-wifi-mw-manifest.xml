@@ -128,6 +128,11 @@
         <desc>Latest 2.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+        <desc>2.1.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
         <desc>2.0.0 release</desc>
@@ -180,6 +185,46 @@
     </versions>
   </middleware>
   <middleware>
+    <name>wifi-cert</name>
+    <id>wifi-cert</id>
+    <uri>https://github.com/cypresssemiconductorco/wifi-cert</uri>
+    <desc>WiFi Cert Tester library used for WFA Certification</desc>
+    <category>WiFi Middleware libraries</category>
+    <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+        <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+        <desc>3.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>wifi-mfg-test</name>
+    <id>wifi-mfg-test</id>
+    <uri>https://github.com/cypresssemiconductorco/wifi-mfg-test</uri>
+    <desc>Wifi manufacturing test library is used to validate WLAN firmware and radio performance of the Wi-Fi device.</desc>
+    <category>WiFi Middleware libraries</category>
+    <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+        <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+        <desc>3.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
     <name>wifi-connection-manager</name>
     <id>wcm</id>
     <uri>https://github.com/cypresssemiconductorco/wifi-connection-manager</uri>
@@ -191,6 +236,11 @@
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.0.1 release</num>
+        <commit>release-v2.0.1</commit>
+        <desc>2.0.1 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>2.0.0 release</num>
@@ -243,10 +293,20 @@
     <name>MQTT</name>
     <id>mqtt</id>
     <uri>https://github.com/cypresssemiconductorco/mqtt</uri>
-    <desc>This repo contains the MQTT client library that can work with the family of Cypress connectivity chips. This library uses the AWS IoT Device SDK MQTT client library and implements the glue layer that is required for that library to work with Cypress connectivity platforms. Using this library in a project will cause AWS IoT Device SDK to be downloaded on your computer.  It is your responsibility to understand and accept the AWS IoT Device SDK license.</desc>
+    <desc>This repo contains the MQTT client library that can work with the family of Cypress connectivity chips.</desc>
     <category>WiFi Middleware libraries</category>
     <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
     <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+        <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+        <desc>3.0.0 release</desc>
+      </version>
       <version flow_version="1.0,2.0">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -275,6 +335,66 @@
     </versions>
   </middleware>
   <middleware>
+    <name>HTTP-Client</name>
+    <id>http-client</id>
+    <uri>https://github.com/cypresssemiconductorco/http-client</uri>
+    <desc>This repo contains the HTTP client library that can work with the family of Cypress connectivity chips.</desc>
+    <category>WiFi Middleware libraries</category>
+    <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>AWS-IoT-Device-SDK-Port</name>
+    <id>aws-iot-device-sdk-port</id>
+    <uri>https://github.com/cypresssemiconductorco/aws-iot-device-sdk-port</uri>
+    <desc>This repo contains the port layer implementation for the Cypress MQTT and HTTP Client libraries to work with the AWS-IoT-Device-SDK-Embedded-C library on Cypress PSoC&#174; 6 MCU connectivity-enabled platforms. This library APIs are not expected to be called by application directly. See the MQTT and HTTP Client library documentation for more details. Using this library in a project will cause AWS-IoT-Device-SDK-Embedded-C library to be downloaded on your computer. It is your responsibility to understand and accept the AWS-IoT-Device-SDK-Embedded-C license.</desc>
+    <category>WiFi Middleware libraries</category>
+    <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>SmartCoex</name>
+    <id>smartcoex</id>
+    <uri>https://github.com/cypresssemiconductorco/smartcoex</uri>
+    <desc>This repo contains the smart-coex APIs that can be used by application to configure the coex parameters for WLAN and BLE on Cypress PSoC&#174; 6 MCU connectivity-enabled platforms.</desc>
+    <category>WiFi Middleware libraries</category>
+    <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
     <name>OTA</name>
     <id>ota</id>
     <uri>https://github.com/cypresssemiconductorco/anycloud-ota</uri>
@@ -282,6 +402,16 @@
     <category>WiFi Middleware libraries</category>
     <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
     <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+        <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+        <desc>3.0.0 release</desc>
+      </version>
       <version flow_version="1.0,2.0">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -312,6 +442,16 @@
     <category>WiFi Middleware libraries</category>
     <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
     <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+        <desc>Latest 2.x release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+        <desc>2.0.0 release</desc>
+      </version>
       <version flow_version="1.0,2.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
