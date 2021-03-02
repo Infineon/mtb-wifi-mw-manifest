@@ -258,6 +258,19 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v3.1.0</commit>
+        <dependees>
+          <dependee>
+            <id>aws-iot-device-sdk-port</id>
+            <commit>release-v1.0.0</commit>
+          </dependee>
+          <dependee>
+            <id>wifi-mw-core</id>
+            <commit>release-v3.0.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v3.0.0</commit>
         <dependees>
           <dependee>
