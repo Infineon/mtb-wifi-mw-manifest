@@ -1,6 +1,6 @@
 <middleware>
   <middleware>
-    <name>lwIP</name>
+    <name>lwip</name>
     <id>lwip</id>
     <uri>https://git.savannah.nongnu.org/git/lwip</uri>
     <desc>lwIP is a small independent open source implementation of the TCP/IP protocol suite. Using this library in a project will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license.</desc>
@@ -15,13 +15,18 @@
     </versions>
   </middleware>
   <middleware>
-    <name>mbedTLS</name>
+    <name>mbedtls</name>
     <id>mbedtls</id>
     <uri>https://github.com/ARMmbed/mbedtls</uri>
     <desc>ARM mbedTLS is an implementation of the TLS and SSL protocols and the respective cryptographic algorithms. mbedTLS is an open source TLS/SSL library which has cryptographic capabilities. Using this library in a project will cause mbedTLS to be downloaded on your computer.  It is your responsibility to understand and accept the mbedTLS license and regional use restrictions (including abiding by all applicable export control laws).</desc>
     <category>WiFi Middleware libraries</category>
     <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
     <versions>
+      <version flow_version="1.0,2.0">
+        <num>Stable 2.22.0 release</num>
+        <commit>mbedtls-2.22.0</commit>
+        <desc>Stable 2.22.0 release</desc>
+      </version>
       <version flow_version="1.0,2.0">
         <num>Stable 2.16.7 release</num>
         <commit>mbedtls-2.16.7</commit>
@@ -51,6 +56,16 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.94.0 release</num>
+        <commit>release-v1.94.0</commit>
+        <desc>1.94.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.93.1 release</num>
+        <commit>release-v1.93.1</commit>
+        <desc>1.93.1 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>1.93.0 release</num>
@@ -86,6 +101,11 @@
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
+        <desc>3.1.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>3.0.0 release</num>
@@ -133,6 +153,11 @@
         <desc>Latest 2.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
+        <desc>2.2.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
         <desc>2.1.0 release</desc>
@@ -153,6 +178,11 @@
         <desc>1.1.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
+        <desc>1.0.1 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
         <desc>1.0.0 release</desc>
@@ -171,6 +201,11 @@
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
+        <desc>3.1.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>3.0.0 release</num>
@@ -223,6 +258,11 @@
         <desc>Latest 3.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>3.0.1 release</num>
+        <commit>release-v3.0.1</commit>
+        <desc>3.0.1 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>3.0.0 release</num>
         <commit>release-v3.0.0</commit>
         <desc>3.0.0 release</desc>
@@ -241,6 +281,11 @@
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.0.2 release</num>
+        <commit>release-v2.0.2</commit>
+        <desc>2.0.2 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>2.0.1 release</num>
@@ -263,6 +308,11 @@
         <desc>1.1.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
+        <desc>1.0.1 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
         <desc>1.0.0 release</desc>
@@ -278,6 +328,16 @@
     <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+        <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+        <desc>2.0.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
@@ -292,10 +352,15 @@
         <commit>release-v1.1.0</commit>
         <desc>1.1.0 release</desc>
       </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
+        <desc>1.0.1 release</desc>
+      </version>
     </versions>
   </middleware>
   <middleware>
-    <name>MQTT</name>
+    <name>mqtt</name>
     <id>mqtt</id>
     <uri>https://github.com/cypresssemiconductorco/mqtt</uri>
     <desc>This repo contains the MQTT client library that can work with the family of Cypress connectivity chips.</desc>
@@ -306,6 +371,11 @@
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.1.1 release</num>
+        <commit>release-v3.1.1</commit>
+        <desc>3.1.1 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>3.1.0 release</num>
@@ -321,6 +391,11 @@
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+        <desc>2.1.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>2.0.0 release</num>
@@ -345,7 +420,7 @@
     </versions>
   </middleware>
   <middleware>
-    <name>HTTP-Client</name>
+    <name>http-client</name>
     <id>http-client</id>
     <uri>https://github.com/cypresssemiconductorco/http-client</uri>
     <desc>This repo contains the HTTP client library that can work with the family of Cypress connectivity chips.</desc>
@@ -358,6 +433,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+        <desc>1.1.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
         <desc>1.0.0 release</desc>
@@ -365,7 +445,7 @@
     </versions>
   </middleware>
   <middleware>
-    <name>AWS-IoT-Device-SDK-Port</name>
+    <name>aws-iot-device-sdk-port</name>
     <id>aws-iot-device-sdk-port</id>
     <uri>https://github.com/cypresssemiconductorco/aws-iot-device-sdk-port</uri>
     <desc>This repo contains the port layer implementation for the Cypress MQTT and HTTP Client libraries to work with the AWS-IoT-Device-SDK-Embedded-C library on Cypress PSoC&#174; 6 MCU connectivity-enabled platforms. This library APIs are not expected to be called by application directly. See the MQTT and HTTP Client library documentation for more details. Using this library in a project will cause AWS-IoT-Device-SDK-Embedded-C library to be downloaded on your computer. It is your responsibility to understand and accept the AWS-IoT-Device-SDK-Embedded-C license.</desc>
@@ -378,6 +458,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
+        <desc>1.0.1 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
         <desc>1.0.0 release</desc>
@@ -385,7 +470,7 @@
     </versions>
   </middleware>
   <middleware>
-    <name>SmartCoex</name>
+    <name>smartcoex</name>
     <id>smartcoex</id>
     <uri>https://github.com/cypresssemiconductorco/smartcoex</uri>
     <desc>This repo contains the smart-coex APIs that can be used by application to configure the coex parameters for WLAN and BLE on Cypress PSoC&#174; 6 MCU connectivity-enabled platforms.</desc>
@@ -401,6 +486,26 @@
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
         <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>enterprise-security</name>
+    <id>enterprise-security</id>
+    <uri>https://github.com/cypresssemiconductorco/enterprise-security</uri>
+    <desc>This repo contains the enterprise-security library APIs that can be used by the applications to connect to enterprise security network using Cypress PSoC&#174; 6 MCU connectivity-enabled platforms.</desc>
+    <category>WiFi Middleware libraries</category>
+    <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+        <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+        <desc>2.0.0 release</desc>
       </version>
     </versions>
   </middleware>
