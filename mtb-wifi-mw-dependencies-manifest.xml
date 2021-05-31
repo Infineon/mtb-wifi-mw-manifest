@@ -313,6 +313,15 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v2.0.3</commit>
+        <dependees>
+          <dependee>
+            <id>wifi-mw-core</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v2.0.2</commit>
         <dependees>
           <dependee>
@@ -624,6 +633,32 @@
     <id>smartcoex</id>
     <versions>
       <version>
+        <commit>latest-v2.X</commit>
+        <dependees>
+          <dependee>
+            <id>wcm</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>bluetooth-freertos</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v2.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>wcm</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>bluetooth-freertos</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>latest-v1.X</commit>
         <dependees>
           <dependee>
@@ -737,6 +772,32 @@
     <id>command-console</id>
     <versions>
       <version>
+        <commit>latest-v3.X</commit>
+        <dependees>
+          <dependee>
+            <id>wcm</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>bluetooth-freertos</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v3.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>wcm</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>bluetooth-freertos</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>latest-v2.X</commit>
         <dependees>
           <dependee>
@@ -806,6 +867,64 @@
   <depender>
     <id>ota</id>
     <versions>
+      <version>
+        <commit>release-v4.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>bluetooth-freertos</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
+            <id>http-client</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mqtt</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
+            <id>retarget-io</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>serial-flash</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>wcm</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>latest-v4.X</commit>
+        <dependees>
+          <dependee>
+            <id>bluetooth-freertos</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
+            <id>http-client</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mqtt</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
+            <id>retarget-io</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>serial-flash</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>wcm</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+        </dependees>
+      </version>
       <version>
         <commit>release-v3.0.0</commit>
         <dependees>
@@ -955,6 +1074,15 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v3.1.1</commit>
+        <dependees>
+          <dependee>
+            <id>wcm</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v3.1.0</commit>
         <dependees>
           <dependee>
@@ -1004,7 +1132,20 @@
           </dependee>
           <dependee>
             <id>command-console</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v3.1.0</commit>
+        <dependees>
+          <dependee>
+            <id>wcm</id>
             <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>command-console</id>
+            <commit>latest-v3.X</commit>
           </dependee>
         </dependees>
       </version>
