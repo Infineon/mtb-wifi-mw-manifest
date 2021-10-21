@@ -3,8 +3,16 @@
     <name>lwip</name>
     <id>lwip</id>
     <uri>https://git.savannah.nongnu.org/git/lwip</uri>
-    <desc>lwIP is a small independent open source implementation of the TCP/IP protocol suite. Using this library in a project will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license.</desc>
-    <category>WiFi Middleware libraries</category>
+    <desc><![CDATA[
+        lwIP is a small independent open source implementation of the TCP/IP protocol suite. Using this library in a project will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license.
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://savannah.nongnu.org/projects/lwip">lwIP Library Information</a></li>
+          <li><a href="https://git.savannah.nongnu.org/cgit/lwip.git">lwIP Repo Information</a></li>
+        </ul>
+    ]]></desc>
+    <category>Core</category>
     <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
@@ -18,10 +26,27 @@
     <name>mbedtls</name>
     <id>mbedtls</id>
     <uri>https://github.com/ARMmbed/mbedtls</uri>
-    <desc>ARM mbedTLS is an implementation of the TLS and SSL protocols and the respective cryptographic algorithms. mbedTLS is an open source TLS/SSL library which has cryptographic capabilities. Using this library in a project will cause mbedTLS to be downloaded on your computer.  It is your responsibility to understand and accept the mbedTLS license and regional use restrictions (including abiding by all applicable export control laws).</desc>
-    <category>WiFi Middleware libraries</category>
-    <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
+    <desc><![CDATA[
+        ARM mbedTLS library is an implementation of the TLS and SSL protocols and the respective cryptographic algorithms. mbedTLS is an open source TLS/SSL library which has cryptographic capabilities. Using this library in a project will cause mbedTLS to be downloaded on your computer. It is your responsibility to understand and accept the mbedTLS license and regional use restrictions (including abiding by all applicable export control laws).
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/ARMmbed/mbedtls">Mbed TLS Library Information</a></li>
+        </ul>
+    ]]></desc>
+    <category>Core</category>
+    <req_capabilities>psoc6</req_capabilities>
     <versions>
+      <version flow_version="1.0,2.0">
+        <num>Stable 2.25.0 release</num>
+        <commit>mbedtls-2.25.0</commit>
+        <desc>Stable 2.25.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>Stable 2.24.0 release</num>
+        <commit>mbedtls-2.24.0</commit>
+        <desc>Stable 2.24.0 release</desc>
+      </version>
       <version flow_version="1.0,2.0">
         <num>Stable 2.22.0 release</num>
         <commit>mbedtls-2.22.0</commit>
@@ -46,12 +71,31 @@
   </middleware>
   <middleware>
     <name>wifi-host-driver</name>
-    <id>whd</id>
+    <id>wifi-host-driver</id>
     <uri>https://github.com/cypresssemiconductorco/wifi-host-driver</uri>
-    <desc>Wi-Fi Host Driver(WHD) is an independent, embedded Wi-Fi Host Driver that provides a set of APIs to interact with Cypress WLAN chips.</desc>
-    <category>WiFi Middleware libraries</category>
+    <desc><![CDATA[
+       Wi-Fi Host Driver(WHD) is an independent, embedded Wi-Fi Host Driver that provides a set of APIs to interact with Infineon WLAN chips. It is the low level driver required for any library or application that uses WiFi connectivity.
+       <br/>
+       <div class="category">Additional Information:</div>
+       <ul>
+         <li><a href="https://github.com/Infineon/wifi-host-driver/blob/master/README.md">WiFi Host Driver README.md</a></li>
+         <li><a href="https://github.com/Infineon/wifi-host-driver/blob/master/RELEASE.md">WiFi Host Driver RELEASE.md</a></li>
+         <li><a href="https://cypresssemiconductorco.github.io/wifi-host-driver/html/index.html">Wi-Fi Host Driver API Reference Manual and Porting Guide</a></li>
+       </ul>
+    ]]></desc>
+    <category>Wi-Fi</category>
     <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
     <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+        <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+        <desc>2.0.0 release</desc>
+      </version>
       <version flow_version="1.0,2.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -71,6 +115,11 @@
         <num>1.93.0 release</num>
         <commit>release-v1.93.0</commit>
         <desc>1.93.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.92.1 release</num>
+        <commit>release-v1.92.1</commit>
+        <desc>1.92.1 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>1.92.0 release</num>
@@ -93,14 +142,28 @@
     <name>wifi-mw-core</name>
     <id>wifi-mw-core</id>
     <uri>https://github.com/cypresssemiconductorco/wifi-mw-core</uri>
-    <desc>Core components needed for Wi-Fi connectivity support - bundles FreeRTOS, lwIP TCP/IP stack, mbedTLS for security, Cypress Wi-Fi host driver (WHD), configuration files and associated code to bind these components together. These components are bundled as ".lib" entries; each ".lib" points to the respective repositories, where they are hosted. All but lwIP and mbedTLS libraries are hosted on Cypress' Github repository. lwIP and mbedTLS libraries are hosted on their respective external repositories. Includes predefined configuration files for FreeRTOS, lwIP and mbedTLS for typical embedded IoT usecases; and associated glue layer between lwIP and WHD, and mbedTLS and lwIP.</desc>
-    <category>WiFi Middleware libraries</category>
+    <desc><![CDATA[
+        Wi-Fi Middleware Core library comprises core components needed for Wi-Fi connectivity support. The library bundles FreeRTOS, lwIP TCP/IP stack, and mbed TLS for security, Wi-Fi Host Driver (WHD), Secure Sockets interface, configuration files, and associated code to bind these components together.
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/wifi-mw-core/blob/master/README.md">Wi-Fi Middleware Core Library README.md</a></li>
+          <li><a href="https://github.com/Infineon/wifi-mw-core/blob/master/RELEASE.md">Wi-Fi Middleware Core Library RELEASE.md</a></li>
+          <li><a href="https://infineon.github.io/wifi-mw-core/api_reference_manual/html/index.html">Wi-Fi Middleware Core Library API reference guide</a></li>          
+        </ul>
+    ]]></desc>
+    <category>Wi-Fi</category>
     <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.1.1 release</num>
+        <commit>release-v3.1.1</commit>
+        <desc>3.1.1 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>3.1.0 release</num>
@@ -143,14 +206,28 @@
     <name>secure-sockets</name>
     <id>secure-sockets</id>
     <uri>https://github.com/cypresssemiconductorco/secure-sockets</uri>
-    <desc>Secure sockets library provides network abstraction APIs for underlying network and security library. Secure sockets library eases application development by exposing a socket like interface for both non-secure (LwIP) and secure (mbedTLS) TCP connections. The APIs are thread safe and enable both client and server mode operations. Secure sockets provide both synchronous and asynchronous APIs for data transfer. Additionally, socket options are supported to configure send/receive timeout, callback for asynchronous mode, TCP keep-alive parameters, certificates/key and TLS extensions. </desc>
-    <category>WiFi Middleware libraries</category>
+    <desc><![CDATA[
+        Secure Sockets library provides APIs to create software that can send and/or receive data over the network using sockets. This library supports both secure and non-secure sockets, and abstracts the complexity involved in directly using network stack and security stack APIs. This library supports both IPv4 and IPv6 addressing modes for UDP and TCP sockets.
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/secure-sockets/blob/master/README.md">Secure Sockets Library README.md</a></li>
+          <li><a href="https://github.com/Infineon/secure-sockets/blob/master/RELEASE.md">Secure Sockets Library RELEASE.md</a></li>
+          <li><a href="https://infineon.github.io/secure-sockets/api_reference_manual/html/index.html">Secure Sockets Library API reference guide</a></li>          
+        </ul>
+    ]]></desc>
+    <category>Middleware</category>
     <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.3.0 release</num>
+        <commit>release-v2.3.0</commit>
+        <desc>2.3.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>2.2.0 release</num>
@@ -190,17 +267,31 @@
     </versions>
   </middleware>
   <middleware>
-    <name>LPA</name>
+    <name>lpa</name>
     <id>lpa</id>
     <uri>https://github.com/cypresssemiconductorco/lpa</uri>
-    <desc>LPA is Low power assistant middleware library which provides easy way to configure and use low power features of Cypress devices.</desc>
-    <category>WiFi Middleware libraries</category>
+    <desc><![CDATA[
+        LPA is Low power assistant middleware library which provides easy way to configure and use low power features of Infineon devices PSoC&#8482; 6 MCU + Wi-Fi & Bluetooth&#174; combo chip. Please see current documentation for currently supported devices.
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/lpa/blob/master/README.md">LPA README.md</a></li>
+		  <li><a href="https://github.com/Infineon/lpa/blob/master/RELEASE.md">LPA RELEASE.md</a></li>
+          <li><a href="https://infineon.github.io/lpa/lpa_api_reference_manual/html/index.html">LPA API reference guide</a></li>
+        </ul>
+    ]]></desc>
+    <category>Middleware</category>
     <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.2.0 release</num>
+        <commit>release-v3.2.0</commit>
+        <desc>3.2.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>3.1.1 release</num>
@@ -233,14 +324,28 @@
     <name>wifi-cert</name>
     <id>wifi-cert</id>
     <uri>https://github.com/cypresssemiconductorco/wifi-cert</uri>
-    <desc>WiFi Cert Tester library used for WFA Certification</desc>
-    <category>WiFi Middleware libraries</category>
+    <desc><![CDATA[
+        WiFi Cert Tester library used by WiFi Cert Tester tool running on a PSoC&#8482; 6 MCU with CYW4343W or CYW43012 Wi-Fi & Bluetooth&#174; combo chip. WiFi Cert Tester library is used for Wi-Fi certification of 11n-PSK, 11n WPA2 Enterprise, PMF, WPA3 and 11ac. Please see current documentation for currently supported devices.
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/wifi-cert/blob/master/README.md">WiFi Cert Middleware Library README.md</a></li>
+          <li><a href="https://github.com/Infineon/wifi-cert/blob/master/RELEASE.md">WiFi Cert Middleware RELEASE.md</a></li>
+          <li><a href="https://Infineon.github.io/wifi-cert/api_reference_manual/html/index.html">WiFi Cert API reference guide</a></li>          
+        </ul>
+    ]]></desc>
+    <category>Wi-Fi</category>
     <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.2.0 release</num>
+        <commit>release-v3.2.0</commit>
+        <desc>3.2.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>3.1.0 release</num>
@@ -258,14 +363,28 @@
     <name>wifi-mfg-test</name>
     <id>wifi-mfg-test</id>
     <uri>https://github.com/cypresssemiconductorco/wifi-mfg-test</uri>
-    <desc>Wifi manufacturing test library is used to validate WLAN firmware and radio performance of the Wi-Fi device.</desc>
-    <category>WiFi Middleware libraries</category>
+    <desc><![CDATA[
+    WiFi manufacturing test library is used by WiFi Mfg tester tool running on PSoC&#8482; 6 MCU + WiFi & Bluetooth combo devices. The application should be run in tandem with the host based 'wl' tool running on Windows 10 machines. This test tool is used to validate WLAN firmware and WLAN radio performance. Refer to the documentation for currently supported devices.
+    <br/>
+    <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/wifi-mfg-test/blob/master/README.md">WiFi Mfg Test Middleware Library README.md</a></li>
+          <li><a href="https://github.com/Infineon/wifi-mfg-test/blob/master/RELEASE.md">WiFi Mfg Test Middleware RELEASE.md</a></li>
+          <li><a href="https://Infineon.github.io/wifi-mfg-test/api_reference_manual/html/index.html">WiFi Mfg Test API reference guide</a></li>
+        </ul>
+    ]]></desc>
+    <category>Wi-Fi</category>
     <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
+        <desc>3.1.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>3.0.1 release</num>
@@ -281,16 +400,30 @@
   </middleware>
   <middleware>
     <name>wifi-connection-manager</name>
-    <id>wcm</id>
+    <id>wifi-connection-manager</id>
     <uri>https://github.com/cypresssemiconductorco/wifi-connection-manager</uri>
-    <desc>Wi-Fi Connection manager (WCM) provides a set of APIs that are useful to establish and monitor Wi-Fi connection on Cypress platforms that support Wi-Fi connectivity. WCM library APIs are easy to use, and the library also provides additional features such Wi-Fi Protected Setup (WPS) and connection monitoring.</desc>
-    <category>WiFi Middleware libraries</category>
+    <desc><![CDATA[
+        Wi-Fi Connection Manager (WCM) library helps application developers to manage Wi-Fi Connectivity. The library provides a set of APIs that can be used to establish and monitor Wi-Fi connections on PSoC&#8482; 6 MCU based platforms with connectivity. The library APIs are thread-safe. The library monitors the Wi-Fi connection and can notifies connection state changes through an event notification mechanism. The library also provides APIs to connect to a Wi-Fi network using Wi-Fi Protected Setup (WPS) methods. 
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/wifi-connection-manager/blob/master/README.md">Wi-Fi Connection Manager Library README.md</a></li>
+          <li><a href="https://github.com/Infineon/wifi-connection-manager/blob/master/RELEASE.md">Wi-Fi Connection Manager Library RELEASE.md</a></li>
+          <li><a href="https://infineon.github.io/wifi-connection-manager/api_reference_manual/html/index.html">Wi-Fi Connection Manager Library API reference guide</a></li>          
+        </ul>
+    ]]></desc>
+    <category>Middleware</category>
     <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.0.4 release</num>
+        <commit>release-v2.0.4</commit>
+        <desc>2.0.4 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>2.0.3 release</num>
@@ -338,14 +471,28 @@
     <name>http-server</name>
     <id>http-server</id>
     <uri>https://github.com/cypresssemiconductorco/http-server</uri>
-    <desc>This repo provides the HTTP Server implementation that can work on the PSoC 6 MCU platforms with Wi-Fi connectivity. It supports RESTful methods such as GET, PUT, and POST for the client to communicate with this HTTP Server library.</desc>
-    <category>WiFi Middleware libraries</category>
+    <desc><![CDATA[
+        This library provides the HTTP Server implementation that can work on the PSoC&#8482; 6 MCU based platforms with network connectivity. It supports RESTful methods such as GET, PUT, and POST for the client to communicate with this HTTP Server library.
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/http-server/blob/master/README.md">HTTP Server Library README.md</a></li>
+          <li><a href="https://github.com/Infineon/http-server/blob/master/RELEASE.md">HTTP Server Library RELEASE.md</a></li>
+          <li><a href="https://infineon.github.io/http-server/api_reference_manual/html/index.html">HTTP Server Library API reference guide</a></li>          
+        </ul>
+    ]]></desc>
+    <category>Middleware</category>
     <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.0.1 release</num>
+        <commit>release-v2.0.1</commit>
+        <desc>2.0.1 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>2.0.0 release</num>
@@ -378,14 +525,28 @@
     <name>mqtt</name>
     <id>mqtt</id>
     <uri>https://github.com/cypresssemiconductorco/mqtt</uri>
-    <desc>This repo contains the MQTT client library that can work with the family of Cypress connectivity chips.</desc>
-    <category>WiFi Middleware libraries</category>
+    <desc><![CDATA[
+        This MQTT client library works with the family of PSoC&#8482; 6 MCU based connectivity platforms. This library uses the AWS IoT Device SDK MQTT Client library and implements the glue layer that is required for the library to work with PSoC&#8482; 6 MCU based platforms with network connectivity.
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/mqtt/blob/master/README.md">MQTT Client Library README.md</a></li>
+          <li><a href="https://github.com/Infineon/mqtt/blob/master/RELEASE.md">MQTT Client Library RELEASE.md</a></li>
+          <li><a href="https://infineon.github.io/mqtt/api_reference_manual/html/index.html">MQTT Client Library API reference guide</a></li>          
+        </ul>
+    ]]></desc>
+    <category>Middleware</category>
     <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.2.0 release</num>
+        <commit>release-v3.2.0</commit>
+        <desc>3.2.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>3.1.1 release</num>
@@ -406,6 +567,11 @@
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.1.1 release</num>
+        <commit>release-v2.1.1</commit>
+        <desc>2.1.1 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>2.1.0 release</num>
@@ -438,8 +604,100 @@
     <name>http-client</name>
     <id>http-client</id>
     <uri>https://github.com/cypresssemiconductorco/http-client</uri>
-    <desc>This repo contains the HTTP client library that can work with the family of Cypress connectivity chips.</desc>
-    <category>WiFi Middleware libraries</category>
+    <desc><![CDATA[
+        This library provides the HTTP Client implementation that can work on the PSoC&#8482; 6 MCU based platforms with network connectivity. This library supports RESTful methods such as GET, PUT, POST, and HEAD to communicate with the HTTP Server.
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/http-client/blob/master/README.md">HTTP Client Library README.md</a></li>
+          <li><a href="https://github.com/Infineon/http-client/blob/master/RELEASE.md">HTTP Client Library RELEASE.md</a></li>
+          <li><a href="https://infineon.github.io/http-client/api_reference_manual/html/index.html">HTTP Client Library API reference guide</a></li>          
+        </ul>
+    ]]></desc>
+    <category>Middleware</category>
+    <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.1.1 release</num>
+        <commit>release-v1.1.1</commit>
+        <desc>1.1.1 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+        <desc>1.1.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>aws-iot-device-sdk-port</name>
+    <id>aws-iot-device-sdk-port</id>
+    <uri>https://github.com/cypresssemiconductorco/aws-iot-device-sdk-port</uri>
+    <desc><![CDATA[
+        This library contains the port layer implementation for the MQTT and HTTP Client libraries to work with the AWS-IoT-Device-SDK-Embedded-C library on PSoC&#8482; 6 MCU based platforms with network connectivity. This library APIs are not expected to be called by application directly. See the MQTT and HTTP Client library documentation for more details. Using this library in a project will cause AWS-IoT-Device-SDK-Embedded-C library to be downloaded on your computer. It is your responsibility to understand and accept the AWS-IoT-Device-SDK-Embedded-C license.
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/aws-iot-device-sdk-port/blob/master/README.md">AWS IoT Device SDK Port Library README.md</a></li>
+          <li><a href="https://github.com/Infineon/aws-iot-device-sdk-port/blob/master/RELEASE.md">AWS IoT Device SDK Port Library RELEASE.md</a></li>
+          <li><a href="https://infineon.github.io/aws-iot-device-sdk-port/api_reference_manual/html/index.html">AWS IoT Device SDK Port Library API reference guide</a></li>          
+        </ul>
+    ]]></desc>
+    <category>Middleware</category>
+    <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+        <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+        <desc>2.0.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
+        <desc>1.0.1 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>azure-c-sdk-port</name>
+    <id>azure-c-sdk-port</id>
+    <uri>https://github.com/cypresssemiconductorco/azure-c-sdk-port</uri>
+    <desc><![CDATA[
+        This library implements the port layer for the Azure SDK for Embedded C to work on PSoC&#8482; 6 MCU based platforms with network connectivity. This library automatically pulls the Azure SDK for Embedded C library; the port layer functions implemented by this library are used by the Azure SDK for Embedded C library. If application needs Azure SDK for Embedded C library with MQTT client functionality, it needs to explicitly import MQTT library. Refer README.md located in ./sample_app/README.md for additional information.
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/azure-c-sdk-port/blob/master/README.md">Azure C SDK Port Library README.md</a></li>
+          <li><a href="https://github.com/Infineon/azure-c-sdk-port/blob/master/RELEASE.md">Azure C SDK Port Library RELEASE.md</a></li>
+          <li><a href="https://infineon.github.io/azure-c-sdk-port/api_reference_manual/html/index.html">Azure C SDK Port Library API reference guide</a></li>          
+        </ul>
+    ]]></desc>
+    <category>Middleware</category>
     <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
@@ -460,36 +718,20 @@
     </versions>
   </middleware>
   <middleware>
-    <name>aws-iot-device-sdk-port</name>
-    <id>aws-iot-device-sdk-port</id>
-    <uri>https://github.com/cypresssemiconductorco/aws-iot-device-sdk-port</uri>
-    <desc>This repo contains the port layer implementation for the Cypress MQTT and HTTP Client libraries to work with the AWS-IoT-Device-SDK-Embedded-C library on Cypress PSoC&#174; 6 MCU connectivity-enabled platforms. This library APIs are not expected to be called by application directly. See the MQTT and HTTP Client library documentation for more details. Using this library in a project will cause AWS-IoT-Device-SDK-Embedded-C library to be downloaded on your computer. It is your responsibility to understand and accept the AWS-IoT-Device-SDK-Embedded-C license.</desc>
-    <category>WiFi Middleware libraries</category>
-    <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
-    <versions>
-      <version flow_version="1.0,2.0">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-        <desc>Latest 1.X release</desc>
-      </version>
-      <version flow_version="1.0,2.0">
-        <num>1.0.1 release</num>
-        <commit>release-v1.0.1</commit>
-        <desc>1.0.1 release</desc>
-      </version>
-      <version flow_version="1.0,2.0">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-        <desc>1.0.0 release</desc>
-      </version>
-    </versions>
-  </middleware>
-  <middleware>
     <name>smartcoex</name>
     <id>smartcoex</id>
     <uri>https://github.com/cypresssemiconductorco/smartcoex</uri>
-    <desc>This repo contains the smart-coex APIs that can be used by application to configure the coex parameters for WLAN and BLE on Cypress PSoC&#174; 6 MCU connectivity-enabled platforms.</desc>
-    <category>WiFi Middleware libraries</category>
+    <desc><![CDATA[
+        This library provides an API that user can use to configure the coex parameters for WLAN and BLE on PSoC&#8482; 6 MCU based platforms with Wi-Fi & Bluetooth&#174; combo chip. Refer to the links give below for details.
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/smartcoex/blob/master/README.md">Smart Coex Library README.md</a></li>
+          <li><a href="https://github.com/Infineon/smartcoex/blob/master/RELEASE.md">Smart Coex Library RELEASE.md</a></li>
+          <li><a href="https://infineon.github.io/smartcoex/api_reference_manual/html/index.html">Smart Coex Library API reference guide</a></li>          
+        </ul>
+    ]]></desc>
+    <category>Middleware</category>
     <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
@@ -518,14 +760,28 @@
     <name>enterprise-security</name>
     <id>enterprise-security</id>
     <uri>https://github.com/cypresssemiconductorco/enterprise-security</uri>
-    <desc>This repo contains the enterprise-security library APIs that can be used by the applications to connect to enterprise security network using Cypress PSoC&#174; 6 MCU connectivity-enabled platforms.</desc>
-    <category>WiFi Middleware libraries</category>
+    <desc><![CDATA[
+        This library provides the capability for best in class Wi-Fi enabled PSoC&#8482; 6 devices to connect to enterprise Wi-Fi networks. This library implements a collection of the most commonly used Extensible Authentication Protocols (EAP) that are used in enterprise networks.
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/enterprise-security/blob/master/README.md">Enterprise Security Library README.md</a></li>
+          <li><a href="https://github.com/Infineon/enterprise-security/blob/master/RELEASE.md">Enterprise Security Library RELEASE.md</a></li>
+          <li><a href="https://infineon.github.io/enterprise-security/api_reference_manual/html/index.html">Enterprise Security Library API reference guide</a></li>          
+        </ul>
+    ]]></desc>
+    <category>Middleware</category>
     <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.0.1 release</num>
+        <commit>release-v2.0.1</commit>
+        <desc>2.0.1 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>2.0.0 release</num>
@@ -535,17 +791,31 @@
     </versions>
   </middleware>
   <middleware>
-    <name>OTA</name>
-    <id>ota</id>
+    <name>anycloud-ota</name>
+    <id>anycloud-ota</id>
     <uri>https://github.com/cypresssemiconductorco/anycloud-ota</uri>
-    <desc>OTA is simple mechanism for updating your device's firmware Over The Air.</desc>
-    <category>WiFi Middleware libraries</category>
+    <desc><![CDATA[
+        The OTA library provides support for Over-The-Air update of the application code running on a PSoC&#8482; 6 MCU with AIROC&#8482; CYW4343W or CYW43012 Wi-Fi & Bluetooth&#174; combo chip, using Wi-Fi or Bluetooth. Please see current documentation for currently supported devices. OTA requires the use of mcuboot
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/cypresssemiconductorco/anycloud-ota/blob/master/README.md">OTA API README.md</a></li>
+          <li><a href="https://cypresssemiconductorco.github.io/anycloud-ota/api_reference_manual/html/index.html">OTA API reference guide</a></li>
+          <li><a href="https://github.com/JuulLabs-OSS/mcuboot/blob/cypress/docs/design.md">MCUboot documentation</a></li>
+        </ul>
+    ]]></desc>
+    <category>Middleware</category>
     <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
         <desc>Latest 4.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>4.1.0 release</num>
+        <commit>release-v4.1.0</commit>
+        <desc>4.1.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>4.0.0 release</num>
@@ -588,14 +858,28 @@
     <name>command-console</name>
     <id>command-console</id>
     <uri>https://github.com/cypresssemiconductorco/command-console</uri>
-    <desc>This library provides a framework to add command console support to the application (or) product usecases. Wi-Fi iPerf and BLE command support are bundled with this library.</desc>
-    <category>WiFi Middleware libraries</category>
+    <desc><![CDATA[
+        This library provides a framework to add command console support to the application (or) product usecases. Wi-Fi, iPerf and BLE command support are bundled with this library.
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/command-console/blob/master/README.md">Command Console Library README.md</a></li>
+          <li><a href="https://github.com/Infineon/command-console/blob/master/RELEASE.md">Command Console Library RELEASE.md</a></li>
+          <li><a href="https://infineon.github.io/command-console/api_reference_manual/html/index.html">Command Console Library API reference guide</a></li>          
+        </ul>
+    ]]></desc>
+    <category>Middleware</category>
     <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.x release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.0.1 release</num>
+        <commit>release-v3.0.1</commit>
+        <desc>3.0.1 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>3.0.0 release</num>

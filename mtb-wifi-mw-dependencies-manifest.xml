@@ -27,7 +27,7 @@
           </dependee>
           <dependee>
             <id>mbedtls</id>
-            <commit>mbedtls-2.22.0</commit>
+            <commit>mbedtls-2.25.0</commit>
           </dependee>
           <dependee>
             <id>secure-sockets</id>
@@ -35,11 +35,52 @@
           </dependee>
           <dependee>
             <id>whd-bsp-integration</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>wifi-host-driver</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v3.1.1</commit>
+        <dependees>
+          <dependee>
+            <id>abstraction-rtos</id>
             <commit>latest-v1.X</commit>
           </dependee>
           <dependee>
-            <id>whd</id>
+            <id>clib-support</id>
             <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>connectivity-utilities</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
+            <id>freertos</id>
+            <commit>latest-v10.X</commit>
+          </dependee>
+          <dependee>
+            <id>lwip</id>
+            <commit>STABLE-2_1_2_RELEASE</commit>
+          </dependee>
+          <dependee>
+            <id>mbedtls</id>
+            <commit>mbedtls-2.25.0</commit>
+          </dependee>
+          <dependee>
+            <id>secure-sockets</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>whd-bsp-integration</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>wifi-host-driver</id>
+            <commit>latest-v2.X</commit>
           </dependee>
         </dependees>
       </version>
@@ -79,7 +120,7 @@
             <commit>latest-v1.X</commit>
           </dependee>
           <dependee>
-            <id>whd</id>
+            <id>wifi-host-driver</id>
             <commit>latest-v1.X</commit>
           </dependee>
         </dependees>
@@ -120,7 +161,7 @@
             <commit>latest-v1.X</commit>
           </dependee>
           <dependee>
-            <id>whd</id>
+            <id>wifi-host-driver</id>
             <commit>latest-v1.X</commit>
           </dependee>
         </dependees>
@@ -157,7 +198,7 @@
             <commit>latest-v1.X</commit>
           </dependee>
           <dependee>
-            <id>whd</id>
+            <id>wifi-host-driver</id>
             <commit>latest-v1.X</commit>
           </dependee>
           <dependee>
@@ -198,7 +239,7 @@
             <commit>latest-v1.X</commit>
           </dependee>
           <dependee>
-            <id>whd</id>
+            <id>wifi-host-driver</id>
             <commit>latest-v1.X</commit>
           </dependee>
           <dependee>
@@ -239,7 +280,7 @@
             <commit>latest-v1.X</commit>
           </dependee>
           <dependee>
-            <id>whd</id>
+            <id>wifi-host-driver</id>
             <commit>latest-v1.X</commit>
           </dependee>
           <dependee>
@@ -268,7 +309,7 @@
             <commit>mbedtls-2.16.3</commit>
           </dependee>
           <dependee>
-            <id>whd</id>
+            <id>wifi-host-driver</id>
             <commit>latest-v1.X</commit>
           </dependee>
         </dependees>
@@ -293,7 +334,7 @@
             <commit>mbedtls-2.16.3</commit>
           </dependee>
           <dependee>
-            <id>whd</id>
+            <id>wifi-host-driver</id>
             <commit>latest-v1.X</commit>
           </dependee>
         </dependees>
@@ -301,10 +342,19 @@
     </versions>
   </depender>
   <depender>
-    <id>wcm</id>
+    <id>wifi-connection-manager</id>
     <versions>
       <version>
         <commit>latest-v2.X</commit>
+        <dependees>
+          <dependee>
+            <id>wifi-mw-core</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v2.0.4</commit>
         <dependees>
           <dependee>
             <id>wifi-mw-core</id>
@@ -387,8 +437,26 @@
     </versions>
   </depender>
   <depender>
-    <id>whd</id>
+    <id>wifi-host-driver</id>
     <versions>
+      <version>
+        <commit>latest-v2.X</commit>
+        <dependees>
+          <dependee>
+            <id>abstraction-rtos</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v2.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>abstraction-rtos</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
       <version>
         <commit>latest-v1.X</commit>
         <dependees>
@@ -403,7 +471,34 @@
         <dependees>
           <dependee>
             <id>abstraction-rtos</id>
-            <commit>release-v1.3.1</commit>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.93.1</commit>
+        <dependees>
+          <dependee>
+            <id>abstraction-rtos</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.93.0</commit>
+        <dependees>
+          <dependee>
+            <id>abstraction-rtos</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.92.1</commit>
+        <dependees>
+          <dependee>
+            <id>abstraction-rtos</id>
+            <commit>latest-v1.X</commit>
           </dependee>
         </dependees>
       </version>
@@ -412,7 +507,25 @@
         <dependees>
           <dependee>
             <id>abstraction-rtos</id>
-            <commit>release-v1.2.2</commit>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.91.2</commit>
+        <dependees>
+          <dependee>
+            <id>abstraction-rtos</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.90.2</commit>
+        <dependees>
+          <dependee>
+            <id>abstraction-rtos</id>
+            <commit>latest-v1.X</commit>
           </dependee>
         </dependees>
       </version>
@@ -426,7 +539,20 @@
         <dependees>
           <dependee>
             <id>aws-iot-device-sdk-port</id>
-            <commit>latest-v1.X</commit>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>wifi-mw-core</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v3.2.0</commit>
+        <dependees>
+          <dependee>
+            <id>aws-iot-device-sdk-port</id>
+            <commit>latest-v2.X</commit>
           </dependee>
           <dependee>
             <id>wifi-mw-core</id>
@@ -475,6 +601,19 @@
       </version>
       <version>
         <commit>latest-v2.X</commit>
+        <dependees>
+          <dependee>
+            <id>aws-iot-device-sdk-embedded-C</id>
+            <commit>4c750b6f3f5a103fa35549aac96a4ad7f2c7afce</commit>
+          </dependee>
+          <dependee>
+            <id>wifi-mw-core</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v2.1.1</commit>
         <dependees>
           <dependee>
             <id>aws-iot-device-sdk-embedded-C</id>
@@ -561,7 +700,20 @@
         <dependees>
           <dependee>
             <id>aws-iot-device-sdk-port</id>
-            <commit>latest-v1.X</commit>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>wifi-mw-core</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.1.1</commit>
+        <dependees>
+          <dependee>
+            <id>aws-iot-device-sdk-port</id>
+            <commit>latest-v2.X</commit>
           </dependee>
           <dependee>
             <id>wifi-mw-core</id>
@@ -598,8 +750,70 @@
     </versions>
   </depender>
   <depender>
+    <id>azure-c-sdk-port</id>
+    <versions>
+      <version>
+        <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>azure-sdk-for-c</id>
+            <commit>1.1.0</commit>
+          </dependee>
+          <dependee>
+            <id>http-client</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.1.0</commit>
+        <dependees>
+          <dependee>
+            <id>azure-sdk-for-c</id>
+            <commit>1.1.0</commit>
+          </dependee>
+          <dependee>
+            <id>http-client</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>azure-sdk-for-c</id>
+            <commit>1.1.0</commit>
+          </dependee>
+          <dependee>
+            <id>http-client</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
+  <depender>
     <id>aws-iot-device-sdk-port</id>
     <versions>
+      <version>
+        <commit>latest-v2.X</commit>
+        <dependees>
+          <dependee>
+            <id>aws-iot-device-sdk-embedded-C</id>
+            <commit>202103.00</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v2.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>aws-iot-device-sdk-embedded-C</id>
+            <commit>202103.00</commit>
+          </dependee>
+        </dependees>
+      </version>
       <version>
         <commit>latest-v1.X</commit>
         <dependees>
@@ -636,7 +850,7 @@
         <commit>latest-v2.X</commit>
         <dependees>
           <dependee>
-            <id>wcm</id>
+            <id>wifi-connection-manager</id>
             <commit>latest-v2.X</commit>
           </dependee>
           <dependee>
@@ -649,7 +863,7 @@
         <commit>release-v2.0.0</commit>
         <dependees>
           <dependee>
-            <id>wcm</id>
+            <id>wifi-connection-manager</id>
             <commit>latest-v2.X</commit>
           </dependee>
           <dependee>
@@ -662,7 +876,7 @@
         <commit>latest-v1.X</commit>
         <dependees>
           <dependee>
-            <id>wcm</id>
+            <id>wifi-connection-manager</id>
             <commit>latest-v2.X</commit>
           </dependee>
           <dependee>
@@ -675,7 +889,7 @@
         <commit>release-v1.0.0</commit>
         <dependees>
           <dependee>
-            <id>wcm</id>
+            <id>wifi-connection-manager</id>
             <commit>latest-v2.X</commit>
           </dependee>
           <dependee>
@@ -693,7 +907,16 @@
         <commit>latest-v2.X</commit>
         <dependees>
           <dependee>
-            <id>wcm</id>
+            <id>wifi-connection-manager</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v2.0.1</commit>
+        <dependees>
+          <dependee>
+            <id>wifi-connection-manager</id>
             <commit>latest-v2.X</commit>
           </dependee>
         </dependees>
@@ -702,7 +925,7 @@
         <commit>release-v2.0.0</commit>
         <dependees>
           <dependee>
-            <id>wcm</id>
+            <id>wifi-connection-manager</id>
             <commit>latest-v2.X</commit>
           </dependee>
         </dependees>
@@ -714,6 +937,15 @@
     <versions>
       <version>
         <commit>latest-v2.X</commit>
+        <dependees>
+          <dependee>
+            <id>wifi-mw-core</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v2.0.1</commit>
         <dependees>
           <dependee>
             <id>wifi-mw-core</id>
@@ -775,7 +1007,20 @@
         <commit>latest-v3.X</commit>
         <dependees>
           <dependee>
-            <id>wcm</id>
+            <id>wifi-connection-manager</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>bluetooth-freertos</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v3.0.1</commit>
+        <dependees>
+          <dependee>
+            <id>wifi-connection-manager</id>
             <commit>latest-v2.X</commit>
           </dependee>
           <dependee>
@@ -788,7 +1033,7 @@
         <commit>release-v3.0.0</commit>
         <dependees>
           <dependee>
-            <id>wcm</id>
+            <id>wifi-connection-manager</id>
             <commit>latest-v2.X</commit>
           </dependee>
           <dependee>
@@ -801,7 +1046,7 @@
         <commit>latest-v2.X</commit>
         <dependees>
           <dependee>
-            <id>wcm</id>
+            <id>wifi-connection-manager</id>
             <commit>latest-v2.X</commit>
           </dependee>
           <dependee>
@@ -814,7 +1059,7 @@
         <commit>release-v2.0.0</commit>
         <dependees>
           <dependee>
-            <id>wcm</id>
+            <id>wifi-connection-manager</id>
             <commit>latest-v2.X</commit>
           </dependee>
           <dependee>
@@ -865,8 +1110,74 @@
     </versions>
   </depender>
   <depender>
-    <id>ota</id>
+    <id>anycloud-ota</id>
     <versions>
+      <version>
+        <commit>latest-v4.X</commit>
+        <dependees>
+          <dependee>
+            <id>bluetooth-freertos</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
+            <id>connectivity-utilities</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
+            <id>http-client</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mqtt</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
+            <id>retarget-io</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>serial-flash</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>wifi-connection-manager</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v4.1.0</commit>
+        <dependees>
+          <dependee>
+            <id>bluetooth-freertos</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
+            <id>connectivity-utilities</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
+            <id>http-client</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mqtt</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
+            <id>retarget-io</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>serial-flash</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>wifi-connection-manager</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+        </dependees>
+      </version>
       <version>
         <commit>release-v4.0.0</commit>
         <dependees>
@@ -891,36 +1202,7 @@
             <commit>latest-v1.X</commit>
           </dependee>
           <dependee>
-            <id>wcm</id>
-            <commit>latest-v2.X</commit>
-          </dependee>
-        </dependees>
-      </version>
-      <version>
-        <commit>latest-v4.X</commit>
-        <dependees>
-          <dependee>
-            <id>bluetooth-freertos</id>
-            <commit>latest-v3.X</commit>
-          </dependee>
-          <dependee>
-            <id>http-client</id>
-            <commit>latest-v1.X</commit>
-          </dependee>
-          <dependee>
-            <id>mqtt</id>
-            <commit>latest-v3.X</commit>
-          </dependee>
-          <dependee>
-            <id>retarget-io</id>
-            <commit>latest-v1.X</commit>
-          </dependee>
-          <dependee>
-            <id>serial-flash</id>
-            <commit>latest-v1.X</commit>
-          </dependee>
-          <dependee>
-            <id>wcm</id>
+            <id>wifi-connection-manager</id>
             <commit>latest-v2.X</commit>
           </dependee>
         </dependees>
@@ -945,7 +1227,7 @@
             <commit>latest-v1.X</commit>
           </dependee>
           <dependee>
-            <id>wcm</id>
+            <id>wifi-connection-manager</id>
             <commit>latest-v2.X</commit>
           </dependee>
         </dependees>
@@ -970,7 +1252,7 @@
             <commit>latest-v1.X</commit>
           </dependee>
           <dependee>
-            <id>wcm</id>
+            <id>wifi-connection-manager</id>
             <commit>latest-v2.X</commit>
           </dependee>
         </dependees>
@@ -991,7 +1273,7 @@
             <commit>latest-v1.X</commit>
           </dependee>
           <dependee>
-            <id>wcm</id>
+            <id>wifi-connection-manager</id>
             <commit>latest-v2.X</commit>
           </dependee>
         </dependees>
@@ -1012,7 +1294,7 @@
             <commit>latest-v1.X</commit>
           </dependee>
           <dependee>
-            <id>wcm</id>
+            <id>wifi-connection-manager</id>
             <commit>latest-v2.X</commit>
           </dependee>
         </dependees>
@@ -1033,7 +1315,7 @@
             <commit>latest-v1.X</commit>
           </dependee>
           <dependee>
-            <id>wcm</id>
+            <id>wifi-connection-manager</id>
             <commit>latest-v1.X</commit>
           </dependee>
         </dependees>
@@ -1054,7 +1336,7 @@
             <commit>latest-v1.X</commit>
           </dependee>
           <dependee>
-            <id>wcm</id>
+            <id>wifi-connection-manager</id>
             <commit>latest-v1.X</commit>
           </dependee>
         </dependees>
@@ -1068,7 +1350,16 @@
         <commit>latest-v3.X</commit>
         <dependees>
           <dependee>
-            <id>wcm</id>
+            <id>wifi-connection-manager</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v3.2.0</commit>
+        <dependees>
+          <dependee>
+            <id>wifi-connection-manager</id>
             <commit>latest-v2.X</commit>
           </dependee>
         </dependees>
@@ -1077,7 +1368,7 @@
         <commit>release-v3.1.1</commit>
         <dependees>
           <dependee>
-            <id>wcm</id>
+            <id>wifi-connection-manager</id>
             <commit>latest-v2.X</commit>
           </dependee>
         </dependees>
@@ -1086,7 +1377,7 @@
         <commit>release-v3.1.0</commit>
         <dependees>
           <dependee>
-            <id>wcm</id>
+            <id>wifi-connection-manager</id>
             <commit>latest-v2.X</commit>
           </dependee>
         </dependees>
@@ -1095,7 +1386,7 @@
         <commit>release-v3.0.0</commit>
         <dependees>
           <dependee>
-            <id>wcm</id>
+            <id>wifi-connection-manager</id>
             <commit>latest-v2.X</commit>
           </dependee>
         </dependees>
@@ -1104,7 +1395,7 @@
         <commit>latest-v2.X</commit>
         <dependees>
           <dependee>
-            <id>wcm</id>
+            <id>wifi-connection-manager</id>
             <commit>latest-v1.X</commit>
           </dependee>
         </dependees>
@@ -1113,7 +1404,7 @@
         <commit>release-v2.0.0</commit>
         <dependees>
           <dependee>
-            <id>wcm</id>
+            <id>wifi-connection-manager</id>
             <commit>latest-v1.X</commit>
           </dependee>
         </dependees>
@@ -1127,7 +1418,20 @@
         <commit>latest-v3.X</commit>
         <dependees>
           <dependee>
-            <id>wcm</id>
+            <id>wifi-connection-manager</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>command-console</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v3.2.0</commit>
+        <dependees>
+          <dependee>
+            <id>wifi-connection-manager</id>
             <commit>latest-v2.X</commit>
           </dependee>
           <dependee>
@@ -1140,7 +1444,7 @@
         <commit>release-v3.1.0</commit>
         <dependees>
           <dependee>
-            <id>wcm</id>
+            <id>wifi-connection-manager</id>
             <commit>latest-v2.X</commit>
           </dependee>
           <dependee>
@@ -1153,7 +1457,7 @@
         <commit>release-v3.0.0</commit>
         <dependees>
           <dependee>
-            <id>wcm</id>
+            <id>wifi-connection-manager</id>
             <commit>latest-v2.X</commit>
           </dependee>
           <dependee>
@@ -1171,7 +1475,16 @@
         <commit>latest-v3.X</commit>
         <dependees>
           <dependee>
-            <id>wcm</id>
+            <id>wifi-connection-manager</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v3.1.0</commit>
+        <dependees>
+          <dependee>
+            <id>wifi-connection-manager</id>
             <commit>latest-v2.X</commit>
           </dependee>
         </dependees>
@@ -1180,7 +1493,7 @@
         <commit>release-v3.0.1</commit>
         <dependees>
           <dependee>
-            <id>wcm</id>
+            <id>wifi-connection-manager</id>
             <commit>latest-v2.X</commit>
           </dependee>
         </dependees>
@@ -1189,7 +1502,7 @@
         <commit>release-v3.0.0</commit>
         <dependees>
           <dependee>
-            <id>wcm</id>
+            <id>wifi-connection-manager</id>
             <commit>latest-v2.X</commit>
           </dependee>
         </dependees>

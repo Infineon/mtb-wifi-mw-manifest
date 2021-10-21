@@ -3,14 +3,28 @@
     <name>connectivity-utilities</name>
     <id>connectivity-utilities</id>
     <uri>https://github.com/cypresssemiconductorco/connectivity-utilities</uri>
-    <desc>The connectivity utilities library is a collection of general purpose middleware utilities. Several connectivity middleware libraries shall depend on this utilities library. Currently, the following utilities are included: JSON parser, linked list, string utilities, network helpers and logging functions, and connectivity middleware error codes.</desc>
-    <category>WiFi Middleware libraries</category>
+    <desc><![CDATA[
+         The connectivity utilities library is a collection of general purpose middleware utilities. Several connectivity middleware libraries shall depend on this utilities library. Currently, the following utilities are included: JSON parser, linked list, string utilities, network helpers and logging functions, and connectivity middleware error codes.
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/connectivity-utilities/blob/master/README.md">Connectivity Utilities Library README.md</a></li>
+          <li><a href="https://github.com/Infineon/connectivity-utilities/blob/master/RELEASE.md">Connectivity Utilities Library RELEASE.md</a></li>
+          <li><a href="https://infineon.github.io/connectivity-utilities/api_reference_manual/html/index.html">Connectivity Utilities Library API reference guide</a></li>          
+        </ul>
+    ]]></desc>
+    <category>Utilities</category>
     <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.0.3 release</num>
+        <commit>release-v3.0.3</commit>
+        <desc>3.0.3 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>3.0.2 release</num>
@@ -53,10 +67,22 @@
     <name>aws-iot-device-sdk-embedded-C</name>
     <id>aws-iot-device-sdk-embedded-C</id>
     <uri>https://github.com/aws/aws-iot-device-sdk-embedded-C</uri>
-    <desc>The AWS IoT Device SDK for C is a collection of C99 source files that allow applications to securely connect to the AWS IoT platform. It includes an MQTT 3.1.1 client, as well as libraries specific to AWS IoT, such as Thing Shadows. It is distributed in source form and may be built into firmware along with application code. This library supersedes both the AWS IoT Device SDK Embedded C and the libraries provided with FreeRTOS.</desc>
-    <category>WiFi Middleware libraries</category>
+    <desc><![CDATA[
+         The AWS IoT Device SDK for Embedded C is a collection of C99 source files that allow applications to securely connect to the AWS IoT platform. It includes an MQTT 3.1.1 client, as well as libraries specific to AWS IoT, such as Thing Shadows. It is distributed in source form and may be built into firmware along with application code. This library supersedes both the AWS IoT Device SDK Embedded C and the libraries provided with FreeRTOS.
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/aws/aws-iot-device-sdk-embedded-C">AWS IoT Device SDK for Embedded C Library Information</a></li>
+        </ul>
+    ]]></desc>
+    <category>Middleware</category>
     <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
     <versions>
+      <version flow_version="1.0,2.0">
+        <num>202103.00</num>
+        <commit>202103.00</commit>
+        <desc>202103.00 release</desc>
+      </version>
       <version flow_version="1.0,2.0">
         <num>202011.00</num>
         <commit>202011.00</commit>
@@ -66,6 +92,28 @@
         <num>v4_beta release</num>
         <commit>4c750b6f3f5a103fa35549aac96a4ad7f2c7afce</commit>
         <desc>v4_beta release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>azure-sdk-for-c</name>
+    <id>azure-sdk-for-c</id>
+    <uri>https://github.com/Azure/azure-sdk-for-c</uri>
+    <desc><![CDATA[
+        The Azure SDK for Embedded C is designed to allow small embedded (IoT) devices to communicate with Azure services. Since we expect our client library code to run on microcontrollers, which have very limited amounts of flash and RAM, and have slower CPUs, our C SDK does things very differently than the SDKs we offer for other languages.
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Azure/azure-sdk-for-c">Azure SDK for Embedded C Library Information</a></li>
+        </ul>
+    ]]></desc>
+    <category>Middleware</category>
+    <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>1.1.0</num>
+        <commit>1.1.0</commit>
+        <desc>1.1.0 release</desc>
       </version>
     </versions>
   </middleware>
