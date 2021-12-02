@@ -13,7 +13,7 @@
         </ul>
     ]]></desc>
     <category>Core</category>
-    <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
+    <req_capabilities>wifi</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
         <num>Stable 2.1.2 release</num>
@@ -35,7 +35,7 @@
         </ul>
     ]]></desc>
     <category>Core</category>
-    <req_capabilities>psoc6</req_capabilities>
+    <req_capabilities>wifi</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
         <num>Stable 2.25.0 release</num>
@@ -84,12 +84,17 @@
        </ul>
     ]]></desc>
     <category>Wi-Fi</category>
-    <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
+    <req_capabilities>wifi</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+        <desc>2.1.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>2.0.0 release</num>
@@ -153,12 +158,17 @@
         </ul>
     ]]></desc>
     <category>Wi-Fi</category>
-    <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
+    <req_capabilities>wifi</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.2.0 release</num>
+        <commit>release-v3.2.0</commit>
+        <desc>3.2.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>3.1.1 release</num>
@@ -217,12 +227,17 @@
         </ul>
     ]]></desc>
     <category>Middleware</category>
-    <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
+    <req_capabilities>wifi</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.4.0 release</num>
+        <commit>release-v2.4.0</commit>
+        <desc>2.4.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>2.3.0 release</num>
@@ -276,7 +291,7 @@
         <div class="category">Additional Information:</div>
         <ul>
           <li><a href="https://github.com/Infineon/lpa/blob/master/README.md">LPA README.md</a></li>
-		  <li><a href="https://github.com/Infineon/lpa/blob/master/RELEASE.md">LPA RELEASE.md</a></li>
+          <li><a href="https://github.com/Infineon/lpa/blob/master/RELEASE.md">LPA RELEASE.md</a></li>
           <li><a href="https://infineon.github.io/lpa/lpa_api_reference_manual/html/index.html">LPA API reference guide</a></li>
         </ul>
     ]]></desc>
@@ -413,12 +428,17 @@
         </ul>
     ]]></desc>
     <category>Middleware</category>
-    <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
+    <req_capabilities>wifi</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+        <desc>2.1.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>2.0.4 release</num>
@@ -482,12 +502,17 @@
         </ul>
     ]]></desc>
     <category>Middleware</category>
-    <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
+    <req_capabilities>wifi</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+        <desc>2.1.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>2.0.1 release</num>
@@ -536,12 +561,17 @@
         </ul>
     ]]></desc>
     <category>Middleware</category>
-    <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
+    <req_capabilities>wifi</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.3.0 release</num>
+        <commit>release-v3.3.0</commit>
+        <desc>3.3.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>3.2.0 release</num>
@@ -654,12 +684,17 @@
         </ul>
     ]]></desc>
     <category>Middleware</category>
-    <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
+    <req_capabilities>wifi</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+        <desc>2.1.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>2.0.0 release</num>
