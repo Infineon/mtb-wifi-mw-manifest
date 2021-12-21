@@ -22,6 +22,11 @@
         <desc>Latest 3.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>3.2.0 release</num>
+        <commit>release-v3.2.0</commit>
+        <desc>3.2.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>3.1.0 release</num>
         <commit>release-v3.1.0</commit>
         <desc>3.1.0 release</desc>
@@ -116,7 +121,7 @@
     <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
-        <num>1.1.0</num>
+        <num>1.1.0 release</num>
         <commit>1.1.0</commit>
         <desc>1.1.0 release</desc>
       </version>

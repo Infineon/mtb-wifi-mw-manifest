@@ -92,6 +92,11 @@
         <desc>Latest 2.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
+        <desc>2.2.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
         <desc>2.1.0 release</desc>
@@ -166,6 +171,11 @@
         <desc>Latest 3.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>3.3.0 release</num>
+        <commit>release-v3.3.0</commit>
+        <desc>3.3.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>3.2.0 release</num>
         <commit>release-v3.2.0</commit>
         <desc>3.2.0 release</desc>
@@ -233,6 +243,11 @@
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.5.0 release</num>
+        <commit>release-v2.5.0</commit>
+        <desc>2.5.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>2.4.0 release</num>
@@ -358,6 +373,11 @@
         <desc>Latest 3.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>3.3.0 release</num>
+        <commit>release-v3.3.0</commit>
+        <desc>3.3.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>3.2.0 release</num>
         <commit>release-v3.2.0</commit>
         <desc>3.2.0 release</desc>
@@ -379,7 +399,7 @@
     <id>wifi-mfg-test</id>
     <uri>https://github.com/cypresssemiconductorco/wifi-mfg-test</uri>
     <desc><![CDATA[
-    WiFi manufacturing test library is used by WiFi Mfg tester tool running on PSoC&#8482; 6 MCU + WiFi & Bluetooth combo devices. The application should be run in tandem with the host based 'wl' tool running on Windows 10 machines. This test tool is used to validate WLAN firmware and WLAN radio performance. Refer to the documentation for currently supported devices.
+    WiFi manufacturing test library is used by WiFi Mfg tester tool running on PSoC&#8482; 6 MCU + WiFi & Bluetooth&#174; combo devices. The application should be run in tandem with the host based 'wl' tool running on Windows 10 machines. This test tool is used to validate WLAN firmware and WLAN radio performance. Refer to the documentation for currently supported devices.
     <br/>
     <div class="category">Additional Information:</div>
         <ul>
@@ -395,6 +415,11 @@
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.2.0 release</num>
+        <commit>release-v3.2.0</commit>
+        <desc>3.2.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>3.1.0 release</num>
@@ -434,6 +459,11 @@
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
+        <desc>2.2.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>2.1.0 release</num>
@@ -510,6 +540,11 @@
         <desc>Latest 2.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
+        <desc>2.2.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
         <desc>2.1.0 release</desc>
@@ -567,6 +602,11 @@
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.4.0 release</num>
+        <commit>release-v3.4.0</commit>
+        <desc>3.4.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>3.3.0 release</num>
@@ -653,6 +693,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
+        <desc>1.2.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>1.1.1 release</num>
         <commit>release-v1.1.1</commit>
         <desc>1.1.1 release</desc>
@@ -690,6 +735,11 @@
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
+        <desc>2.2.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>2.1.0 release</num>
@@ -741,6 +791,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
+        <desc>1.2.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
         <desc>1.1.0 release</desc>
@@ -757,7 +812,7 @@
     <id>smartcoex</id>
     <uri>https://github.com/cypresssemiconductorco/smartcoex</uri>
     <desc><![CDATA[
-        This library provides an API that user can use to configure the coex parameters for WLAN and BLE on PSoC&#8482; 6 MCU based platforms with Wi-Fi & Bluetooth&#174; combo chip. Refer to the links give below for details.
+        This library provides an API that user can use to configure the coex parameters for WLAN and Bluetooth&#174; Low Energy on PSoC&#8482; 6 MCU based platforms with Wi-Fi & Bluetooth&#174; combo chip. Refer to the links give below for details.
         <br/>
         <div class="category">Additional Information:</div>
         <ul>
@@ -814,6 +869,11 @@
         <desc>Latest 2.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+        <desc>2.1.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>2.0.1 release</num>
         <commit>release-v2.0.1</commit>
         <desc>2.0.1 release</desc>
@@ -830,7 +890,7 @@
     <id>anycloud-ota</id>
     <uri>https://github.com/cypresssemiconductorco/anycloud-ota</uri>
     <desc><![CDATA[
-        The OTA library provides support for Over-The-Air update of the application code running on a PSoC&#8482; 6 MCU with AIROC&#8482; CYW4343W or CYW43012 Wi-Fi & Bluetooth&#174; combo chip, using Wi-Fi or Bluetooth. Please see current documentation for currently supported devices. OTA requires the use of mcuboot
+        The OTA library provides support for Over-The-Air update of the application code running on a PSoC&#8482; 6 MCU with AIROC&#8482; CYW4343W or CYW43012 Wi-Fi & Bluetooth&#174; combo chip, using Wi-Fi or Bluetooth&#174;. Please see current documentation for currently supported devices. OTA requires the use of mcuboot
         <br/>
         <div class="category">Additional Information:</div>
         <ul>
@@ -846,6 +906,11 @@
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
         <desc>Latest 4.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>4.2.0 release</num>
+        <commit>release-v4.2.0</commit>
+        <desc>4.2.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>4.1.0 release</num>
@@ -894,7 +959,7 @@
     <id>command-console</id>
     <uri>https://github.com/cypresssemiconductorco/command-console</uri>
     <desc><![CDATA[
-        This library provides a framework to add command console support to the application (or) product usecases. Wi-Fi, iPerf and BLE command support are bundled with this library.
+        This library provides a framework to add command console support to the application (or) product usecases. Wi-Fi, iPerf and Bluetooth&#174; Low Energy command support are bundled with this library.
         <br/>
         <div class="category">Additional Information:</div>
         <ul>
@@ -910,6 +975,11 @@
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.x release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
+        <desc>3.1.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>3.0.1 release</num>
