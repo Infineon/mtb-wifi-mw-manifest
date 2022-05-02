@@ -419,8 +419,7 @@
         <div class="category">Additional Information:</div>
         <ul>
           <li><a href="https://github.com/Infineon/wpa3-external-supplicant/blob/master/README.md">WPA3 External Supplicant Library README.md</a></li>
-          <li><a href="https://github.com/Infineon/wpa3-external-supplicant/blob/master/RELEASE.md">WPA3 External Supplicant RELEASE.md</a></li>
-          <li><a href="https://Infineon.github.io/wpa3-external-supplicant/api_reference_manual/html/index.html">WPA3 External Supplicant API reference guide</a></li>          
+          <li><a href="https://github.com/Infineon/wpa3-external-supplicant/blob/master/RELEASE.md">WPA3 External Supplicant RELEASE.md</a></li>     
         </ul>
     ]]></desc>
     <category>Wi-Fi</category>
