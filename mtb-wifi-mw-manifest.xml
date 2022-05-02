@@ -91,6 +91,11 @@
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
       </version>
+	  <version flow_version="1.0,2.0">
+        <num>2.3.0 release</num>
+        <commit>release-v2.3.0</commit>
+        <desc>2.3.0 release</desc>
+      </version>
       <version flow_version="1.0,2.0">
         <num>2.2.0 release</num>
         <commit>release-v2.2.0</commit>
@@ -169,6 +174,11 @@
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.4.0 release</num>
+        <commit>release-v3.4.0</commit>
+        <desc>3.4.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>3.3.0 release</num>
@@ -372,6 +382,11 @@
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
       </version>
+	  <version flow_version="1.0,2.0">
+        <num>3.4.0 release</num>
+        <commit>release-v3.4.0</commit>
+        <desc>3.4.0 release</desc>
+      </version>
       <version flow_version="1.0,2.0">
         <num>3.3.0 release</num>
         <commit>release-v3.3.0</commit>
@@ -395,6 +410,36 @@
     </versions>
   </middleware>
   <middleware>
+    <name>wpa3-external-supplicant</name>
+    <id>wpa3-external-supplicant</id>
+    <uri>https://github.com/Infineon/wpa3-external-supplicant</uri>
+    <desc><![CDATA[
+        The WPA3 External Supplicant supports WPA3 SAE authentication using HnP (Hunting and Pecking Method) using RFC https://datatracker.ietf.org/doc/html/rfc7664 and H2E ( Hash to Element Method)  using RFC https://datatracker.ietf.org/doc/html/draft-irtf-cfrg-hash-to-curve-10 and following 802.11 spec 2016.
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/wpa3-external-supplicant/blob/master/README.md">WPA3 External Supplicant Library README.md</a></li>
+          <li><a href="https://github.com/Infineon/wpa3-external-supplicant/blob/master/RELEASE.md">WPA3 External Supplicant RELEASE.md</a></li>
+          <li><a href="https://Infineon.github.io/wpa3-external-supplicant/api_reference_manual/html/index.html">WPA3 External Supplicant API reference guide</a></li>          
+        </ul>
+    ]]></desc>
+    <category>Wi-Fi</category>
+    <req_capabilities>psoc6 cyw43012 wifi</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+  <middleware>
     <name>wifi-mfg-test</name>
     <id>wifi-mfg-test</id>
     <uri>https://github.com/cypresssemiconductorco/wifi-mfg-test</uri>
@@ -415,6 +460,11 @@
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+	  <version flow_version="1.0,2.0">
+        <num>3.3.0 release</num>
+        <commit>release-v3.3.0</commit>
+        <desc>3.3.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>3.2.0 release</num>
@@ -459,6 +509,11 @@
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.3.0 release</num>
+        <commit>release-v2.3.0</commit>
+        <desc>2.3.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>2.2.0 release</num>
@@ -604,6 +659,11 @@
         <desc>Latest 3.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>3.4.1 release</num>
+        <commit>release-v3.4.1</commit>
+        <desc>3.4.1 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>3.4.0 release</num>
         <commit>release-v3.4.0</commit>
         <desc>3.4.0 release</desc>
@@ -735,6 +795,11 @@
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.2.1 release</num>
+        <commit>release-v2.2.1</commit>
+        <desc>2.2.1 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>2.2.0 release</num>
@@ -902,6 +967,16 @@
     <category>Middleware</category>
     <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
     <versions>
+	  <version flow_version="1.0,2.0">
+        <num>Latest 5.X release</num>
+        <commit>latest-v5.X</commit>
+        <desc>Latest 5.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>5.0.0 release</num>
+        <commit>release-v5.0.0</commit>
+        <desc>5.0.0 release</desc>
+      </version>
       <version flow_version="1.0,2.0">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
@@ -975,6 +1050,11 @@
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.x release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.2.0 release</num>
+        <commit>release-v3.2.0</commit>
+        <desc>3.2.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>3.1.0 release</num>
