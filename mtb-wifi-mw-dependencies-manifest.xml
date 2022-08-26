@@ -614,7 +614,7 @@
           </dependee>
         </dependees>
       </version>
-	  <version>
+      <version>
         <commit>release-v2.3.0</commit>
         <dependees>
           <dependee>
@@ -1450,7 +1450,7 @@
   <depender>
     <id>anycloud-ota</id>
     <versions>
-	  <version>
+      <version>
         <commit>latest-v5.X</commit>
         <dependees>
           <dependee>
@@ -1864,7 +1864,7 @@
           </dependee>
         </dependees>
       </version>
-	  <version>
+      <version>
         <commit>release-v3.4.0</commit>
         <dependees>
           <dependee>
@@ -1943,7 +1943,7 @@
           </dependee>
         </dependees>
       </version>
-	  <version>
+      <version>
         <commit>release-v3.3.0</commit>
         <dependees>
           <dependee>
