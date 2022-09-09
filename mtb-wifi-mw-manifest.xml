@@ -1104,7 +1104,7 @@
   <middleware>
     <name>ota-update</name>
     <id>ota-update</id>
-    <uri>http://git-ore.aus.cypress.com/repo-staging/ota-update</uri>
+    <uri>https://github.com/Infineon/ota-update</uri>
     <desc><![CDATA[
         The OTA library provides support for Over-The-Air update of the application code running on a PSoC™ 6 MCU with AIROC™ CYW4343W or CYW43012 Wi-Fi & Bluetooth® combo chip, using Wi-Fi or Bluetooth®. Please see current documentation for currently supported devices. OTA requires the use of mcuboot.
         <br/>
