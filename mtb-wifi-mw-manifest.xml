@@ -437,12 +437,22 @@
         <ul>
           <li><a href="https://github.com/Infineon/wifi-cert/blob/master/README.md">WiFi Cert Middleware Library README.md</a></li>
           <li><a href="https://github.com/Infineon/wifi-cert/blob/master/RELEASE.md">WiFi Cert Middleware RELEASE.md</a></li>
-          <li><a href="https://Infineon.github.io/wifi-cert/api_reference_manual/html/index.html">WiFi Cert API reference guide</a></li>          
+          <li><a href="https://Infineon.github.io/wifi-cert/api_reference_manual/html/index.html">WiFi Cert API reference guide</a></li>
         </ul>
     ]]></desc>
     <category>Wi-Fi</category>
     <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
     <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 4.X release</num>
+        <commit>latest-v4.X</commit>
+        <desc>Latest 4.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>4.0.0 release</num>
+        <commit>release-v4.0.0</commit>
+        <desc>4.0.0 release</desc>
+      </version>
       <version flow_version="1.0,2.0">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
@@ -485,7 +495,7 @@
         <div class="category">Additional Information:</div>
         <ul>
           <li><a href="https://github.com/Infineon/wpa3-external-supplicant/blob/master/README.md">WPA3 External Supplicant Library README.md</a></li>
-          <li><a href="https://github.com/Infineon/wpa3-external-supplicant/blob/master/RELEASE.md">WPA3 External Supplicant RELEASE.md</a></li>     
+          <li><a href="https://github.com/Infineon/wpa3-external-supplicant/blob/master/RELEASE.md">WPA3 External Supplicant RELEASE.md</a></li>
         </ul>
     ]]></desc>
     <category>Wi-Fi</category>
@@ -495,6 +505,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+        <desc>1.1.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>1.0.0 release</num>
@@ -1217,7 +1232,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware>
+  <middleware req_capabilities_v2="[bt, wifi] [psoc6, cyw20829]">
     <name>ota-update</name>
     <id>ota-update</id>
     <uri>https://github.com/Infineon/ota-update</uri>
@@ -1232,14 +1247,24 @@
         </ul>
     ]]></desc>
     <category>Middleware</category>
-    <req_capabilities>psoc6 cyw43xxx 20829 wifi bt</req_capabilities>
+    <req_capabilities/>
     <versions>
-      <version flow_version="1.0,2.0">
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+        <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+        <desc>2.0.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0" req_capabilities_per_version_v2="[cyw43xxx, cyw20829]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
       </version>
-      <version flow_version="1.0,2.0">
+      <version flow_version="1.0,2.0" req_capabilities_per_version_v2="[cyw43xxx, cyw20829]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
         <desc>1.0.0 release</desc>

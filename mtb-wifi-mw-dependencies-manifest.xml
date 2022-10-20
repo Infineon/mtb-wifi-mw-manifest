@@ -1852,6 +1852,32 @@
     <id>wifi-cert</id>
     <versions>
       <version>
+       <commit>latest-v4.X</commit>
+        <dependees>
+          <dependee>
+            <id>wifi-core-freertos-lwip-mbedtls</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>command-console</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+        </dependees>       
+      </version>
+      <version>
+        <commit>release-v4.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>wifi-core-freertos-lwip-mbedtls</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>command-console</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+        </dependees>       
+      </version>
+      <version>
         <commit>latest-v3.X</commit>
         <dependees>
           <dependee>
@@ -2012,35 +2038,15 @@
     <id>ota-update</id>
     <versions>
       <version>
-        <commit>latest-v1.X</commit>
+        <commit>latest-v2.X</commit>
         <dependees>
-          <dependee>
-            <id>abstraction-rtos</id>
-            <commit>latest-v1.X</commit>
-          </dependee>
-          <dependee>
-            <id>aws-iot-device-sdk-embedded-C</id>
-            <commit>202103.00</commit>
-          </dependee>
-          <dependee>
-            <id>aws-iot-device-sdk-port</id>
-            <commit>latest-v2.X</commit>
-          </dependee>
-          <dependee>
-            <id>btstack</id>
-            <commit>latest-v2.X</commit>
-          </dependee>
           <dependee>
             <id>btstack-integration</id>
             <commit>latest-v4.X</commit>
           </dependee>
           <dependee>
             <id>connectivity-utilities</id>
-            <commit>latest-v3.X</commit>
-          </dependee>
-          <dependee>
-            <id>freertos</id>
-            <commit>latest-v10.X</commit>
+            <commit>latest-v4.X</commit>
           </dependee>
           <dependee>
             <id>http-client</id>
@@ -2055,8 +2061,66 @@
             <commit>latest-v1.X</commit>
           </dependee>
           <dependee>
-            <id>wifi-connection-manager</id>
-            <commit>latest-v2.X</commit>
+            <id>wifi-core-freertos-lwip-mbedtls</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v2.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>btstack-integration</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+          <dependee>
+            <id>connectivity-utilities</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+          <dependee>
+            <id>http-client</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mqtt</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
+            <id>retarget-io</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>wifi-core-freertos-lwip-mbedtls</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>btstack-integration</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+          <dependee>
+            <id>connectivity-utilities</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+          <dependee>
+            <id>http-client</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mqtt</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
+            <id>retarget-io</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>wifi-core-freertos-lwip-mbedtls</id>
+            <commit>latest-v1.X</commit>
           </dependee>
         </dependees>
       </version>
@@ -2064,32 +2128,12 @@
         <commit>release-v1.0.0</commit>
         <dependees>
           <dependee>
-            <id>abstraction-rtos</id>
-            <commit>latest-v1.X</commit>
-          </dependee>
-          <dependee>
-            <id>aws-iot-device-sdk-embedded-C</id>
-            <commit>202103.00</commit>
-          </dependee>
-          <dependee>
-            <id>aws-iot-device-sdk-port</id>
-            <commit>latest-v2.X</commit>
-          </dependee>
-          <dependee>
-            <id>btstack</id>
-            <commit>latest-v2.X</commit>
-          </dependee>
-          <dependee>
             <id>btstack-integration</id>
             <commit>latest-v4.X</commit>
           </dependee>
           <dependee>
             <id>connectivity-utilities</id>
-            <commit>latest-v3.X</commit>
-          </dependee>
-          <dependee>
-            <id>freertos</id>
-            <commit>latest-v10.X</commit>
+            <commit>latest-v4.X</commit>
           </dependee>
           <dependee>
             <id>http-client</id>
@@ -2104,8 +2148,8 @@
             <commit>latest-v1.X</commit>
           </dependee>
           <dependee>
-            <id>wifi-connection-manager</id>
-            <commit>latest-v2.X</commit>
+            <id>wifi-core-freertos-lwip-mbedtls</id>
+            <commit>latest-v1.X</commit>
           </dependee>
         </dependees>
       </version>
