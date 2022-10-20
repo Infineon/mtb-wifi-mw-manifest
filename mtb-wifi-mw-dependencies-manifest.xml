@@ -606,7 +606,7 @@
     <id>wifi-host-driver</id>
     <versions>
       <version>
-        <commit>release-v2.4.0</commit>
+        <commit>latest-v2.X</commit>
         <dependees>
           <dependee>
             <id>abstraction-rtos</id>
@@ -615,7 +615,16 @@
         </dependees>
       </version>
       <version>
-        <commit>latest-v2.X</commit>
+        <commit>release-v2.5.0</commit>
+        <dependees>
+          <dependee>
+            <id>abstraction-rtos</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v2.4.0</commit>
         <dependees>
           <dependee>
             <id>abstraction-rtos</id>
@@ -743,9 +752,14 @@
             <id>aws-iot-device-sdk-port</id>
             <commit>latest-v2.X</commit>
           </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v3.4.2</commit>
+        <dependees>
           <dependee>
-            <id>wifi-mw-core</id>
-            <commit>latest-v3.X</commit>
+            <id>aws-iot-device-sdk-port</id>
+            <commit>latest-v2.X</commit>
           </dependee>
         </dependees>
       </version>
@@ -943,9 +957,14 @@
             <id>aws-iot-device-sdk-port</id>
             <commit>latest-v2.X</commit>
           </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.2.1</commit>
+        <dependees>
           <dependee>
-            <id>wifi-mw-core</id>
-            <commit>latest-v3.X</commit>
+            <id>aws-iot-device-sdk-port</id>
+            <commit>latest-v2.X</commit>
           </dependee>
         </dependees>
       </version>
@@ -1020,6 +1039,19 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v1.2.1</commit>
+        <dependees>
+          <dependee>
+            <id>azure-sdk-for-c</id>
+            <commit>1.1.0</commit>
+          </dependee>
+          <dependee>
+            <id>http-client</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v1.2.0</commit>
         <dependees>
           <dependee>
@@ -1065,6 +1097,15 @@
     <versions>
       <version>
         <commit>latest-v2.X</commit>
+        <dependees>
+          <dependee>
+            <id>aws-iot-device-sdk-embedded-C</id>
+            <commit>202103.00</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v2.2.2</commit>
         <dependees>
           <dependee>
             <id>aws-iot-device-sdk-embedded-C</id>
@@ -1236,94 +1277,26 @@
     </versions>
   </depender>
   <depender>
-    <id>http-server</id>
-    <versions>
-      <version>
-        <commit>latest-v2.X</commit>
-        <dependees>
-          <dependee>
-            <id>wifi-mw-core</id>
-            <commit>latest-v3.X</commit>
-          </dependee>
-        </dependees>
-      </version>
-      <version>
-        <commit>release-v2.2.0</commit>
-        <dependees>
-          <dependee>
-            <id>wifi-mw-core</id>
-            <commit>latest-v3.X</commit>
-          </dependee>
-        </dependees>
-      </version>
-      <version>
-        <commit>release-v2.1.0</commit>
-        <dependees>
-          <dependee>
-            <id>wifi-mw-core</id>
-            <commit>latest-v3.X</commit>
-          </dependee>
-        </dependees>
-      </version>
-      <version>
-        <commit>release-v2.0.1</commit>
-        <dependees>
-          <dependee>
-            <id>wifi-mw-core</id>
-            <commit>latest-v3.X</commit>
-          </dependee>
-        </dependees>
-      </version>
-      <version>
-        <commit>release-v2.0.0</commit>
-        <dependees>
-          <dependee>
-            <id>wifi-mw-core</id>
-            <commit>latest-v3.X</commit>
-          </dependee>
-        </dependees>
-      </version>
-      <version>
-        <commit>latest-v1.X</commit>
-        <dependees>
-          <dependee>
-            <id>wifi-mw-core</id>
-            <commit>latest-v2.X</commit>
-          </dependee>
-        </dependees>
-      </version>
-      <version>
-        <commit>release-v1.1.1</commit>
-        <dependees>
-          <dependee>
-            <id>wifi-mw-core</id>
-            <commit>latest-v2.X</commit>
-          </dependee>
-        </dependees>
-      </version>
-      <version>
-        <commit>release-v1.1.0</commit>
-        <dependees>
-          <dependee>
-            <id>wifi-mw-core</id>
-            <commit>latest-v2.X</commit>
-          </dependee>
-        </dependees>
-      </version>
-      <version>
-        <commit>release-v1.0.1</commit>
-        <dependees>
-          <dependee>
-            <id>wifi-mw-core</id>
-            <commit>latest-v2.X</commit>
-          </dependee>
-        </dependees>
-      </version>
-    </versions>
-  </depender>
-  <depender>
     <id>command-console</id>
     <versions>
+      <version>
+        <commit>latest-v4.X</commit>
+        <dependees>
+          <dependee>
+            <id>btstack-integration</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v4.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>btstack-integration</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+        </dependees>
+      </version>
       <version>
         <commit>latest-v3.X</commit>
         <dependees>
@@ -2097,6 +2070,133 @@
           <dependee>
             <id>wifi-connection-manager</id>
             <commit>latest-v2.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
+  <depender>
+    <id>wifi-core-freertos-lwip-mbedtls</id>
+    <versions>
+      <version>
+        <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>abstraction-rtos</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>clib-support</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>connectivity-utilities</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+          <dependee>
+            <id>cy-mbedtls-acceleration</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>freertos</id>
+            <commit>latest-v10.X</commit>
+          </dependee>
+          <dependee>
+            <id>lwip</id>
+            <commit>STABLE-2_1_2_RELEASE</commit>
+          </dependee>
+          <dependee>
+            <id>lwip-freertos-integration</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>lwip-network-interface-integration</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mbedtls</id>
+            <commit>mbedtls-2.25.0</commit>
+          </dependee>
+          <dependee>
+            <id>secure-sockets</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
+            <id>whd-bsp-integration</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>wifi-connection-manager</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
+            <id>wifi-host-driver</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>wpa3-external-supplicant</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>abstraction-rtos</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>clib-support</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>connectivity-utilities</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+          <dependee>
+            <id>cy-mbedtls-acceleration</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>freertos</id>
+            <commit>latest-v10.X</commit>
+          </dependee>
+          <dependee>
+            <id>lwip-freertos-integration</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>lwip-network-interface-integration</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>lwip</id>
+            <commit>STABLE-2_1_2_RELEASE</commit>
+          </dependee>
+          <dependee>
+            <id>mbedtls</id>
+            <commit>mbedtls-2.25.0</commit>
+          </dependee>
+          <dependee>
+            <id>secure-sockets</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
+            <id>whd-bsp-integration</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>wifi-connection-manager</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
+            <id>wifi-host-driver</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>wpa3-external-supplicant</id>
+            <commit>latest-v1.X</commit>
           </dependee>
         </dependees>
       </version>
