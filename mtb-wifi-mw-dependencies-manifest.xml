@@ -1917,6 +1917,24 @@
     <id>wifi-mfg-test</id>
     <versions>
       <version>
+        <commit>latest-v4.X</commit>
+        <dependees>
+          <dependee>
+            <id>wifi-core-freertos-lwip-mbedtls</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v4.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>wifi-core-freertos-lwip-mbedtls</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>latest-v3.X</commit>
         <dependees>
           <dependee>
@@ -1958,7 +1976,7 @@
           <dependee>
             <id>wifi-connection-manager</id>
             <commit>latest-v2.X</commit>
-          </dependee>
+          </dependee>	
         </dependees>
       </version>
       <version>
