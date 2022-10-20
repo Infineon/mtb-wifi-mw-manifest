@@ -431,18 +431,29 @@
     <id>wifi-cert</id>
     <uri>https://github.com/cypresssemiconductorco/wifi-cert</uri>
     <desc><![CDATA[
-        WiFi Cert Tester library used by WiFi Cert Tester tool running on a PSoC&#8482; 6 MCU with CYW4343W or CYW43012 Wi-Fi & Bluetooth&#174; combo chip. WiFi Cert Tester library is used for Wi-Fi certification of 11n-PSK, 11n WPA2 Enterprise, PMF, WPA3 and 11ac. Please see current documentation for currently supported devices.
+    <desc><![CDATA[
+        WiFi Cert Tester library used by WiFi Cert Tester tool running on a PSoC™ 6 MCU with CYW4343W or CYW43012 Wi-Fi & Bluetooth® combo chip. WiFi Cert Tester library is used for Wi-Fi certification of 11n-PSK, 11n WPA2 Enterprise, PMF, WPA3 and 11ac. Please see current documentation for currently supported devices.
         <br/>
         <div class="category">Additional Information:</div>
         <ul>
           <li><a href="https://github.com/Infineon/wifi-cert/blob/master/README.md">WiFi Cert Middleware Library README.md</a></li>
           <li><a href="https://github.com/Infineon/wifi-cert/blob/master/RELEASE.md">WiFi Cert Middleware RELEASE.md</a></li>
-          <li><a href="https://Infineon.github.io/wifi-cert/api_reference_manual/html/index.html">WiFi Cert API reference guide</a></li>          
+          <li><a href="https://Infineon.github.io/wifi-cert/api_reference_manual/html/index.html">WiFi Cert API reference guide</a></li>
         </ul>
     ]]></desc>
     <category>Wi-Fi</category>
     <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
     <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 4.X release</num>
+        <commit>latest-v4.X</commit>
+        <desc>Latest 4.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>4.0.0 release</num>
+        <commit>release-v4.0.0</commit>
+        <desc>4.0.0 release</desc>
+      </version>
       <version flow_version="1.0,2.0">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
@@ -479,13 +490,15 @@
     <name>wpa3-external-supplicant</name>
     <id>wpa3-external-supplicant</id>
     <uri>https://github.com/Infineon/wpa3-external-supplicant</uri>
+    <uri>http://git-ore.aus.cypress.com/repo-staging/wpa3-external-supplicant</uri>
     <desc><![CDATA[
         The WPA3 External Supplicant supports WPA3 SAE authentication using HnP (Hunting and Pecking Method) using RFC https://datatracker.ietf.org/doc/html/rfc7664 and H2E ( Hash to Element Method)  using RFC https://datatracker.ietf.org/doc/html/draft-irtf-cfrg-hash-to-curve-10 and following 802.11 spec 2016.
         <br/>
         <div class="category">Additional Information:</div>
         <ul>
           <li><a href="https://github.com/Infineon/wpa3-external-supplicant/blob/master/README.md">WPA3 External Supplicant Library README.md</a></li>
-          <li><a href="https://github.com/Infineon/wpa3-external-supplicant/blob/master/RELEASE.md">WPA3 External Supplicant RELEASE.md</a></li>     
+          <li><a href="https://github.com/Infineon/wpa3-external-supplicant/blob/master/RELEASE.md">WPA3 External Supplicant RELEASE.md</a></li>
+          <li><a href="https://Infineon.github.io/wpa3-external-supplicant/api_reference_manual/html/index.html">WPA3 External Supplicant API reference guide</a></li>
         </ul>
     ]]></desc>
     <category>Wi-Fi</category>
@@ -495,6 +508,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+        <desc>1.1.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>1.0.0 release</num>
