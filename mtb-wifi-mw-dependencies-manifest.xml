@@ -1852,7 +1852,7 @@
     <id>wifi-cert</id>
     <versions>
       <version>
-       <commit>latest-v4.X</commit>
+        <commit>latest-v4.X</commit>
         <dependees>
           <dependee>
             <id>wifi-core-freertos-lwip-mbedtls</id>
@@ -1862,7 +1862,7 @@
             <id>command-console</id>
             <commit>latest-v4.X</commit>
           </dependee>
-        </dependees>       
+        </dependees>
       </version>
       <version>
         <commit>release-v4.0.0</commit>
@@ -1875,7 +1875,7 @@
             <id>command-console</id>
             <commit>latest-v4.X</commit>
           </dependee>
-        </dependees>       
+        </dependees>
       </version>
       <version>
         <commit>latest-v3.X</commit>
