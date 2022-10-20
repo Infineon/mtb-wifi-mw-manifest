@@ -431,8 +431,7 @@
     <id>wifi-cert</id>
     <uri>https://github.com/cypresssemiconductorco/wifi-cert</uri>
     <desc><![CDATA[
-    <desc><![CDATA[
-        WiFi Cert Tester library used by WiFi Cert Tester tool running on a PSoC™ 6 MCU with CYW4343W or CYW43012 Wi-Fi & Bluetooth® combo chip. WiFi Cert Tester library is used for Wi-Fi certification of 11n-PSK, 11n WPA2 Enterprise, PMF, WPA3 and 11ac. Please see current documentation for currently supported devices.
+        WiFi Cert Tester library used by WiFi Cert Tester tool running on a PSoC&#8482; 6 MCU with CYW4343W or CYW43012 Wi-Fi & Bluetooth&#174; combo chip. WiFi Cert Tester library is used for Wi-Fi certification of 11n-PSK, 11n WPA2 Enterprise, PMF, WPA3 and 11ac. Please see current documentation for currently supported devices.
         <br/>
         <div class="category">Additional Information:</div>
         <ul>
@@ -490,7 +489,6 @@
     <name>wpa3-external-supplicant</name>
     <id>wpa3-external-supplicant</id>
     <uri>https://github.com/Infineon/wpa3-external-supplicant</uri>
-    <uri>http://git-ore.aus.cypress.com/repo-staging/wpa3-external-supplicant</uri>
     <desc><![CDATA[
         The WPA3 External Supplicant supports WPA3 SAE authentication using HnP (Hunting and Pecking Method) using RFC https://datatracker.ietf.org/doc/html/rfc7664 and H2E ( Hash to Element Method)  using RFC https://datatracker.ietf.org/doc/html/draft-irtf-cfrg-hash-to-curve-10 and following 802.11 spec 2016.
         <br/>
