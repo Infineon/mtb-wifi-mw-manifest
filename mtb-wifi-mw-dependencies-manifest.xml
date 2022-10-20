@@ -1768,10 +1768,10 @@
       <version>
         <commit>latest-v4.X</commit>
         <dependees>
-          <dependee>
+         <dependee>
             <id>wifi-core-freertos-lwip-mbedtls</id>
             <commit>latest-v1.X</commit>
-          </dependee>
+         </dependee>
         </dependees>
       </version>
       <version>
