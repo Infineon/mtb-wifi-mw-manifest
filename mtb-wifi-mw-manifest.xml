@@ -45,6 +45,11 @@
         <desc>Latest 2.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>2.5.0 release</num>
+        <commit>release-v2.5.0</commit>
+        <desc>2.5.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>2.4.0 release</num>
         <commit>release-v2.4.0</commit>
         <desc>2.4.0 release</desc>
@@ -191,6 +196,117 @@
     </versions>
   </middleware>
   <middleware>
+    <name>wifi-core-freertos-lwip-mbedtls</name>
+    <id>wifi-core-freertos-lwip-mbedtls</id>
+    <uri>https://github.com/Infineon/wifi-core-freertos-lwip-mbedtls</uri>
+    <desc><![CDATA[
+        Wi-Fi core freertos lwip mbedtls bundle library comprises core components needed for Wi-Fi connectivity support. The library bundles FreeRTOS, lwIP TCP/IP stack, and mbed TLS for security, Wi-Fi Host Driver (WHD), Wi-Fi connection manager, Secure Sockets interface, and configuration files.
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/wifi-core-freertos-lwip-mbedtls/blob/master/README.md">Wi-Fi core freertos lwip mbedtls bundle library README.md</a></li>
+          <li><a href="https://github.com/Infineon/wifi-core-freertos-lwip-mbedtls/blob/master/RELEASE.md">Wi-Fi core freertos lwip mbedtls bundle library RELEASE.md</a></li>
+        </ul>
+    ]]></desc>
+    <category>Wi-Fi</category>
+    <req_capabilities>wifi</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware req_capabilities_v2="[wifi,ethernet]">
+    <name>lwip-network-interface-integration</name>
+    <id>lwip-network-interface-integration</id>
+    <uri>https://github.com/Infineon/lwip-network-interface-integration</uri>
+    <desc><![CDATA[
+        lwIP network interface integration library is an integration layer that links lwIP network stack with underlying Wi-Fi Host Driver(WHD) and Ethernet driver. This library interacts with FreeRTOS, lwIP TCP/IP stack, and mbed TLS for security, Wi-Fi host driver (WHD) and Ethernet Driver.
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/lwip-network-interface-integration/blob/master/README.md">lwIP network interface integration library README.md</a></li>
+          <li><a href="https://github.com/Infineon/lwip-network-interface-integration/blob/master/RELEASE.md">lwIP network interface integration library RELEASE.md</a></li>
+          <li><a href="https://infineon.github.io/lwip-network-interface-integration/api_reference_manual/html/index.html">lwIP network interface integration library API reference guide</a></li>
+        </ul>
+    ]]></desc>
+    <category>Middleware</category>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware req_capabilities_v2="[wifi,ethernet]">
+    <name>lwip-freertos-integration</name>
+    <id>lwip-freertos-integration</id>
+    <uri>https://github.com/Infineon/lwip-freertos-integration</uri>
+    <desc><![CDATA[
+        lwIP FreeRTOS integration library contains the FreeRTOS dependancies needed by the Lightweight open-source TCP/IP stack, version: 2.1.2 to execute.
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/lwip-freertos-integration/blob/master/README.md">lwIP FreeRTOS integration library README.md</a></li>
+          <li><a href="https://github.com/Infineon/lwip-freertos-integration/blob/master/RELEASE.md">lwIP FreeRTOS integration library RELEASE.md</a></li>
+        </ul>
+    ]]></desc>
+    <category>Middleware</category>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware req_capabilities_v2="[wifi,ethernet]">
+    <name>netxduo-network-interface-integration</name>
+    <id>netxduo-network-interface-integration</id>
+    <uri>https://github.com/Infineon/netxduo-network-interface-integration</uri>
+    <desc><![CDATA[
+        NetXDuo network interface integration library is an integration layer that links Azure RTOS NetX Duo network stack with underlying Wi-Fi Host Driver(WHD). This library interacts with ThreadX, Azure RTOS NetX Duo TCP/IP stack, and Wi-Fi host driver (WHD).
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/netxduo-network-interface-integration/blob/master/README.md">NetXDuo network interface integration library README.md</a></li>
+          <li><a href="https://github.com/Infineon/netxduo-network-interface-integration/blob/master/RELEASE.md">NetXDuo network interface integration library RELEASE.md</a></li>
+          <li><a href="https://infineon.github.io/netxduo-network-interface-integration/api_reference_manual/html/index.html">NetXDuo network interface integration library API reference guide</a></li>
+        </ul>
+    ]]></desc>
+    <category>Middleware</category>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
     <name>secure-sockets</name>
     <id>secure-sockets</id>
     <uri>https://github.com/cypresssemiconductorco/secure-sockets</uri>
@@ -207,6 +323,16 @@
     <category>Middleware</category>
     <req_capabilities>wifi</req_capabilities>
     <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+        <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+        <desc>3.0.0 release</desc>
+      </version>
       <version flow_version="1.0,2.0">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -462,6 +588,16 @@
     <req_capabilities>wifi</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+        <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+        <desc>3.0.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
@@ -551,6 +687,11 @@
         <desc>Latest 2.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>2.2.1 release</num>
+        <commit>release-v2.2.1</commit>
+        <desc>2.2.1 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>2.2.0 release</num>
         <commit>release-v2.2.0</commit>
         <desc>2.2.0 release</desc>
@@ -613,6 +754,11 @@
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.4.2 release</num>
+        <commit>release-v3.4.2</commit>
+        <desc>3.4.2 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>3.4.1 release</num>
@@ -709,6 +855,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>1.2.1 release</num>
+        <commit>release-v1.2.1</commit>
+        <desc>1.2.1 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>1.2.0 release</num>
         <commit>release-v1.2.0</commit>
         <desc>1.2.0 release</desc>
@@ -751,6 +902,11 @@
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.2.2 release</num>
+        <commit>release-v2.2.2</commit>
+        <desc>2.2.2 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>2.2.1 release</num>
@@ -810,6 +966,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.2.1 release</num>
+        <commit>release-v1.2.1</commit>
+        <desc>1.2.1 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>1.2.0 release</num>
@@ -1002,6 +1163,16 @@
     <category>Middleware</category>
     <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
     <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 4.X release</num>
+        <commit>latest-v4.X</commit>
+        <desc>Latest 4.x release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>4.0.0 release</num>
+        <commit>release-v4.0.0</commit>
+        <desc>4.0.0 release</desc>
+      </version>
       <version flow_version="1.0,2.0">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
