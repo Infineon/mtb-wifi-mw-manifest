@@ -1976,7 +1976,7 @@
           <dependee>
             <id>wifi-connection-manager</id>
             <commit>latest-v2.X</commit>
-          </dependee>	
+          </dependee>
         </dependees>
       </version>
       <version>
