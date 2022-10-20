@@ -1235,7 +1235,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware>
+  <middleware req_capabilities_v2="[bt, wifi] [psoc6, cyw20829]">
     <name>ota-update</name>
     <id>ota-update</id>
     <uri>https://github.com/Infineon/ota-update</uri>
@@ -1250,14 +1250,24 @@
         </ul>
     ]]></desc>
     <category>Middleware</category>
-    <req_capabilities>psoc6 cyw43xxx 20829 wifi bt</req_capabilities>
+    <req_capabilities/>
     <versions>
-      <version flow_version="1.0,2.0">
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+        <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+        <desc>2.0.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0" req_capabilities_per_version_v2="[cyw43xxx, cyw20829]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
       </version>
-      <version flow_version="1.0,2.0">
+      <version flow_version="1.0,2.0" req_capabilities_per_version_v2="[cyw43xxx, cyw20829]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
         <desc>1.0.0 release</desc>
