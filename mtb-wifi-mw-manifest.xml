@@ -278,34 +278,6 @@
       </version>
     </versions>
   </middleware>
-  <middleware req_capabilities_v2="[wifi,ethernet]">
-    <name>netxduo-network-interface-integration</name>
-    <id>netxduo-network-interface-integration</id>
-    <uri>https://github.com/Infineon/netxduo-network-interface-integration</uri>
-    <desc><![CDATA[
-        NetXDuo network interface integration library is an integration layer that links Azure RTOS NetX Duo network stack with underlying Wi-Fi Host Driver(WHD). This library interacts with ThreadX, Azure RTOS NetX Duo TCP/IP stack, and Wi-Fi host driver (WHD).
-        <br/>
-        <div class="category">Additional Information:</div>
-        <ul>
-          <li><a href="https://github.com/Infineon/netxduo-network-interface-integration/blob/master/README.md">NetXDuo network interface integration library README.md</a></li>
-          <li><a href="https://github.com/Infineon/netxduo-network-interface-integration/blob/master/RELEASE.md">NetXDuo network interface integration library RELEASE.md</a></li>
-          <li><a href="https://infineon.github.io/netxduo-network-interface-integration/api_reference_manual/html/index.html">NetXDuo network interface integration library API reference guide</a></li>
-        </ul>
-    ]]></desc>
-    <category>Middleware</category>
-    <versions>
-      <version flow_version="1.0,2.0">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-        <desc>Latest 1.X release</desc>
-      </version>
-      <version flow_version="1.0,2.0">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-        <desc>1.0.0 release</desc>
-      </version>
-    </versions>
-  </middleware>
   <middleware>
     <name>secure-sockets</name>
     <id>secure-sockets</id>
