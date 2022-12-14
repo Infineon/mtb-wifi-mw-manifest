@@ -1289,6 +1289,15 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v4.1.0</commit>
+        <dependees>
+          <dependee>
+            <id>btstack-integration</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v4.0.0</commit>
         <dependees>
           <dependee>
@@ -2029,6 +2038,101 @@
           <dependee>
             <id>wifi-connection-manager</id>
             <commit>latest-v2.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
+  <depender>
+    <id>ethernet-core-freertos-lwip-mbedtls</id>
+    <versions>
+      <version>
+        <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>abstraction-rtos</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>clib-support</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>connectivity-utilities</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+          <dependee>
+            <id>freertos</id>
+            <commit>latest-v10.X</commit>
+          </dependee>
+          <dependee>
+            <id>lwip</id>
+            <commit>STABLE-2_1_2_RELEASE</commit>
+          </dependee>
+          <dependee>
+            <id>lwip-freertos-integration</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>lwip-network-interface-integration</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mbedtls</id>
+            <commit>mbedtls-2.25.0</commit>
+          </dependee>
+          <dependee>
+            <id>secure-sockets</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
+            <id>ethernet-connection-manager</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>abstraction-rtos</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>clib-support</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>connectivity-utilities</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+          <dependee>
+            <id>freertos</id>
+            <commit>latest-v10.X</commit>
+          </dependee>
+          <dependee>
+            <id>lwip-freertos-integration</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>lwip-network-interface-integration</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>lwip</id>
+            <commit>STABLE-2_1_2_RELEASE</commit>
+          </dependee>
+          <dependee>
+            <id>mbedtls</id>
+            <commit>mbedtls-2.25.0</commit>
+          </dependee>
+          <dependee>
+            <id>secure-sockets</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
+            <id>ethernet-connection-manager</id>
+            <commit>latest-v1.X</commit>
           </dependee>
         </dependees>
       </version>

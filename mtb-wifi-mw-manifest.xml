@@ -245,6 +245,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+        <desc>1.1.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
         <desc>1.0.0 release</desc>
@@ -327,6 +332,12 @@
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+
+      <version flow_version="1.0,2.0">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
+        <desc>3.1.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>3.0.0 release</num>
@@ -1111,7 +1122,7 @@
         <br/>
         <div class="category">Additional Information:</div>
         <ul>
-          <li><a href="https://github.com/cypresssemiconductorco/anycloud-ota/blob/master/README.md">OTA API README.md</a></li>
+          <li><a href="https://github.com/infineon/anycloud-ota/blob/master/README.md">OTA API README.md</a></li>
           <li><a href="https://cypresssemiconductorco.github.io/anycloud-ota/api_reference_manual/html/index.html">OTA API reference guide</a></li>
           <li><a href="https://github.com/JuulLabs-OSS/mcuboot/blob/cypress/docs/design.md">MCUboot documentation</a></li>
         </ul>
@@ -1204,6 +1215,11 @@
         <desc>Latest 4.x release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>4.1.0 release</num>
+        <commit>release-v4.1.0</commit>
+        <desc>4.1.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>4.0.0 release</num>
         <commit>release-v4.0.0</commit>
         <desc>4.0.0 release</desc>
@@ -1260,6 +1276,63 @@
       </version>
     </versions>
   </middleware>
+  <middleware>
+    <name>ethernet-connection-manager</name>
+    <id>ethernet-connection-manager</id>
+    <uri>https://github.com/Infineon/ethernet-connection-manager</uri>
+    <desc><![CDATA[
+        This library provides a set of APIs that can be used to establish and monitor Ethernet connections on Infineon platforms that support Ethernet connectivity.
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/ethernet-connection-manager/blob/master/README.md">Ethernet connection manager library README.md</a></li>
+          <li><a href="https://github.com/Infineon/ethernet-connection-manager/blob/master/RELEASE.md">Ethernet connection manager library RELEASE.md</a></li>
+        </ul>
+    ]]></desc>
+    <category>Ethernet</category>
+    <req_capabilities>ethernet</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>ethernet-core-freertos-lwip-mbedtls</name>
+    <id>ethernet-core-freertos-lwip-mbedtls</id>
+    <uri>https://github.com/Infineon/ethernet-core-freertos-lwip-mbedtls</uri>
+    <desc><![CDATA[
+        Ethernet core freertos lwip mbedtls bundle library comprises core components needed for Ethernet connectivity support. The library bundles FreeRTOS, lwIP TCP/IP stack, and mbed TLS for security, Ethernet connection manager, Secure Sockets interface, and configuration files.
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/ethernet-core-freertos-lwip-mbedtls/blob/master/README.md">Ethernet core freertos lwip mbedtls bundle library README.md</a></li>
+          <li><a href="https://github.com/Infineon/ethernet-core-freertos-lwip-mbedtls/blob/master/RELEASE.md">Ethernet core freertos lwip mbedtls bundle library RELEASE.md</a></li>
+        </ul>
+    ]]></desc>
+    <category>Ethernet</category>
+    <req_capabilities>ethernet</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+
   <middleware req_capabilities_v2="[bt, wifi] [psoc6, cyw20829]">
     <name>ota-update</name>
     <id>ota-update</id>
