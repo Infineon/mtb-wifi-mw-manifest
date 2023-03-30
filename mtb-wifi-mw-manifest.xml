@@ -27,7 +27,7 @@
     <id>wifi-host-driver</id>
     <uri>https://github.com/cypresssemiconductorco/wifi-host-driver</uri>
     <desc><![CDATA[
-       Wi-Fi Host Driver(WHD) is an independent, embedded Wi-Fi Host Driver that provides a set of APIs to interact with Infineon WLAN chips. It is the low level driver required for any library or application that uses WiFi connectivity.
+       Wi-Fi Host Driver (WHD) is an independent, embedded Wi-Fi Host Driver that provides a set of APIs to interact with Infineon WLAN chips. It is the low level driver required for any library or application that uses WiFi connectivity.
        <br/>
        <div class="category">Additional Information:</div>
        <ul>
