@@ -22,6 +22,11 @@
         <desc>Latest 4.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>4.1.1 release</num>
+        <commit>release-v4.1.1</commit>
+        <desc>4.1.1 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>4.1.0 release</num>
         <commit>release-v4.1.0</commit>
         <desc>4.1.0 release</desc>
@@ -144,6 +149,33 @@
         <num>1.1.0 release</num>
         <commit>1.1.0</commit>
         <desc>1.1.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>virtual-connectivity-manager</name>
+    <id>virtual-connectivity-manager</id>
+    <uri>https://github.com/infineon/virtual-connectivity-manager</uri>
+    <desc><![CDATA[
+        Virtual-Connectivity-Manager (VCM) is a library that enables connectivity libraries to add multi-core support through virtualization. Virtualization allows access of connectivity stack running on one core from another core using Inter Process Communication (IPC).
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/infineon/virtual-connectivity-manager/blob/master/README.md">Virtual Connectivity Manager library README.md</a></li>
+        </ul>
+    ]]></desc>
+    <category>Middleware</category>
+    <req_capabilities>wifi</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
       </version>
     </versions>
   </middleware>

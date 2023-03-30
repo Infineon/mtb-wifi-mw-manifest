@@ -250,6 +250,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>1.1.2 release</num>
+        <commit>release-v1.1.2</commit>
+        <desc>1.1.2 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>1.1.1 release</num>
         <commit>release-v1.1.1</commit>
         <desc>1.1.1 release</desc>
@@ -315,6 +320,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+        <desc>1.1.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
         <desc>1.0.0 release</desc>
@@ -342,6 +352,11 @@
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.2.1 release</num>
+        <commit>release-v3.2.1</commit>
+        <desc>3.2.1 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>3.2.0 release</num>
@@ -653,6 +668,11 @@
         <desc>Latest 3.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
+        <desc>3.1.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>3.0.1 release</num>
         <commit>release-v3.0.1</commit>
         <desc>3.0.1 release</desc>
@@ -752,6 +772,11 @@
         <desc>Latest 2.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>2.2.2 release</num>
+        <commit>release-v2.2.2</commit>
+        <desc>2.2.2 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>2.2.1 release</num>
         <commit>release-v2.2.1</commit>
         <desc>2.2.1 release</desc>
@@ -815,6 +840,16 @@
     <category>Middleware</category>
     <req_capabilities>wifi</req_capabilities>
     <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 4.X release</num>
+        <commit>latest-v4.X</commit>
+        <desc>Latest 4.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>4.0.0 release</num>
+        <commit>release-v4.0.0</commit>
+        <desc>4.0.0 release</desc>
+      </version>
       <version flow_version="1.0,2.0">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
@@ -920,6 +955,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>1.2.2 release</num>
+        <commit>release-v1.2.2</commit>
+        <desc>1.2.2 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>1.2.1 release</num>
         <commit>release-v1.2.1</commit>
         <desc>1.2.1 release</desc>
@@ -967,6 +1007,11 @@
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.2.3 release</num>
+        <commit>release-v2.2.3</commit>
+        <desc>2.2.3 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>2.2.2 release</num>
