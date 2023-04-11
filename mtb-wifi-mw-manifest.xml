@@ -233,7 +233,7 @@
     <id>lwip-network-interface-integration</id>
     <uri>https://github.com/Infineon/lwip-network-interface-integration</uri>
     <desc><![CDATA[
-        lwIP network interface integration library is an integration layer that links lwIP network stack with underlying Wi-Fi Host Driver(WHD) and Ethernet driver. This library interacts with FreeRTOS, lwIP TCP/IP stack, and mbed TLS for security, Wi-Fi host driver (WHD) and Ethernet Driver.
+        lwIP network interface integration library is an integration layer which links lwIP network stack with underlying Wi-Fi Host Driver(WHD) and Ethernet driver. This library interacts with FreeRTOS, lwIP TCP/IP stack, and mbed TLS for security, Wi-Fi host driver (WHD) and Ethernet Driver.
         <br/>
         <div class="category">Additional Information:</div>
         <ul>
