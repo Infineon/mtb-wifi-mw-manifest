@@ -615,6 +615,15 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v2.6.1</commit>
+        <dependees>
+          <dependee>
+            <id>abstraction-rtos</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v2.6.0</commit>
         <dependees>
           <dependee>
