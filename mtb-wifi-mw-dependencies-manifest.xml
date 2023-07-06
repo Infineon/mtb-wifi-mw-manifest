@@ -773,6 +773,15 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v4.1.0</commit>
+        <dependees>
+          <dependee>
+            <id>aws-iot-device-sdk-port</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v4.0.0</commit>
         <dependees>
           <dependee>
@@ -996,6 +1005,15 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v1.3.0</commit>
+        <dependees>
+          <dependee>
+            <id>aws-iot-device-sdk-port</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v1.2.2</commit>
         <dependees>
           <dependee>
@@ -1142,6 +1160,15 @@
     <versions>
       <version>
         <commit>latest-v2.X</commit>
+        <dependees>
+          <dependee>
+            <id>aws-iot-device-sdk-embedded-C</id>
+            <commit>202103.00</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v2.2.4</commit>
         <dependees>
           <dependee>
             <id>aws-iot-device-sdk-embedded-C</id>
