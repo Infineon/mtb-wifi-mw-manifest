@@ -1361,6 +1361,24 @@
     <id>command-console</id>
     <versions>
       <version>
+        <commit>latest-v5.X</commit>
+        <dependees>
+          <dependee>
+            <id>btstack-integration</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v5.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>btstack-integration</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>latest-v4.X</commit>
         <dependees>
           <dependee>
