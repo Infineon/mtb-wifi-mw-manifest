@@ -1231,7 +1231,7 @@
         <br/>
         <div class="category">Additional Information:</div>
         <ul>
-          <li><a href="https://github.com/infineon/anycloud-ota/blob/master/README.md">OTA API README.md</a></li>
+          <li><a href="https://github.com/Infineon/anycloud-ota/blob/master/README.md">OTA API README.md</a></li>
           <li><a href="https://cypresssemiconductorco.github.io/anycloud-ota/api_reference_manual/html/index.html">OTA API reference guide</a></li>
           <li><a href="https://github.com/JuulLabs-OSS/mcuboot/blob/cypress/docs/design.md">MCUboot documentation</a></li>
         </ul>
@@ -1466,7 +1466,7 @@
         <br/>
         <div class="category">Additional Information:</div>
         <ul>
-          <li><a href="https://github.com/infineon/ota-update/blob/master/README.md">OTA API README.md</a></li>
+          <li><a href="https://github.com/Infineon/ota-update/blob/master/README.md">OTA API README.md</a></li>
           <li><a href="https://infineon.github.io/ota-update/api_reference_manual/html/index.html">OTA API reference guide</a></li>
           <li><a href="https://github.com/JuulLabs-OSS/mcuboot/blob/cypress/docs/design.md">MCUboot documentation</a></li>
         </ul>
@@ -1478,6 +1478,11 @@
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>3.0.1 release</num>
+        <commit>release-v3.0.1</commit>
+        <desc>3.0.1 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>3.0.0 release</num>

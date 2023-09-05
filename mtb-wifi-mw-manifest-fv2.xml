@@ -155,13 +155,13 @@
   <middleware>
     <name>virtual-connectivity-manager</name>
     <id>virtual-connectivity-manager</id>
-    <uri>https://github.com/infineon/virtual-connectivity-manager</uri>
+    <uri>https://github.com/Infineon/virtual-connectivity-manager</uri>
     <desc><![CDATA[
         Virtual-Connectivity-Manager (VCM) is a library that enables connectivity libraries to add multi-core support through virtualization. Virtualization allows access of connectivity stack running on one core from another core using Inter Process Communication (IPC).
         <br/>
         <div class="category">Additional Information:</div>
         <ul>
-          <li><a href="https://github.com/infineon/virtual-connectivity-manager/blob/master/README.md">Virtual Connectivity Manager library README.md</a></li>
+          <li><a href="https://github.com/Infineon/virtual-connectivity-manager/blob/master/README.md">Virtual Connectivity Manager library README.md</a></li>
         </ul>
     ]]></desc>
     <category>Middleware</category>

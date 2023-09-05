@@ -2279,6 +2279,35 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v3.0.1</commit>
+        <dependees>
+          <dependee>
+            <id>btstack-integration</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+          <dependee>
+            <id>connectivity-utilities</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+          <dependee>
+            <id>http-client</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mqtt</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+          <dependee>
+            <id>retarget-io</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>wifi-core-freertos-lwip-mbedtls</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v3.0.0</commit>
         <dependees>
           <dependee>
