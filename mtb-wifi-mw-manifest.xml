@@ -2,7 +2,7 @@
   <middleware>
     <name>lwip</name>
     <id>lwip</id>
-    <uri>https://git.savannah.nongnu.org/git/lwip</uri>
+    <uri>https://github.com/lwip-tcpip/lwip</uri>
     <desc><![CDATA[
         lwIP is a small independent open source implementation of the TCP/IP protocol suite. Using this library in a project will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license.
         <br/>
@@ -43,6 +43,11 @@
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.7.0 release</num>
+        <commit>release-v2.7.0</commit>
+        <desc>2.7.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>2.6.1 release</num>
@@ -227,6 +232,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+        <desc>1.1.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
         <desc>1.0.0 release</desc>
@@ -255,9 +265,9 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
-        <num>1.1.3 release</num>
-        <commit>release-v1.1.3</commit>
-        <desc>1.1.3 release</desc>
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
+        <desc>1.2.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>1.1.2 release</num>
@@ -369,6 +379,11 @@
         <desc>Latest 3.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>3.3.0 release</num>
+        <commit>release-v3.3.0</commit>
+        <desc>3.3.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>3.2.2 release</num>
         <commit>release-v3.2.2</commit>
         <desc>3.2.2 release</desc>
@@ -467,6 +482,16 @@
     <category>Middleware</category>
     <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
     <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 5.X release</num>
+        <commit>latest-v5.X</commit>
+        <desc>Latest 5.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>5.0.0 release</num>
+        <commit>release-v5.0.0</commit>
+        <desc>5.0.0 release</desc>
+      </version>
       <version flow_version="1.0,2.0">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
@@ -688,6 +713,11 @@
         <desc>Latest 3.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>3.2.0 release</num>
+        <commit>release-v3.2.0</commit>
+        <desc>3.2.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>3.1.1 release</num>
         <commit>release-v3.1.1</commit>
         <desc>3.1.1 release</desc>
@@ -797,6 +827,11 @@
         <desc>Latest 2.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>2.4.0 release</num>
+        <commit>release-v2.4.0</commit>
+        <desc>2.4.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>2.3.0 release</num>
         <commit>release-v2.3.0</commit>
         <desc>2.3.0 release</desc>
@@ -874,6 +909,11 @@
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
         <desc>Latest 4.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>4.2.0 release</num>
+        <commit>release-v4.2.0</commit>
+        <desc>4.2.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>4.1.0 release</num>
@@ -990,6 +1030,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>1.4.0 release</num>
+        <commit>release-v1.4.0</commit>
+        <desc>1.4.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>1.3.0 release</num>
         <commit>release-v1.3.0</commit>
         <desc>1.3.0 release</desc>
@@ -1047,6 +1092,11 @@
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.3.0 release</num>
+        <commit>release-v2.3.0</commit>
+        <desc>2.3.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>2.2.4 release</num>
@@ -1121,6 +1171,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
+        <desc>1.3.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>1.2.1 release</num>
@@ -1322,6 +1377,11 @@
         <num>Latest 5.X release</num>
         <commit>latest-v5.X</commit>
         <desc>Latest 5.x release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>5.1.0 release</num>
+        <commit>release-v5.1.0</commit>
+        <desc>5.1.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>5.0.0 release</num>
