@@ -33,12 +33,22 @@
        <ul>
          <li><a href="https://github.com/Infineon/wifi-host-driver/blob/master/README.md">WiFi Host Driver README.md</a></li>
          <li><a href="https://github.com/Infineon/wifi-host-driver/blob/master/RELEASE.md">WiFi Host Driver RELEASE.md</a></li>
-         <li><a href="https://cypresssemiconductorco.github.io/wifi-host-driver/html/index.html">Wi-Fi Host Driver API Reference Manual and Porting Guide</a></li>
+         <li><a href="https://infineon.github.io/wifi-host-driver/html/index.html">Wi-Fi Host Driver API Reference Manual and Porting Guide</a></li>
        </ul>
     ]]></desc>
     <category>Wi-Fi</category>
     <req_capabilities>wifi</req_capabilities>
     <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+        <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+        <desc>3.0.0 release</desc>
+      </version>
       <version flow_version="1.0,2.0">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -227,6 +237,16 @@
     <req_capabilities>wifi</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+        <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+        <desc>2.0.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
@@ -263,6 +283,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
+        <desc>1.3.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>1.2.0 release</num>
@@ -379,6 +404,11 @@
         <desc>Latest 3.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>3.4.0 release</num>
+        <commit>release-v3.4.0</commit>
+        <desc>3.4.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>3.3.0 release</num>
         <commit>release-v3.3.0</commit>
         <desc>3.3.0 release</desc>
@@ -476,7 +506,7 @@
         <ul>
           <li><a href="https://github.com/Infineon/lpa/blob/master/README.md">LPA README.md</a></li>
           <li><a href="https://github.com/Infineon/lpa/blob/master/RELEASE.md">LPA RELEASE.md</a></li>
-          <li><a href="https://infineon.github.io/lpa/lpa_api_reference_manual/html/index.html">LPA API reference guide</a></li>
+          <li><a href="https://infineon.github.io/lpa/api_reference_manual/html/index.html">LPA API reference guide</a></li>
         </ul>
     ]]></desc>
     <category>Middleware</category>
@@ -486,6 +516,11 @@
         <num>Latest 5.X release</num>
         <commit>latest-v5.X</commit>
         <desc>Latest 5.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>5.1.0 release</num>
+        <commit>release-v5.1.0</commit>
+        <desc>5.1.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>5.0.0 release</num>
@@ -620,6 +655,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
+        <desc>1.2.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
         <desc>1.1.0 release</desc>
@@ -711,6 +751,11 @@
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.3.0 release</num>
+        <commit>release-v3.3.0</commit>
+        <desc>3.3.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>3.2.0 release</num>
@@ -822,6 +867,16 @@
     <req_capabilities>wifi</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+        <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+        <desc>3.0.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
@@ -909,6 +964,11 @@
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
         <desc>Latest 4.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>4.3.0 release</num>
+        <commit>release-v4.3.0</commit>
+        <desc>4.3.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>4.2.0 release</num>
@@ -1030,6 +1090,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>1.5.0 release</num>
+        <commit>release-v1.5.0</commit>
+        <desc>1.5.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>1.4.0 release</num>
         <commit>release-v1.4.0</commit>
         <desc>1.4.0 release</desc>
@@ -1092,6 +1157,11 @@
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.4.0 release</num>
+        <commit>release-v2.4.0</commit>
+        <desc>2.4.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>2.3.0 release</num>
@@ -1171,6 +1241,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.4.0 release</num>
+        <commit>release-v1.4.0</commit>
+        <desc>1.4.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>1.3.0 release</num>
@@ -1379,6 +1454,11 @@
         <desc>Latest 5.x release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>5.2.0 release</num>
+        <commit>release-v5.2.0</commit>
+        <desc>5.2.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>5.1.0 release</num>
         <commit>release-v5.1.0</commit>
         <desc>5.1.0 release</desc>
@@ -1482,6 +1562,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
+        <desc>1.0.1 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
         <desc>1.0.0 release</desc>
@@ -1505,6 +1590,16 @@
     <req_capabilities>ethernet</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+        <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+        <desc>2.0.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
@@ -1517,7 +1612,7 @@
     </versions>
   </middleware>
 
-  <middleware req_capabilities_v2="[bt, wifi] [psoc6, cyw20829]">
+  <middleware req_capabilities_v2="[bt, wifi, ethernet] [psoc6, cyw20829, xmc7200]">
     <name>ota-update</name>
     <id>ota-update</id>
     <uri>https://github.com/Infineon/ota-update</uri>
@@ -1534,6 +1629,16 @@
     <category>Middleware</category>
     <req_capabilities/>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>Latest 4.X release</num>
+        <commit>latest-v4.X</commit>
+        <desc>Latest 4.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>4.0.0 release</num>
+        <commit>release-v4.0.0</commit>
+        <desc>4.0.0 release</desc>
+      </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
@@ -1565,6 +1670,35 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0" req_capabilities_per_version_v2="[cyw43xxx, cyw20829]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware req_capabilities_v2="[bt, wifi, ethernet] [psoc6, cyw20829, xmc7200]">
+    <name>ota-bootloader-abstraction</name>
+    <id>ota-bootloader-abstraction</id>
+    <uri>https://github.com/Infineon/ota-bootloader-abstraction</uri>
+    <desc><![CDATA[
+        The OTA bootloader abstraction library provides Bootloader specific storage APIs to handle MCUBootloader based OTA upgrade images of the application code running on a PSoC™ 6 MCU with AIROC™ CYW4343W or CYW43012 Wi-Fi & Bluetooth® combo chip. Please see current documentation for currently supported devices.
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/ota-bootloader-abstraction/blob/master/README.md">OTA Bootloader Abstraction README.md</a></li>
+          <li><a href="https://infineon.github.io/ota-bootloader-abstraction/api_reference_manual/html/index.html">OTA Bootloader Abstraction API reference guide</a></li>
+          <li><a href="https://github.com/JuulLabs-OSS/mcuboot/blob/cypress/docs/design.md">MCUboot documentation</a></li>
+        </ul>
+    ]]></desc>
+    <category>Middleware</category>
+    <req_capabilities/>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
         <desc>1.0.0 release</desc>
