@@ -19,7 +19,7 @@
           </dependee>
           <dependee>
             <id>cy-mbedtls-acceleration</id>
-            <commit>latest-v1.X</commit>
+            <commit>release-v1.5.0</commit>
           </dependee>
           <dependee>
             <id>freertos</id>
@@ -64,7 +64,7 @@
           </dependee>
           <dependee>
             <id>cy-mbedtls-acceleration</id>
-            <commit>latest-v1.X</commit>
+            <commit>release-v1.5.0</commit>
           </dependee>
           <dependee>
             <id>freertos</id>
@@ -615,6 +615,15 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v3.1.0</commit>
+        <dependees>
+          <dependee>
+            <id>abstraction-rtos</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v3.0.0</commit>
         <dependees>
           <dependee>
@@ -792,6 +801,15 @@
     <versions>
       <version>
         <commit>latest-v4.X</commit>
+        <dependees>
+          <dependee>
+            <id>aws-iot-device-sdk-port</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v4.4.0</commit>
         <dependees>
           <dependee>
             <id>aws-iot-device-sdk-port</id>
@@ -1257,6 +1275,15 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v2.4.1</commit>
+        <dependees>
+          <dependee>
+            <id>aws-iot-device-sdk-embedded-C</id>
+            <commit>202103.00</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v2.4.0</commit>
         <dependees>
           <dependee>
@@ -1469,6 +1496,15 @@
     <versions>
       <version>
         <commit>latest-v5.X</commit>
+        <dependees>
+          <dependee>
+            <id>btstack-integration</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v5.2.1</commit>
         <dependees>
           <dependee>
             <id>btstack-integration</id>
@@ -2008,33 +2044,6 @@
     <id>lpa</id>
     <versions>
       <version>
-        <commit>latest-v5.X</commit>
-        <dependees>
-          <dependee>
-            <id>wifi-core-freertos-lwip-mbedtls</id>
-            <commit>latest-v1.X</commit>
-          </dependee>
-        </dependees>
-      </version>
-      <version>
-        <commit>release-v5.1.0</commit>
-        <dependees>
-          <dependee>
-            <id>wifi-core-freertos-lwip-mbedtls</id>
-            <commit>latest-v1.X</commit>
-          </dependee>
-        </dependees>
-      </version>
-      <version>
-        <commit>release-v5.0.0</commit>
-        <dependees>
-          <dependee>
-            <id>wifi-core-freertos-lwip-mbedtls</id>
-            <commit>latest-v1.X</commit>
-          </dependee>
-        </dependees>
-      </version>
-      <version>
         <commit>latest-v4.X</commit>
         <dependees>
           <dependee>
@@ -2493,6 +2502,15 @@
     <versions>
       <version>
         <commit>latest-v4.X</commit>
+        <dependees>
+          <dependee>
+            <id>connectivity-utilities</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v4.1.0</commit>
         <dependees>
           <dependee>
             <id>connectivity-utilities</id>
@@ -3029,6 +3047,15 @@
     <versions>
       <version>
         <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>connectivity-utilities</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.1.0</commit>
         <dependees>
           <dependee>
             <id>connectivity-utilities</id>

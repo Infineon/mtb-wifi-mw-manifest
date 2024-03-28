@@ -45,6 +45,11 @@
         <desc>Latest 3.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
+        <desc>3.1.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>3.0.0 release</num>
         <commit>release-v3.0.0</commit>
         <desc>3.0.0 release</desc>
@@ -285,6 +290,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>1.3.1 release</num>
+        <commit>release-v1.3.1</commit>
+        <desc>1.3.1 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>1.3.0 release</num>
         <commit>release-v1.3.0</commit>
         <desc>1.3.0 release</desc>
@@ -365,6 +375,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
+        <desc>1.2.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>1.1.1 release</num>
         <commit>release-v1.1.1</commit>
         <desc>1.1.1 release</desc>
@@ -402,6 +417,11 @@
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.5.0 release</num>
+        <commit>release-v3.5.0</commit>
+        <desc>3.5.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>3.4.0 release</num>
@@ -516,6 +536,11 @@
         <num>Latest 5.X release</num>
         <commit>latest-v5.X</commit>
         <desc>Latest 5.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>5.2.0 release</num>
+        <commit>release-v5.2.0</commit>
+        <desc>5.2.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>5.1.0 release</num>
@@ -655,6 +680,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>1.2.1 release</num>
+        <commit>release-v1.2.1</commit>
+        <desc>1.2.1 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>1.2.0 release</num>
         <commit>release-v1.2.0</commit>
         <desc>1.2.0 release</desc>
@@ -751,6 +781,11 @@
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.3.1 release</num>
+        <commit>release-v3.3.1</commit>
+        <desc>3.3.1 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>3.3.0 release</num>
@@ -872,6 +907,11 @@
         <desc>Latest 3.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>3.0.1 release</num>
+        <commit>release-v3.0.1</commit>
+        <desc>3.0.1 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>3.0.0 release</num>
         <commit>release-v3.0.0</commit>
         <desc>3.0.0 release</desc>
@@ -964,6 +1004,11 @@
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
         <desc>Latest 4.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>4.4.0 release</num>
+        <commit>release-v4.4.0</commit>
+        <desc>4.4.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>4.3.0 release</num>
@@ -1157,6 +1202,11 @@
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.4.1 release</num>
+        <commit>release-v2.4.1</commit>
+        <desc>2.4.1 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>2.4.0 release</num>
@@ -1454,6 +1504,11 @@
         <desc>Latest 5.x release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>5.2.1 release</num>
+        <commit>release-v5.2.1</commit>
+        <desc>5.2.1 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>5.2.0 release</num>
         <commit>release-v5.2.0</commit>
         <desc>5.2.0 release</desc>
@@ -1617,7 +1672,7 @@
     <id>ota-update</id>
     <uri>https://github.com/Infineon/ota-update</uri>
     <desc><![CDATA[
-        The OTA library provides support for Over-The-Air update of the application code running on a PSoC™ 6 MCU with AIROC™ CYW4343W or CYW43012 Wi-Fi & Bluetooth® combo chip, using Wi-Fi or Bluetooth®. Please see current documentation for currently supported devices. OTA requires the use of mcuboot.
+        The OTA library provides support for Over-The-Air update of the application code running on a PSoC&#8482; 6 MCU with AIROC&#8482; CYW4343W or CYW43012 Wi-Fi & Bluetooth&#174; combo chip, using Wi-Fi or Bluetooth&#174;. Please see current documentation for currently supported devices. OTA requires the use of mcuboot.
         <br/>
         <div class="category">Additional Information:</div>
         <ul>
@@ -1633,6 +1688,11 @@
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
         <desc>Latest 4.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>4.1.0 release</num>
+        <commit>release-v4.1.0</commit>
+        <desc>4.1.0 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>4.0.0 release</num>
@@ -1681,7 +1741,7 @@
     <id>ota-bootloader-abstraction</id>
     <uri>https://github.com/Infineon/ota-bootloader-abstraction</uri>
     <desc><![CDATA[
-        The OTA bootloader abstraction library provides Bootloader specific storage APIs to handle MCUBootloader based OTA upgrade images of the application code running on a PSoC™ 6 MCU with AIROC™ CYW4343W or CYW43012 Wi-Fi & Bluetooth® combo chip. Please see current documentation for currently supported devices.
+        The OTA bootloader abstraction library provides Bootloader specific storage APIs to handle MCUBootloader based OTA upgrade images of the application code running on a PSoC&#8482; 6 MCU with AIROC&#8482; CYW4343W or CYW43012 Wi-Fi & Bluetooth&#174; combo chip. Please see current documentation for currently supported devices.
         <br/>
         <div class="category">Additional Information:</div>
         <ul>
@@ -1697,6 +1757,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+        <desc>1.1.0 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>1.0.0 release</num>
