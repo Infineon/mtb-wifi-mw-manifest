@@ -40,6 +40,16 @@
     <req_capabilities>wifi</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
+        <num>Latest 4.X release</num>
+        <commit>latest-v4.X</commit>
+        <desc>Latest 4.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>4.0.0 release</num>
+        <commit>release-v4.0.0</commit>
+        <desc>4.0.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
@@ -157,7 +167,7 @@
         <ul>
           <li><a href="https://github.com/Infineon/wifi-mw-core/blob/master/README.md">Wi-Fi Middleware Core Library README.md</a></li>
           <li><a href="https://github.com/Infineon/wifi-mw-core/blob/master/RELEASE.md">Wi-Fi Middleware Core Library RELEASE.md</a></li>
-          <li><a href="https://infineon.github.io/wifi-mw-core/api_reference_manual/html/index.html">Wi-Fi Middleware Core Library API reference guide</a></li>          
+          <li><a href="https://infineon.github.io/wifi-mw-core/api_reference_manual/html/index.html">Wi-Fi Middleware Core Library API reference guide</a></li>
         </ul>
     ]]></desc>
     <category>Wi-Fi</category>
@@ -353,6 +363,67 @@
       </version>
     </versions>
   </middleware>
+  <middleware req_capabilities_v2="[wifi] [cat5]">
+    <name>wifi-core-threadx-cat5</name>
+    <id>wifi-core-threadx-cat5</id>
+    <uri>https://github.com/Infineon/wifi-core-threadx-cat5</uri>
+    <desc><![CDATA[
+        Wi-Fi core ThreadX NetXDuo NetXSecure bundle library comprises core components needed for Wi-Fi connectivity support. The library bundles ThreadX, NetXDuo network stack, Wi-Fi Host Driver (WHD), Wi-Fi connection manager, Secure Sockets interface, and configuration files.
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/wifi-core-threadx-cat5/blob/master/README.md">Wi-Fi core ThreadX NetXDuo NetXSecure bundle library README.md</a></li>
+          <li><a href="https://github.com/Infineon/wifi-core-threadx-cat5/blob/master/RELEASE.md">Wi-Fi core ThreadX NetXDuo NetXSecure bundle library RELEASE.md</a></li>
+        </ul>
+    ]]></desc>
+    <category>Wi-Fi</category>
+    <req_capabilities>wifi</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware req_capabilities_v2="[wifi] [cat5]">
+    <name>nx-secure-wpa3</name>
+    <id>nx-secure-wpa3</id>
+    <uri>https://github.com/Infineon/nx-secure-wpa3</uri>
+    <desc><![CDATA[
+        The NetXsecure WPA3 code from Azure RTOS is enhanced to support the following <br/>
+        <ul>
+             <li> Add TLS 1.3 protocol such as TLS-AES-256-GCM-SHA384 </li>
+             <li> Add TLS 1.2 protocols such as TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 and TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 </li>
+             <li> Add new TLS API(s) to create TLS session without a connected TCP socket </li>
+        </ul>
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/nx-secure-wpa3/blob/master/README.md">WPA3 enterprise security support for SHA384 library README.md</a></li>
+          <li><a href="https://github.com/Infineon/nx-secure-wpa3/blob/master/RELEASE.md">WPA3 enterprise security support for SHA384 library RELEASE.md</a></li>
+        </ul>
+    ]]></desc>
+    <category>Wi-Fi</category>
+    <req_capabilities>wifi</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
   <middleware req_capabilities_v2="[wifi,ethernet]">
     <name>netxduo-network-interface-integration</name>
     <id>netxduo-network-interface-integration</id>
@@ -373,6 +444,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
+        <desc>1.3.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>1.2.0 release</num>
@@ -396,7 +472,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware>
+  <middleware req_capabilities_v2="[wifi, ethernet] [psoc6, cyw43xxx, xmc7200, cat5]">
     <name>secure-sockets</name>
     <id>secure-sockets</id>
     <uri>https://github.com/cypresssemiconductorco/secure-sockets</uri>
@@ -407,16 +483,21 @@
         <ul>
           <li><a href="https://github.com/Infineon/secure-sockets/blob/master/README.md">Secure Sockets Library README.md</a></li>
           <li><a href="https://github.com/Infineon/secure-sockets/blob/master/RELEASE.md">Secure Sockets Library RELEASE.md</a></li>
-          <li><a href="https://infineon.github.io/secure-sockets/api_reference_manual/html/index.html">Secure Sockets Library API reference guide</a></li>          
+          <li><a href="https://infineon.github.io/secure-sockets/api_reference_manual/html/index.html">Secure Sockets Library API reference guide</a></li>
         </ul>
     ]]></desc>
     <category>Middleware</category>
-    <req_capabilities>wifi</req_capabilities>
+    <req_capabilities/>
     <versions>
       <version flow_version="1.0,2.0">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.6.0 release</num>
+        <commit>release-v3.6.0</commit>
+        <desc>3.6.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>3.5.0 release</num>
@@ -515,7 +596,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware>
+  <middleware req_capabilities_v2="[wifi] [psoc6, cat5]">
     <name>lpa</name>
     <id>lpa</id>
     <uri>https://github.com/cypresssemiconductorco/lpa</uri>
@@ -530,12 +611,17 @@
         </ul>
     ]]></desc>
     <category>Middleware</category>
-    <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
+    <req_capabilities/>
     <versions>
       <version flow_version="1.0,2.0">
         <num>Latest 5.X release</num>
         <commit>latest-v5.X</commit>
         <desc>Latest 5.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>5.3.0 release</num>
+        <commit>release-v5.3.0</commit>
+        <desc>5.3.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>5.2.0 release</num>
@@ -616,6 +702,16 @@
     <category>Wi-Fi</category>
     <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
     <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 5.X release</num>
+        <commit>latest-v5.X</commit>
+        <desc>Latest 5.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>5.0.0 release</num>
+        <commit>release-v5.0.0</commit>
+        <desc>5.0.0 release</desc>
+      </version>
       <version flow_version="1.0,2.0">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
@@ -765,13 +861,13 @@
     <id>wifi-connection-manager</id>
     <uri>https://github.com/cypresssemiconductorco/wifi-connection-manager</uri>
     <desc><![CDATA[
-        Wi-Fi Connection Manager (WCM) library helps application developers to manage Wi-Fi Connectivity. The library provides a set of APIs that can be used to establish and monitor Wi-Fi connections on PSoC&#8482; 6 MCU based platforms with connectivity. The library APIs are thread-safe. The library monitors the Wi-Fi connection and can notifies connection state changes through an event notification mechanism. The library also provides APIs to connect to a Wi-Fi network using Wi-Fi Protected Setup (WPS) methods. 
+        Wi-Fi Connection Manager (WCM) library helps application developers to manage Wi-Fi Connectivity. The library provides a set of APIs that can be used to establish and monitor Wi-Fi connections on PSoC&#8482; 6 MCU based platforms with connectivity. The library APIs are thread-safe. The library monitors the Wi-Fi connection and can notifies connection state changes through an event notification mechanism. The library also provides APIs to connect to a Wi-Fi network using Wi-Fi Protected Setup (WPS) methods.
         <br/>
         <div class="category">Additional Information:</div>
         <ul>
           <li><a href="https://github.com/Infineon/wifi-connection-manager/blob/master/README.md">Wi-Fi Connection Manager Library README.md</a></li>
           <li><a href="https://github.com/Infineon/wifi-connection-manager/blob/master/RELEASE.md">Wi-Fi Connection Manager Library RELEASE.md</a></li>
-          <li><a href="https://infineon.github.io/wifi-connection-manager/api_reference_manual/html/index.html">Wi-Fi Connection Manager Library API reference guide</a></li>          
+          <li><a href="https://infineon.github.io/wifi-connection-manager/api_reference_manual/html/index.html">Wi-Fi Connection Manager Library API reference guide</a></li>
         </ul>
     ]]></desc>
     <category>Middleware</category>
@@ -781,6 +877,11 @@
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.4.0 release</num>
+        <commit>release-v3.4.0</commit>
+        <desc>3.4.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>3.3.1 release</num>
@@ -884,7 +985,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware>
+  <middleware req_capabilities_v2="[wifi, ethernet] [psoc6, cyw43xxx, xmc7200, cat5]">
     <name>http-server</name>
     <id>http-server</id>
     <uri>https://github.com/cypresssemiconductorco/http-server</uri>
@@ -895,16 +996,21 @@
         <ul>
           <li><a href="https://github.com/Infineon/http-server/blob/master/README.md">HTTP Server Library README.md</a></li>
           <li><a href="https://github.com/Infineon/http-server/blob/master/RELEASE.md">HTTP Server Library RELEASE.md</a></li>
-          <li><a href="https://infineon.github.io/http-server/api_reference_manual/html/index.html">HTTP Server Library API reference guide</a></li>          
+          <li><a href="https://infineon.github.io/http-server/api_reference_manual/html/index.html">HTTP Server Library API reference guide</a></li>
         </ul>
     ]]></desc>
     <category>Middleware</category>
-    <req_capabilities>wifi</req_capabilities>
+    <req_capabilities/>
     <versions>
       <version flow_version="1.0,2.0">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
+        <desc>3.1.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>3.0.1 release</num>
@@ -983,7 +1089,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware>
+  <middleware req_capabilities_v2="[wifi, ethernet] [psoc6, cyw43xxx, xmc7200, cat5]">
     <name>mqtt</name>
     <id>mqtt</id>
     <uri>https://github.com/cypresssemiconductorco/mqtt</uri>
@@ -994,16 +1100,21 @@
         <ul>
           <li><a href="https://github.com/Infineon/mqtt/blob/master/README.md">MQTT Client Library README.md</a></li>
           <li><a href="https://github.com/Infineon/mqtt/blob/master/RELEASE.md">MQTT Client Library RELEASE.md</a></li>
-          <li><a href="https://infineon.github.io/mqtt/api_reference_manual/html/index.html">MQTT Client Library API reference guide</a></li>          
+          <li><a href="https://infineon.github.io/mqtt/api_reference_manual/html/index.html">MQTT Client Library API reference guide</a></li>
         </ul>
     ]]></desc>
     <category>Middleware</category>
-    <req_capabilities>wifi</req_capabilities>
+    <req_capabilities/>
     <versions>
       <version flow_version="1.0,2.0">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
         <desc>Latest 4.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>4.5.0 release</num>
+        <commit>release-v4.5.0</commit>
+        <desc>4.5.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>4.4.0 release</num>
@@ -1112,7 +1223,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware>
+  <middleware req_capabilities_v2="[wifi, ethernet] [psoc6, cyw43xxx, xmc7200, cat5]">
     <name>http-client</name>
     <id>http-client</id>
     <uri>https://github.com/cypresssemiconductorco/http-client</uri>
@@ -1123,16 +1234,21 @@
         <ul>
           <li><a href="https://github.com/Infineon/http-client/blob/master/README.md">HTTP Client Library README.md</a></li>
           <li><a href="https://github.com/Infineon/http-client/blob/master/RELEASE.md">HTTP Client Library RELEASE.md</a></li>
-          <li><a href="https://infineon.github.io/http-client/api_reference_manual/html/index.html">HTTP Client Library API reference guide</a></li>          
+          <li><a href="https://infineon.github.io/http-client/api_reference_manual/html/index.html">HTTP Client Library API reference guide</a></li>
         </ul>
     ]]></desc>
     <category>Middleware</category>
-    <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
+    <req_capabilities/>
     <versions>
       <version flow_version="1.0,2.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.6.0 release</num>
+        <commit>release-v1.6.0</commit>
+        <desc>1.6.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>1.5.0 release</num>
@@ -1192,7 +1308,7 @@
         <ul>
           <li><a href="https://github.com/Infineon/aws-iot-device-sdk-port/blob/master/README.md">AWS IoT Device SDK Port Library README.md</a></li>
           <li><a href="https://github.com/Infineon/aws-iot-device-sdk-port/blob/master/RELEASE.md">AWS IoT Device SDK Port Library RELEASE.md</a></li>
-          <li><a href="https://infineon.github.io/aws-iot-device-sdk-port/api_reference_manual/html/index.html">AWS IoT Device SDK Port Library API reference guide</a></li>          
+          <li><a href="https://infineon.github.io/aws-iot-device-sdk-port/api_reference_manual/html/index.html">AWS IoT Device SDK Port Library API reference guide</a></li>
         </ul>
     ]]></desc>
     <category>Middleware</category>
@@ -1202,6 +1318,11 @@
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.5.0 release</num>
+        <commit>release-v2.5.0</commit>
+        <desc>2.5.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>2.4.1 release</num>
@@ -1281,7 +1402,7 @@
         <ul>
           <li><a href="https://github.com/Infineon/azure-c-sdk-port/blob/master/README.md">Azure C SDK Port Library README.md</a></li>
           <li><a href="https://github.com/Infineon/azure-c-sdk-port/blob/master/RELEASE.md">Azure C SDK Port Library RELEASE.md</a></li>
-          <li><a href="https://infineon.github.io/azure-c-sdk-port/api_reference_manual/html/index.html">Azure C SDK Port Library API reference guide</a></li>          
+          <li><a href="https://infineon.github.io/azure-c-sdk-port/api_reference_manual/html/index.html">Azure C SDK Port Library API reference guide</a></li>
         </ul>
     ]]></desc>
     <category>Middleware</category>
@@ -1335,7 +1456,7 @@
         <ul>
           <li><a href="https://github.com/Infineon/smartcoex/blob/master/README.md">Smart Coex Library README.md</a></li>
           <li><a href="https://github.com/Infineon/smartcoex/blob/master/RELEASE.md">Smart Coex Library RELEASE.md</a></li>
-          <li><a href="https://infineon.github.io/smartcoex/api_reference_manual/html/index.html">Smart Coex Library API reference guide</a></li>          
+          <li><a href="https://infineon.github.io/smartcoex/api_reference_manual/html/index.html">Smart Coex Library API reference guide</a></li>
         </ul>
     ]]></desc>
     <category>Middleware</category>
@@ -1363,7 +1484,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware>
+  <middleware req_capabilities_v2="[wifi] [psoc6, cyw43xxx, cat5]">
     <name>enterprise-security</name>
     <id>enterprise-security</id>
     <uri>https://github.com/cypresssemiconductorco/enterprise-security</uri>
@@ -1374,12 +1495,22 @@
         <ul>
           <li><a href="https://github.com/Infineon/enterprise-security/blob/master/README.md">Enterprise Security Library README.md</a></li>
           <li><a href="https://github.com/Infineon/enterprise-security/blob/master/RELEASE.md">Enterprise Security Library RELEASE.md</a></li>
-          <li><a href="https://infineon.github.io/enterprise-security/api_reference_manual/html/index.html">Enterprise Security Library API reference guide</a></li>          
+          <li><a href="https://infineon.github.io/enterprise-security/api_reference_manual/html/index.html">Enterprise Security Library API reference guide</a></li>
         </ul>
     ]]></desc>
     <category>Middleware</category>
-    <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
+    <req_capabilities/>
     <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+        <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+        <desc>3.0.0 release</desc>
+      </version>
       <version flow_version="1.0,2.0">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -1481,7 +1612,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware>
+  <middleware req_capabilities_v2="[bt, wifi, ethernet] [psoc6, cyw43xxx, xmc7200, cat5]">
     <name>command-console</name>
     <id>command-console</id>
     <uri>https://github.com/cypresssemiconductorco/command-console</uri>
@@ -1492,12 +1623,22 @@
         <ul>
           <li><a href="https://github.com/Infineon/command-console/blob/master/README.md">Command Console Library README.md</a></li>
           <li><a href="https://github.com/Infineon/command-console/blob/master/RELEASE.md">Command Console Library RELEASE.md</a></li>
-          <li><a href="https://infineon.github.io/command-console/api_reference_manual/html/index.html">Command Console Library API reference guide</a></li>          
+          <li><a href="https://infineon.github.io/command-console/api_reference_manual/html/index.html">Command Console Library API reference guide</a></li>
         </ul>
     ]]></desc>
     <category>Middleware</category>
-    <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
+    <req_capabilities/>
     <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 6.X release</num>
+        <commit>latest-v6.X</commit>
+        <desc>Latest 6.x release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>6.0.0 release</num>
+        <commit>release-v6.0.0</commit>
+        <desc>6.0.0 release</desc>
+      </version>
       <version flow_version="1.0,2.0">
         <num>Latest 5.X release</num>
         <commit>latest-v5.X</commit>
@@ -1667,7 +1808,7 @@
     </versions>
   </middleware>
 
-  <middleware req_capabilities_v2="[bt, wifi, ethernet] [psoc6, cyw20829, xmc7200]">
+  <middleware req_capabilities_v2="[bt, wifi, ethernet] [psoc6, cyw20829, xmc7200, cat5]">
     <name>ota-update</name>
     <id>ota-update</id>
     <uri>https://github.com/Infineon/ota-update</uri>
@@ -1688,6 +1829,11 @@
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
         <desc>Latest 4.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>4.2.0 release</num>
+        <commit>release-v4.2.0</commit>
+        <desc>4.2.0 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>4.1.0 release</num>
@@ -1736,7 +1882,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware req_capabilities_v2="[bt, wifi, ethernet] [psoc6, cyw20829, xmc7200]">
+  <middleware req_capabilities_v2="[bt, wifi, ethernet] [psoc6, cyw20829, xmc7200, cat5]">
     <name>ota-bootloader-abstraction</name>
     <id>ota-bootloader-abstraction</id>
     <uri>https://github.com/Infineon/ota-bootloader-abstraction</uri>
@@ -1757,6 +1903,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
+        <desc>1.2.0 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>1.1.0 release</num>
