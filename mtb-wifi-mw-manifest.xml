@@ -624,6 +624,11 @@
         <desc>Latest 5.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>5.4.0 release</num>
+        <commit>release-v5.4.0</commit>
+        <desc>5.4.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>5.3.0 release</num>
         <commit>release-v5.3.0</commit>
         <desc>5.3.0 release</desc>
@@ -1758,6 +1763,16 @@
     <req_capabilities>ethernet</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+        <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+        <desc>2.0.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
@@ -1766,6 +1781,34 @@
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
         <desc>1.0.1 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>ethernet-phy-driver</name>
+    <id>ethernet-phy-driver</id>
+    <uri>https://github.com/Infineon/ethernet-phy-driver</uri>
+    <desc><![CDATA[
+        This library provides a set of Ethernet PHY related APIs implementation for different Ethernet PHY chips.
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/ethernet-phy-driver/blob/master/README.md">Ethernet PHY Driver library README.md</a></li>
+          <li><a href="https://github.com/Infineon/ethernet-phy-driver/blob/master/RELEASE.md">Ethernet PHY Driver library RELEASE.md</a></li>
+        </ul>
+    ]]></desc>
+    <category>Ethernet</category>
+    <req_capabilities>ethernet</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>1.0.0 release</num>
@@ -1794,6 +1837,11 @@
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+        <desc>2.1.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>2.0.0 release</num>
@@ -1834,6 +1882,11 @@
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
         <desc>Latest 4.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>4.2.1 release</num>
+        <commit>release-v4.2.1</commit>
+        <desc>4.2.1 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>4.2.0 release</num>
@@ -1908,6 +1961,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.2.1 release</num>
+        <commit>release-v1.2.1</commit>
+        <desc>1.2.1 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>1.2.0 release</num>
