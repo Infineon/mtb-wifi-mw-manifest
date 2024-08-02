@@ -615,6 +615,15 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v4.1.0</commit>
+        <dependees>
+          <dependee>
+            <id>abstraction-rtos</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v4.0.0</commit>
         <dependees>
           <dependee>
@@ -828,6 +837,15 @@
     <versions>
       <version>
         <commit>latest-v4.X</commit>
+        <dependees>
+          <dependee>
+            <id>aws-iot-device-sdk-port</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v4.6.0</commit>
         <dependees>
           <dependee>
             <id>aws-iot-device-sdk-port</id>
@@ -1104,6 +1122,15 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v1.7.0</commit>
+        <dependees>
+          <dependee>
+            <id>aws-iot-device-sdk-port</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v1.6.0</commit>
         <dependees>
           <dependee>
@@ -1216,6 +1243,19 @@
     <versions>
       <version>
         <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>azure-sdk-for-c</id>
+            <commit>1.1.0</commit>
+          </dependee>
+          <dependee>
+            <id>http-client</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.5.0</commit>
         <dependees>
           <dependee>
             <id>azure-sdk-for-c</id>
@@ -2627,15 +2667,6 @@
         </dependees>
       </version>
       <version>
-        <commit>release-v4.3.0</commit>
-        <dependees>
-          <dependee>
-            <id>connectivity-utilities</id>
-            <commit>latest-v4.X</commit>
-          </dependee>
-        </dependees>
-      </version>
-      <version>
         <commit>release-v4.2.1</commit>
         <dependees>
           <dependee>
@@ -2932,7 +2963,68 @@
           </dependee>
           <dependee>
             <id>wifi-host-driver</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+          <dependee>
+            <id>wpa3-external-supplicant</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v2.1.0</commit>
+        <dependees>
+          <dependee>
+            <id>abstraction-rtos</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>clib-support</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>connectivity-utilities</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+          <dependee>
+            <id>cy-mbedtls-acceleration</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>freertos</id>
+            <commit>latest-v10.X</commit>
+          </dependee>
+          <dependee>
+            <id>lwip-freertos-integration</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>lwip-network-interface-integration</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>lwip</id>
+            <commit>STABLE-2_1_2_RELEASE</commit>
+          </dependee>
+          <dependee>
+            <id>mbedtls</id>
+            <commit>mbedtls-3.4.0</commit>
+          </dependee>
+          <dependee>
+            <id>secure-sockets</id>
             <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
+            <id>whd-bsp-integration</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>wifi-connection-manager</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
+            <id>wifi-host-driver</id>
+            <commit>latest-v4.X</commit>
           </dependee>
           <dependee>
             <id>wpa3-external-supplicant</id>
@@ -2993,7 +3085,7 @@
           </dependee>
           <dependee>
             <id>wifi-host-driver</id>
-            <commit>latest-v3.X</commit>
+            <commit>latest-v4.X</commit>
           </dependee>
           <dependee>
             <id>wpa3-external-supplicant</id>
@@ -3054,7 +3146,7 @@
           </dependee>
           <dependee>
             <id>wifi-host-driver</id>
-            <commit>latest-v3.X</commit>
+            <commit>latest-v4.X</commit>
           </dependee>
           <dependee>
             <id>wpa3-external-supplicant</id>
@@ -3115,7 +3207,7 @@
           </dependee>
           <dependee>
             <id>wifi-host-driver</id>
-            <commit>latest-v3.X</commit>
+            <commit>latest-v4.X</commit>
           </dependee>
           <dependee>
             <id>wpa3-external-supplicant</id>
