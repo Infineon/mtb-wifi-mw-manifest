@@ -2627,6 +2627,15 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v4.3.0</commit>
+        <dependees>
+          <dependee>
+            <id>connectivity-utilities</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v4.2.1</commit>
         <dependees>
           <dependee>
@@ -3261,6 +3270,15 @@
     <versions>
       <version>
         <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>connectivity-utilities</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.4.0</commit>
         <dependees>
           <dependee>
             <id>connectivity-utilities</id>
