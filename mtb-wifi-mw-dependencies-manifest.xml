@@ -2667,6 +2667,15 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v4.3.0</commit>
+        <dependees>
+          <dependee>
+            <id>connectivity-utilities</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v4.2.1</commit>
         <dependees>
           <dependee>
