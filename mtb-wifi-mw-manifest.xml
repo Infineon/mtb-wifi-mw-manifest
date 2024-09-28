@@ -23,6 +23,33 @@
     </versions>
   </middleware>
   <middleware>
+    <name>wifi-resources</name>
+    <id>wifi-resources</id>
+    <uri>https://github.com/Infineon/wifi-resources</uri>
+    <desc><![CDATA[
+        wifi-resources is usage for resource from WHD which contains clm files and nvram for supported radio board.
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/wifi-resources/blob/main/RELEASE.md">WiFi resources README.md</a></li>
+        </ul>
+    ]]></desc>
+    <category>Wi-Fi</category>
+    <req_capabilities>wifi</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
     <name>wifi-host-driver</name>
     <id>wifi-host-driver</id>
     <uri>https://github.com/cypresssemiconductorco/wifi-host-driver</uri>
@@ -43,6 +70,11 @@
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
         <desc>Latest 4.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>4.1.1 release</num>
+        <commit>release-v4.1.1</commit>
+        <desc>4.1.1 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>4.1.0 release</num>
@@ -318,6 +350,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.4.1 release</num>
+        <commit>release-v1.4.1</commit>
+        <desc>1.4.1 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>1.4.0 release</num>
@@ -1838,6 +1875,11 @@
         <desc>Latest 2.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+        <desc>2.1.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
         <desc>2.0.0 release</desc>
@@ -1881,6 +1923,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+        <desc>1.1.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
         <desc>1.0.0 release</desc>
@@ -1907,6 +1954,11 @@
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
+        <desc>2.2.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>2.1.0 release</num>
@@ -1952,6 +2004,11 @@
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
         <desc>Latest 4.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>4.3.1 release</num>
+        <commit>release-v4.3.1</commit>
+        <desc>4.3.1 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>4.3.0 release</num>
@@ -2036,6 +2093,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.5.0 release</num>
+        <commit>release-v1.5.0</commit>
+        <desc>1.5.0 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>1.4.0 release</num>
