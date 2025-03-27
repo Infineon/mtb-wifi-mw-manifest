@@ -38,6 +38,16 @@
     <req_capabilities>wifi</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+        <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+        <desc>2.0.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
@@ -70,6 +80,11 @@
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
         <desc>Latest 4.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>4.3.0 release</num>
+        <commit>release-v4.3.0</commit>
+        <desc>4.3.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>4.2.1 release</num>
@@ -314,6 +329,11 @@
         <desc>Latest 2.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>2.2.1 release</num>
+        <commit>release-v2.2.1</commit>
+        <desc>2.2.1 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>2.2.0 release</num>
         <commit>release-v2.2.0</commit>
         <desc>2.2.0 release</desc>
@@ -370,6 +390,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.6.0 release</num>
+        <commit>release-v1.6.0</commit>
+        <desc>1.6.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>1.5.0 release</num>
@@ -592,6 +617,11 @@
         <desc>Latest 3.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>3.10.0 release</num>
+        <commit>release-v3.10.0</commit>
+        <desc>3.10.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>3.9.0 release</num>
         <commit>release-v3.9.0</commit>
         <desc>3.9.0 release</desc>
@@ -713,7 +743,7 @@
     <id>lpa</id>
     <uri>https://github.com/cypresssemiconductorco/lpa</uri>
     <desc><![CDATA[
-        LPA is Low power assistant middleware library which provides easy way to configure and use low power features of Infineon devices PSoC&#8482; 6 MCU + Wi-Fi & Bluetooth&#174; combo chip. Please see current documentation for currently supported devices.
+        LPA is Low power assistant middleware library which provides easy way to configure and use low power features of Infineon devices PSOC&#8482; 6 MCU + Wi-Fi & Bluetooth&#174; combo chip. Please see current documentation for currently supported devices.
         <br/>
         <div class="category">Additional Information:</div>
         <ul>
@@ -729,6 +759,11 @@
         <num>Latest 5.X release</num>
         <commit>latest-v5.X</commit>
         <desc>Latest 5.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>5.7.1 release</num>
+        <commit>release-v5.7.1</commit>
+        <desc>5.7.1 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>5.7.0 release</num>
@@ -822,7 +857,7 @@
     <id>wifi-cert</id>
     <uri>https://github.com/cypresssemiconductorco/wifi-cert</uri>
     <desc><![CDATA[
-        WiFi Cert Tester library used by WiFi Cert Tester tool running on a PSoC&#8482; 6 MCU with CYW4343W or CYW43012 Wi-Fi & Bluetooth&#174; combo chip. WiFi Cert Tester library is used for Wi-Fi certification of 11n-PSK, 11n WPA2 Enterprise, PMF, WPA3 and 11ac. Please see current documentation for currently supported devices.
+        WiFi Cert Tester library used by WiFi Cert Tester tool running on a PSOC&#8482; 6 MCU with CYW4343W or CYW43012 Wi-Fi & Bluetooth&#174; combo chip. WiFi Cert Tester library is used for Wi-Fi certification of 11n-PSK, 11n WPA2 Enterprise, PMF, WPA3 and 11ac. Please see current documentation for currently supported devices.
         <br/>
         <div class="category">Additional Information:</div>
         <ul>
@@ -913,6 +948,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>1.2.3 release</num>
+        <commit>release-v1.2.3</commit>
+        <desc>1.2.3 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>1.2.2 release</num>
         <commit>release-v1.2.2</commit>
         <desc>1.2.2 release</desc>
@@ -944,7 +984,7 @@
     <id>wifi-mfg-test</id>
     <uri>https://github.com/cypresssemiconductorco/wifi-mfg-test</uri>
     <desc><![CDATA[
-    WiFi manufacturing test library is used by WiFi Mfg tester tool running on PSoC&#8482; 6 MCU + WiFi & Bluetooth&#174; combo devices. The application should be run in tandem with the host based 'wl' tool running on Windows 10 machines. This test tool is used to validate WLAN firmware and WLAN radio performance. Refer to the documentation for currently supported devices.
+    WiFi manufacturing test library is used by WiFi Mfg tester tool running on PSOC&#8482; 6 MCU + WiFi & Bluetooth&#174; combo devices. The application should be run in tandem with the host based 'wl' tool running on Windows 10 machines. This test tool is used to validate WLAN firmware and WLAN radio performance. Refer to the documentation for currently supported devices.
     <br/>
     <div class="category">Additional Information:</div>
         <ul>
@@ -1003,7 +1043,7 @@
     <id>wifi-connection-manager</id>
     <uri>https://github.com/cypresssemiconductorco/wifi-connection-manager</uri>
     <desc><![CDATA[
-        Wi-Fi Connection Manager (WCM) library helps application developers to manage Wi-Fi Connectivity. The library provides a set of APIs that can be used to establish and monitor Wi-Fi connections on PSoC&#8482; 6 MCU based platforms with connectivity. The library APIs are thread-safe. The library monitors the Wi-Fi connection and can notifies connection state changes through an event notification mechanism. The library also provides APIs to connect to a Wi-Fi network using Wi-Fi Protected Setup (WPS) methods.
+        Wi-Fi Connection Manager (WCM) library helps application developers to manage Wi-Fi Connectivity. The library provides a set of APIs that can be used to establish and monitor Wi-Fi connections on PSOC&#8482; 6 MCU based platforms with connectivity. The library APIs are thread-safe. The library monitors the Wi-Fi connection and can notifies connection state changes through an event notification mechanism. The library also provides APIs to connect to a Wi-Fi network using Wi-Fi Protected Setup (WPS) methods.
         <br/>
         <div class="category">Additional Information:</div>
         <ul>
@@ -1019,6 +1059,11 @@
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.7.0 release</num>
+        <commit>release-v3.7.0</commit>
+        <desc>3.7.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>3.6.1 release</num>
@@ -1147,7 +1192,7 @@
     <id>http-server</id>
     <uri>https://github.com/cypresssemiconductorco/http-server</uri>
     <desc><![CDATA[
-        This library provides the HTTP Server implementation that can work on the PSoC&#8482; 6 MCU based platforms with network connectivity. It supports RESTful methods such as GET, PUT, and POST for the client to communicate with this HTTP Server library.
+        This library provides the HTTP Server implementation that can work on the PSOC&#8482; 6 MCU based platforms with network connectivity. It supports RESTful methods such as GET, PUT, and POST for the client to communicate with this HTTP Server library.
         <br/>
         <div class="category">Additional Information:</div>
         <ul>
@@ -1256,7 +1301,7 @@
     <id>mqtt</id>
     <uri>https://github.com/cypresssemiconductorco/mqtt</uri>
     <desc><![CDATA[
-        This MQTT client library works with the family of PSoC&#8482; 6 MCU based connectivity platforms. This library uses the AWS IoT Device SDK MQTT Client library and implements the glue layer that is required for the library to work with PSoC&#8482; 6 MCU based platforms with network connectivity.
+        This MQTT client library works with the family of PSOC&#8482; 6 MCU based connectivity platforms. This library uses the AWS IoT Device SDK MQTT Client library and implements the glue layer that is required for the library to work with PSOC&#8482; 6 MCU based platforms with network connectivity.
         <br/>
         <div class="category">Additional Information:</div>
         <ul>
@@ -1400,7 +1445,7 @@
     <id>http-client</id>
     <uri>https://github.com/cypresssemiconductorco/http-client</uri>
     <desc><![CDATA[
-        This library provides the HTTP Client implementation that can work on the PSoC&#8482; 6 MCU based platforms with network connectivity. This library supports RESTful methods such as GET, PUT, POST, and HEAD to communicate with the HTTP Server.
+        This library provides the HTTP Client implementation that can work on the PSOC&#8482; 6 MCU based platforms with network connectivity. This library supports RESTful methods such as GET, PUT, POST, and HEAD to communicate with the HTTP Server.
         <br/>
         <div class="category">Additional Information:</div>
         <ul>
@@ -1479,7 +1524,7 @@
     <id>aws-iot-device-sdk-port</id>
     <uri>https://github.com/cypresssemiconductorco/aws-iot-device-sdk-port</uri>
     <desc><![CDATA[
-        This library contains the port layer implementation for the MQTT and HTTP Client libraries to work with the AWS-IoT-Device-SDK-Embedded-C library on PSoC&#8482; 6 MCU based platforms with network connectivity. This library APIs are not expected to be called by application directly. See the MQTT and HTTP Client library documentation for more details. Using this library in a project will cause AWS-IoT-Device-SDK-Embedded-C library to be downloaded on your computer. It is your responsibility to understand and accept the AWS-IoT-Device-SDK-Embedded-C license.
+        This library contains the port layer implementation for the MQTT and HTTP Client libraries to work with the AWS-IoT-Device-SDK-Embedded-C library on PSOC&#8482; 6 MCU based platforms with network connectivity. This library APIs are not expected to be called by application directly. See the MQTT and HTTP Client library documentation for more details. Using this library in a project will cause AWS-IoT-Device-SDK-Embedded-C library to be downloaded on your computer. It is your responsibility to understand and accept the AWS-IoT-Device-SDK-Embedded-C license.
         <br/>
         <div class="category">Additional Information:</div>
         <ul>
@@ -1578,7 +1623,7 @@
     <id>azure-c-sdk-port</id>
     <uri>https://github.com/cypresssemiconductorco/azure-c-sdk-port</uri>
     <desc><![CDATA[
-        This library implements the port layer for the Azure SDK for Embedded C to work on PSoC&#8482; 6 MCU based platforms with network connectivity. This library automatically pulls the Azure SDK for Embedded C library; the port layer functions implemented by this library are used by the Azure SDK for Embedded C library. If application needs Azure SDK for Embedded C library with MQTT client functionality, it needs to explicitly import MQTT library. Refer README.md located in ./sample_app/README.md for additional information.
+        This library implements the port layer for the Azure SDK for Embedded C to work on PSOC&#8482; 6 MCU based platforms with network connectivity. This library automatically pulls the Azure SDK for Embedded C library; the port layer functions implemented by this library are used by the Azure SDK for Embedded C library. If application needs Azure SDK for Embedded C library with MQTT client functionality, it needs to explicitly import MQTT library. Refer README.md located in ./sample_app/README.md for additional information.
         <br/>
         <div class="category">Additional Information:</div>
         <ul>
@@ -1637,7 +1682,7 @@
     <id>smartcoex</id>
     <uri>https://github.com/cypresssemiconductorco/smartcoex</uri>
     <desc><![CDATA[
-        This library provides an API that user can use to configure the coex parameters for WLAN and Bluetooth&#174; Low Energy on PSoC&#8482; 6 MCU based platforms with Wi-Fi & Bluetooth&#174; combo chip. Refer to the links give below for details.
+        This library provides an API that user can use to configure the coex parameters for WLAN and Bluetooth&#174; Low Energy on PSOC&#8482; 6 MCU based platforms with Wi-Fi & Bluetooth&#174; combo chip. Refer to the links give below for details.
         <br/>
         <div class="category">Additional Information:</div>
         <ul>
@@ -1676,7 +1721,7 @@
     <id>enterprise-security</id>
     <uri>https://github.com/cypresssemiconductorco/enterprise-security</uri>
     <desc><![CDATA[
-        This library provides the capability for best in class Wi-Fi enabled PSoC&#8482; 6 devices to connect to enterprise Wi-Fi networks. This library implements a collection of the most commonly used Extensible Authentication Protocols (EAP) that are used in enterprise networks.
+        This library provides the capability for best in class Wi-Fi enabled PSOC&#8482; 6 devices to connect to enterprise Wi-Fi networks. This library implements a collection of the most commonly used Extensible Authentication Protocols (EAP) that are used in enterprise networks.
         <br/>
         <div class="category">Additional Information:</div>
         <ul>
@@ -1735,7 +1780,7 @@
     <id>anycloud-ota</id>
     <uri>https://github.com/cypresssemiconductorco/anycloud-ota</uri>
     <desc><![CDATA[
-        The OTA library provides support for Over-The-Air update of the application code running on a PSoC&#8482; 6 MCU with AIROC&#8482; CYW4343W or CYW43012 Wi-Fi & Bluetooth&#174; combo chip, using Wi-Fi or Bluetooth&#174;. Please see current documentation for currently supported devices. OTA requires the use of mcuboot
+        The OTA library provides support for Over-The-Air update of the application code running on a PSOC&#8482; 6 MCU with AIROC&#8482; CYW4343W or CYW43012 Wi-Fi & Bluetooth&#174; combo chip, using Wi-Fi or Bluetooth&#174;. Please see current documentation for currently supported devices. OTA requires the use of mcuboot
         <br/>
         <div class="category">Additional Information:</div>
         <ul>
@@ -1830,6 +1875,11 @@
         <num>Latest 6.X release</num>
         <commit>latest-v6.X</commit>
         <desc>Latest 6.x release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>6.2.1 release</num>
+        <commit>release-v6.2.1</commit>
+        <desc>6.2.1 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>6.2.0 release</num>
@@ -2051,6 +2101,11 @@
         <desc>Latest 2.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>2.3.1 release</num>
+        <commit>release-v2.3.1</commit>
+        <desc>2.3.1 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>2.3.0 release</num>
         <commit>release-v2.3.0</commit>
         <desc>2.3.0 release</desc>
@@ -2082,13 +2137,41 @@
       </version>
     </versions>
   </middleware>
+  <middleware>
+    <name>ethernet-xmclib-freertos-lwip-mbedtls</name>
+    <id>ethernet-xmclib-freertos-lwip-mbedtls</id>
+    <uri>https://github.com/Infineon/ethernet-xmclib-freertos-lwip-mbedtls</uri>
+    <desc><![CDATA[
+        Ethernet core freertos lwip mbedtls bundle library comprises core components needed for Ethernet connectivity support. The library bundles FreeRTOS, lwIP TCP/IP stack, and mbed TLS for security and configuration files.
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/ethernet-xmclib-freertos-lwip-mbedtls/blob/master/README.md">Ethernet core freertos lwip mbedtls bundle library README.md</a></li>
+          <li><a href="https://github.com/Infineon/ethernet-xmclib-freertos-lwip-mbedtls/blob/master/RELEASE.md">Ethernet core freertos lwip mbedtls bundle library RELEASE.md</a></li>
+        </ul>
+    ]]></desc>
+    <category>Ethernet</category>
+    <req_capabilities>ethernet</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+        <desc>1.1.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
 
   <middleware req_capabilities_v2="[bt, wifi, ethernet] [psoc6, cyw20829, xmc7200, cat5]">
     <name>ota-update</name>
     <id>ota-update</id>
     <uri>https://github.com/Infineon/ota-update</uri>
     <desc><![CDATA[
-        The OTA library provides support for Over-The-Air update of the application code running on a PSoC&#8482; 6 MCU with AIROC&#8482; CYW4343W or CYW43012 Wi-Fi & Bluetooth&#174; combo chip, using Wi-Fi or Bluetooth&#174;. Please see current documentation for currently supported devices. OTA requires the use of mcuboot.
+        The OTA library provides support for Over-The-Air update of the application code running on a PSOC&#8482; 6 MCU with AIROC&#8482; CYW4343W or CYW43012 Wi-Fi & Bluetooth&#174; combo chip, using Wi-Fi or Bluetooth&#174;. Please see current documentation for currently supported devices. OTA requires the use of mcuboot.
         <br/>
         <div class="category">Additional Information:</div>
         <ul>
@@ -2187,7 +2270,7 @@
     <id>ota-bootloader-abstraction</id>
     <uri>https://github.com/Infineon/ota-bootloader-abstraction</uri>
     <desc><![CDATA[
-        The OTA bootloader abstraction library provides Bootloader specific storage APIs to handle MCUBootloader based OTA upgrade images of the application code running on a PSoC&#8482; 6 MCU with AIROC&#8482; CYW4343W or CYW43012 Wi-Fi & Bluetooth&#174; combo chip. Please see current documentation for currently supported devices.
+        The OTA bootloader abstraction library provides Bootloader specific storage APIs to handle MCUBootloader based OTA upgrade images of the application code running on a PSOC&#8482; 6 MCU with AIROC&#8482; CYW4343W or CYW43012 Wi-Fi & Bluetooth&#174; combo chip. Please see current documentation for currently supported devices.
         <br/>
         <div class="category">Additional Information:</div>
         <ul>
@@ -2203,6 +2286,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.5.3 release</num>
+        <commit>release-v1.5.3</commit>
+        <desc>1.5.3 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>1.5.2 release</num>
@@ -2240,6 +2328,34 @@
         <desc>1.1.0 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>nonrtos-lwip-mbedtls</name>
+    <id>nonrtos-lwip-mbedtls</id>
+    <uri>https://github.com/Infineon/nonrtos-lwip-mbedtls</uri>
+    <desc><![CDATA[
+        Non-RTOS lwip mbedtls bundle library comprises core components needed for connectivity without RTOS. The library bundles lwIP TCP/IP stack, and mbed TLS for security, and configuration files.
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/nonrtos-lwip-mbedtls/blob/master/README.md">Non-RTOS lwip mbedtls bundle library README.md</a></li>
+          <li><a href="https://github.com/Infineon/nonrtos-lwip-mbedtls/blob/master/RELEASE.md">Non-RTOS lwip mbedtls bundle library RELEASE.md</a></li>
+        </ul>
+    ]]></desc>
+    <category>Middleware</category>
+    <req_capabilities/>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
         <desc>1.0.0 release</desc>
