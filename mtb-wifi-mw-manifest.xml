@@ -1,5 +1,5 @@
 <middleware>
-  <middleware>
+  <middleware req_capabilities_v2="[wifi,ethernet]">
     <name>lwip</name>
     <id>lwip</id>
     <uri>https://github.com/lwip-tcpip/lwip</uri>
@@ -13,7 +13,6 @@
         </ul>
     ]]></desc>
     <category>Core</category>
-    <req_capabilities>wifi</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
         <num>Stable 2.1.2 release</num>
@@ -41,6 +40,11 @@
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.0.4 release</num>
+        <commit>release-v2.0.4</commit>
+        <desc>2.0.4 RC1 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>2.0.0 release</num>
@@ -76,6 +80,16 @@
     <category>Wi-Fi</category>
     <req_capabilities>wifi</req_capabilities>
     <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 5.X release</num>
+        <commit>latest-v5.X</commit>
+        <desc>Latest 5.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>5.0.6 release</num>
+        <commit>release-v5.0.6</commit>
+        <desc>5.0.6 RC1 release</desc>
+      </version>
       <version flow_version="1.0,2.0">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
@@ -329,6 +343,16 @@
     <req_capabilities>wifi</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+        <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+        <desc>3.0.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
@@ -395,6 +419,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.7.0 release</num>
+        <commit>release-v1.7.0</commit>
+        <desc>1.7.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>1.6.0 release</num>
@@ -474,6 +503,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
+        <desc>1.2.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
         <desc>1.1.0 release</desc>
@@ -505,6 +539,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
+        <desc>1.0.1 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>1.0.0 release</num>
@@ -568,6 +607,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>1.5.0 release</num>
+        <commit>release-v1.5.0</commit>
+        <desc>1.5.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>1.4.0 release</num>
         <commit>release-v1.4.0</commit>
         <desc>1.4.0 release</desc>
@@ -599,7 +643,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware req_capabilities_v2="[wifi, ethernet] [psoc6, cyw43xxx, xmc7200, cat5]">
+  <middleware req_capabilities_v2="[wifi, ethernet] [psoc6, cyw43xxx, xmc7000, cat5, pse8xxgp]">
     <name>secure-sockets</name>
     <id>secure-sockets</id>
     <uri>https://github.com/cypresssemiconductorco/secure-sockets</uri>
@@ -620,6 +664,11 @@
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.11.0 release</num>
+        <commit>release-v3.11.0</commit>
+        <desc>3.11.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>3.10.0 release</num>
@@ -743,7 +792,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware req_capabilities_v2="[wifi] [psoc6, cat5]">
+  <middleware req_capabilities_v2="[wifi] [psoc6, cat5, pse8xxgp]">
     <name>lpa</name>
     <id>lpa</id>
     <uri>https://github.com/cypresssemiconductorco/lpa</uri>
@@ -764,6 +813,11 @@
         <num>Latest 5.X release</num>
         <commit>latest-v5.X</commit>
         <desc>Latest 5.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>5.8.0 release</num>
+        <commit>release-v5.8.0</commit>
+        <desc>5.8.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>5.7.1 release</num>
@@ -931,7 +985,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware>
+  <middleware req_capabilities_v2="[wifi] [psoc6, cyw43012, cyw43022, cat5, pse8xxgp]">
     <name>wpa3-external-supplicant</name>
     <id>wpa3-external-supplicant</id>
     <uri>https://github.com/Infineon/wpa3-external-supplicant</uri>
@@ -945,12 +999,17 @@
         </ul>
     ]]></desc>
     <category>Wi-Fi</category>
-    <req_capabilities>psoc6 cyw43012 wifi</req_capabilities>
+    <req_capabilities/>
     <versions>
       <version flow_version="1.0,2.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
+        <desc>1.3.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>1.2.3 release</num>
@@ -1060,6 +1119,16 @@
     <category>Middleware</category>
     <req_capabilities>wifi</req_capabilities>
     <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 4.X release</num>
+        <commit>latest-v4.X</commit>
+        <desc>Latest 4.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>4.0.0 release</num>
+        <commit>release-v4.0.0</commit>
+        <desc>4.0.0 release</desc>
+      </version>
       <version flow_version="1.0,2.0">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
@@ -1192,7 +1261,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware req_capabilities_v2="[wifi, ethernet] [psoc6, cyw43xxx, xmc7200, cat5]">
+  <middleware req_capabilities_v2="[wifi, ethernet] [psoc6, cyw43xxx, xmc7000, cat5, pse8xxgp]">
     <name>http-server</name>
     <id>http-server</id>
     <uri>https://github.com/cypresssemiconductorco/http-server</uri>
@@ -1213,6 +1282,11 @@
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.3.0 release</num>
+        <commit>release-v3.3.0</commit>
+        <desc>3.3.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>3.2.0 release</num>
@@ -1301,7 +1375,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware req_capabilities_v2="[wifi, ethernet] [psoc6, cyw43xxx, xmc7200, cat5]">
+  <middleware req_capabilities_v2="[wifi, ethernet] [psoc6, cyw43xxx, xmc7000, cat5, pse8xxgp]">
     <name>mqtt</name>
     <id>mqtt</id>
     <uri>https://github.com/cypresssemiconductorco/mqtt</uri>
@@ -1322,6 +1396,11 @@
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
         <desc>Latest 4.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>4.7.0 release</num>
+        <commit>release-v4.7.0</commit>
+        <desc>4.7.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>4.6.1 release</num>
@@ -1445,7 +1524,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware req_capabilities_v2="[wifi, ethernet] [psoc6, cyw43xxx, xmc7200, cat5]">
+  <middleware req_capabilities_v2="[wifi, ethernet] [psoc6, cyw43xxx, xmc7000, cat5, pse8xxgp]">
     <name>http-client</name>
     <id>http-client</id>
     <uri>https://github.com/cypresssemiconductorco/http-client</uri>
@@ -1466,6 +1545,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.8.0 release</num>
+        <commit>release-v1.8.0</commit>
+        <desc>1.8.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>1.7.0 release</num>
@@ -1524,7 +1608,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware>
+  <middleware req_capabilities_v2="[wifi,ethernet]">
     <name>aws-iot-device-sdk-port</name>
     <id>aws-iot-device-sdk-port</id>
     <uri>https://github.com/cypresssemiconductorco/aws-iot-device-sdk-port</uri>
@@ -1539,12 +1623,16 @@
         </ul>
     ]]></desc>
     <category>Middleware</category>
-    <req_capabilities>wifi</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.7.0 release</num>
+        <commit>release-v2.7.0</commit>
+        <desc>2.7.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>2.6.0 release</num>
@@ -1623,7 +1711,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware>
+  <middleware req_capabilities_v2="[wifi, ethernet] [psoc6, cyw43xxx, xmc7000, pse8xxgp]">
     <name>azure-c-sdk-port</name>
     <id>azure-c-sdk-port</id>
     <uri>https://github.com/cypresssemiconductorco/azure-c-sdk-port</uri>
@@ -1638,12 +1726,17 @@
         </ul>
     ]]></desc>
     <category>Middleware</category>
-    <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
+    <req_capabilities/>
     <versions>
       <version flow_version="1.0,2.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.6.0 release</num>
+        <commit>release-v1.6.0</commit>
+        <desc>1.6.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>1.5.0 release</num>
@@ -1721,7 +1814,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware req_capabilities_v2="[wifi] [psoc6, cyw43xxx, cat5]">
+  <middleware req_capabilities_v2="[wifi] [psoc6, cyw43xxx, cat5, pse8xxgp]">
     <name>enterprise-security</name>
     <id>enterprise-security</id>
     <uri>https://github.com/cypresssemiconductorco/enterprise-security</uri>
@@ -1742,6 +1835,11 @@
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.3.0 release</num>
+        <commit>release-v3.3.0</commit>
+        <desc>3.3.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>3.2.0 release</num>
@@ -1859,7 +1957,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware req_capabilities_v2="[bt, wifi, ethernet] [psoc6, cyw43xxx, xmc7200, cat5]">
+  <middleware req_capabilities_v2="[bt, wifi, ethernet] [psoc6, cyw43xxx, xmc7000, cat5, pse8xxgp]">
     <name>command-console</name>
     <id>command-console</id>
     <uri>https://github.com/cypresssemiconductorco/command-console</uri>
@@ -1880,6 +1978,11 @@
         <num>Latest 6.X release</num>
         <commit>latest-v6.X</commit>
         <desc>Latest 6.x release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>6.3.0 release</num>
+        <commit>release-v6.3.0</commit>
+        <desc>6.3.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>6.2.1 release</num>
@@ -2020,6 +2123,11 @@
         <desc>Latest 2.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
+        <desc>2.2.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>2.1.1 release</num>
         <commit>release-v2.1.1</commit>
         <desc>2.1.1 release</desc>
@@ -2073,6 +2181,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
+        <desc>1.2.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
         <desc>1.1.0 release</desc>
@@ -2100,6 +2213,16 @@
     <category>Ethernet</category>
     <req_capabilities>ethernet</req_capabilities>
     <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+        <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+        <desc>3.0.0 release</desc>
+      </version>
       <version flow_version="1.0,2.0">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -2142,7 +2265,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware>
+  <middleware req_capabilities_v2="[ethernet] [xmc4000]">
     <name>ethernet-xmclib-freertos-lwip-mbedtls</name>
     <id>ethernet-xmclib-freertos-lwip-mbedtls</id>
     <uri>https://github.com/Infineon/ethernet-xmclib-freertos-lwip-mbedtls</uri>
@@ -2156,7 +2279,7 @@
         </ul>
     ]]></desc>
     <category>Ethernet</category>
-    <req_capabilities>ethernet</req_capabilities>
+    <req_capabilities/>
     <versions>
       <version flow_version="1.0,2.0">
         <num>Latest 1.X release</num>
@@ -2171,7 +2294,7 @@
     </versions>
   </middleware>
 
-  <middleware req_capabilities_v2="[bt, wifi, ethernet] [psoc6, cyw20829, xmc7200, cat5]">
+  <middleware req_capabilities_v2="[bt, wifi, ethernet] [psoc6, cyw20829, xmc7000, cat5, pse8xxgp]">
     <name>ota-update</name>
     <id>ota-update</id>
     <uri>https://github.com/Infineon/ota-update</uri>
@@ -2192,6 +2315,11 @@
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
         <desc>Latest 4.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>4.5.0 release</num>
+        <commit>release-v4.5.0</commit>
+        <desc>4.5.0 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>4.4.0 release</num>
@@ -2275,7 +2403,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware req_capabilities_v2="[bt, wifi, ethernet] [psoc6, cyw20829, xmc7200, cat5]">
+  <middleware req_capabilities_v2="[bt, wifi, ethernet] [psoc6, cyw20829, xmc7000, cat5, pse8xxgp]">
     <name>ota-bootloader-abstraction</name>
     <id>ota-bootloader-abstraction</id>
     <uri>https://github.com/Infineon/ota-bootloader-abstraction</uri>
@@ -2296,6 +2424,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.7.0 release</num>
+        <commit>release-v1.7.0</commit>
+        <desc>1.7.0 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>1.6.0 release</num>
@@ -2369,6 +2502,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
+        <desc>1.0.1 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>1.0.0 release</num>
