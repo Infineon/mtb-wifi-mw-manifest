@@ -926,12 +926,17 @@
         </ul>
     ]]></desc>
     <category>Wi-Fi</category>
-    <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
+    <req_capabilities>psoc6 wifi cyw95591x</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
         <num>Latest 5.X release</num>
         <commit>latest-v5.X</commit>
         <desc>Latest 5.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>5.1.6 release</num>
+        <commit>release-v5.1.6</commit>
+        <desc>5.1.6 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>5.1.0 release</num>
