@@ -614,7 +614,20 @@
           </dependee>
           <dependee>
             <id>wifi-resources</id>
-            <commit>release-v2.0.4</commit>
+            <commit>release-v3.0.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v5.0.7</commit>
+        <dependees>
+          <dependee>
+            <id>abstraction-rtos</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>wifi-resources</id>
+            <commit>release-v3.0.0</commit>
           </dependee>
         </dependees>
       </version>
@@ -2404,6 +2417,15 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v5.1.6</commit>
+        <dependees>
+          <dependee>
+            <id>command-console</id>
+            <commit>latest-v6.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v5.1.0</commit>
         <dependees>
           <dependee>
@@ -3538,7 +3560,7 @@
           </dependee>
           <dependee>
             <id>wifi-host-driver</id>
-            <commit>release-v5.0.6</commit>
+            <commit>release-v5.0.7</commit>
           </dependee>
           <dependee>
             <id>wpa3-external-supplicant</id>
@@ -3599,7 +3621,7 @@
           </dependee>
           <dependee>
             <id>wifi-host-driver</id>
-            <commit>release-v5.0.6</commit>
+            <commit>release-v5.0.7</commit>
           </dependee>
           <dependee>
             <id>wpa3-external-supplicant</id>
@@ -3660,7 +3682,7 @@
           </dependee>
           <dependee>
             <id>wifi-host-driver</id>
-            <commit>release-v5.0.6</commit>
+            <commit>release-v5.0.7</commit>
           </dependee>
           <dependee>
             <id>wpa3-external-supplicant</id>
@@ -4528,6 +4550,37 @@
           <dependee>
             <id>mbedtls</id>
             <commit>mbedtls-3.4.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
+  <depender>
+    <id>wifi-ncp_hm</id>
+    <versions>
+      <version>
+        <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>wifi-connection-manager</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+          <dependee>
+            <id>wifi-host-driver</id>
+            <commit>latest-v5.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.2.2</commit>
+        <dependees>
+          <dependee>
+            <id>wifi-connection-manager</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+          <dependee>
+            <id>wifi-host-driver</id>
+            <commit>latest-v5.X</commit>
           </dependee>
         </dependees>
       </version>

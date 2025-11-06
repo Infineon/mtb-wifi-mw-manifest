@@ -37,6 +37,16 @@
     <req_capabilities>wifi</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+        <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+        <desc>3.0.0 RC3.1</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
@@ -64,6 +74,34 @@
     </versions>
   </middleware>
   <middleware>
+    <name>wifi-ncp_hm</name>
+    <id>wifi-ncp_hm</id>
+    <uri>https://github.com/Infineon/wifi-ncp_hm</uri>
+    <desc><![CDATA[
+        wifi-resources is usage for resource from WHD which contains clm files and nvram for supported radio board.
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://savannah.nongnu.org/projects/lwip">lwIP Library Information</a></li>
+          <li><a href="https://git.savannah.nongnu.org/cgit/lwip.git">lwIP Repo Information</a></li>
+        </ul>
+    ]]></desc>
+    <category>Wi-Fi</category>
+    <req_capabilities>wifi</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.2.2 release</num>
+        <commit>release-v1.2.2</commit>
+        <desc>1.2.2 RC3.1</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
     <name>wifi-host-driver</name>
     <id>wifi-host-driver</id>
     <uri>https://github.com/cypresssemiconductorco/wifi-host-driver</uri>
@@ -84,6 +122,11 @@
         <num>Latest 5.X release</num>
         <commit>latest-v5.X</commit>
         <desc>Latest 5.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>5.0.7 release</num>
+        <commit>release-v5.0.7</commit>
+        <desc>5.0.7 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>5.0.6 release</num>
