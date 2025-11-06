@@ -3560,7 +3560,7 @@
           </dependee>
           <dependee>
             <id>wifi-host-driver</id>
-            <commit>release-v5.0.7</commit>
+            <commit>latest-v5.X</commit>
           </dependee>
           <dependee>
             <id>wpa3-external-supplicant</id>
@@ -3621,7 +3621,7 @@
           </dependee>
           <dependee>
             <id>wifi-host-driver</id>
-            <commit>release-v5.0.7</commit>
+            <commit>latest-v5.X</commit>
           </dependee>
           <dependee>
             <id>wpa3-external-supplicant</id>
@@ -3682,7 +3682,7 @@
           </dependee>
           <dependee>
             <id>wifi-host-driver</id>
-            <commit>release-v5.0.7</commit>
+            <commit>latest-v5.X</commit>
           </dependee>
           <dependee>
             <id>wpa3-external-supplicant</id>
