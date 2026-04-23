@@ -614,7 +614,20 @@
           </dependee>
           <dependee>
             <id>wifi-resources</id>
-            <commit>release-v3.0.0</commit>
+            <commit>release-v3.0.5</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v5.3.1</commit>
+        <dependees>
+          <dependee>
+            <id>abstraction-rtos</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>wifi-resources</id>
+            <commit>release-v3.0.5</commit>
           </dependee>
         </dependees>
       </version>
@@ -3214,6 +3227,15 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v4.5.2</commit>
+        <dependees>
+          <dependee>
+            <id>connectivity-utilities</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v4.5.1</commit>
         <dependees>
           <dependee>
@@ -4444,6 +4466,15 @@
     <versions>
       <version>
         <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>connectivity-utilities</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.8.1</commit>
         <dependees>
           <dependee>
             <id>connectivity-utilities</id>
