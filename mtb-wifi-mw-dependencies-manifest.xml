@@ -666,7 +666,7 @@
           </dependee>
           <dependee>
             <id>wifi-resources</id>
-            <commit>release-v2.0.4</commit>
+            <commit>release-v2.0.5</commit>
           </dependee>
         </dependees>
       </version>
@@ -679,7 +679,7 @@
           </dependee>
           <dependee>
             <id>wifi-resources</id>
-            <commit>release-v2.0.0</commit>
+            <commit>release-v2.0.5</commit>
           </dependee>
         </dependees>
       </version>
@@ -692,7 +692,7 @@
           </dependee>
           <dependee>
             <id>wifi-resources</id>
-            <commit>release-v2.0.0</commit>
+            <commit>release-v2.0.5</commit>
           </dependee>
         </dependees>
       </version>
@@ -705,7 +705,7 @@
           </dependee>
           <dependee>
             <id>wifi-resources</id>
-            <commit>release-v2.0.0</commit>
+            <commit>release-v2.0.5</commit>
           </dependee>
         </dependees>
       </version>
