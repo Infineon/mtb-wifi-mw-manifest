@@ -21,6 +21,11 @@
         <desc>Latest 4.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>4.5.3 release</num>
+        <commit>release-v4.5.3</commit>
+        <desc>4.5.3 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>4.5.2 release</num>
         <commit>release-v4.5.2</commit>
         <desc>4.5.2 release</desc>
@@ -177,6 +182,27 @@
         <num>1.1.0 release</num>
         <commit>1.1.0</commit>
         <desc>1.1.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware req_capabilities_v2="[wifi]">
+    <name>wslay</name>
+    <id>wslay</id>
+    <uri>https://github.com/tatsuhiro-t/wslay</uri>
+    <desc><![CDATA[
+         Wslay is a WebSocket library written in C. It implements the protocol version 13 described in RFC 6455.
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/tatsuhiro-t/wslay">WSLAY Library Information</a></li>
+        </ul>
+    ]]></desc>
+    <category>Middleware</category>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>1.1.1 release</num>
+        <commit>release-1.1.1</commit>
+        <desc>1.1.1 release</desc>
       </version>
     </versions>
   </middleware>
